@@ -1,0 +1,1830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_D-jbgKDgEeykIpSMiCkpjw" name="Pokemon">
+    <eAnnotations xmi:id="_ODg5UKDgEeykIpSMiCkpjw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_ODg5UaDgEeykIpSMiCkpjw" source="codegen">
+        <details xmi:id="_ODg5UqDgEeykIpSMiCkpjw" key="codegenDirectory" value="/Pokemon/src"/>
+        <details xmi:id="_OT_lUKDgEeykIpSMiCkpjw" key="AssociatedSourceCode" value="/Pokemon/src/pokemon_game/Pokemonster.java;3606809062/1;/Pokemon/src/pokemon_game/Pokemon.java;3926758496/1;/Pokemon/src/pokemon_game/WildPokemon.java;2912597569/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_OBoC8KDgEeykIpSMiCkpjw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_OBsUYKDgEeykIpSMiCkpjw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_OBs7cKDgEeykIpSMiCkpjw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_OBs7caDgEeykIpSMiCkpjw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_OBtigKDgEeykIpSMiCkpjw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_OBtigaDgEeykIpSMiCkpjw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_OBtigqDgEeykIpSMiCkpjw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_OBtig6DgEeykIpSMiCkpjw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_OBuJkKDgEeykIpSMiCkpjw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_OBzCEKDgEeykIpSMiCkpjw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_OBzpIKDgEeykIpSMiCkpjw" name="awt">
+        <packagedElement xmi:type="uml:Package" xmi:id="_OB0QMKDgEeykIpSMiCkpjw" name="event">
+          <packagedElement xmi:type="uml:Class" xmi:id="_OLV_oaDgEeykIpSMiCkpjw" name="ActionEvent"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_OLXNwaDgEeykIpSMiCkpjw" name="ActionListener"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_OLYb4KDgEeykIpSMiCkpjw" name="KeyEvent"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_OLaREKDgEeykIpSMiCkpjw" name="KeyListener"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_OLOq4KDgEeykIpSMiCkpjw" name="BorderLayout"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_OLRHIKDgEeykIpSMiCkpjw" name="Color"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_OLS8UKDgEeykIpSMiCkpjw" name="Font"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_OLTjYaDgEeykIpSMiCkpjw" name="Graphics"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_OLUKcaDgEeykIpSMiCkpjw" name="Image"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_OLVYkKDgEeykIpSMiCkpjw" name="Toolkit"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_OB1eUKDgEeykIpSMiCkpjw" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_OLa4IaDgEeykIpSMiCkpjw" name="ArrayList"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_OL71gqDgEeykIpSMiCkpjw" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_OL71g6DgEeykIpSMiCkpjw" name="Thread"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_OB1eUaDgEeykIpSMiCkpjw" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_OB2scKDgEeykIpSMiCkpjw" name="swing">
+        <packagedElement xmi:type="uml:Class" xmi:id="_OLbfMaDgEeykIpSMiCkpjw" name="ImageIcon"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_OLctUaDgEeykIpSMiCkpjw" name="JButton"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_OLdUYaDgEeykIpSMiCkpjw" name="JFrame"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_OLeigKDgEeykIpSMiCkpjw" name="JLabel"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_OLfJkKDgEeykIpSMiCkpjw" name="JMenu"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_OLfwoaDgEeykIpSMiCkpjw" name="JMenuBar"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_OLgXsaDgEeykIpSMiCkpjw" name="JMenuItem"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_OLhl0aDgEeykIpSMiCkpjw" name="JPanel"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_OLiM4aDgEeykIpSMiCkpjw" name="JTextArea"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_OCu2MKDgEeykIpSMiCkpjw" name="pokemon_game">
+      <packagedElement xmi:type="uml:Class" xmi:id="_ODVTIKDgEeykIpSMiCkpjw" name="Pokemonster">
+        <generalization xmi:id="_OMMUMKDgEeykIpSMiCkpjw" general="_OLdUYaDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_OMQloKDgEeykIpSMiCkpjw" name="myAttMes" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_OMRzwaDgEeykIpSMiCkpjw" name="SelPok" visibility="package" type="_OLdUYaDgEeykIpSMiCkpjw" association="_ONNA0KDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_OMTB4KDgEeykIpSMiCkpjw" name="wpArray" visibility="package" type="_OLa4IaDgEeykIpSMiCkpjw" association="_ONOO8KDgEeykIpSMiCkpjw">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_OMTo8KDgEeykIpSMiCkpjw" value="new ArrayList&lt;WildPokemon>()"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_OMTo8qDgEeykIpSMiCkpjw" name="enemySkArr" visibility="package" type="_OLa4IaDgEeykIpSMiCkpjw" association="_ONOO86DgEeykIpSMiCkpjw">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_OMUQAaDgEeykIpSMiCkpjw" value="new ArrayList&lt;Pokemon.Skill>()"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_OMU3EaDgEeykIpSMiCkpjw" name="mapGymButton" visibility="package" type="_OLctUaDgEeykIpSMiCkpjw" association="_ONO2AaDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_OMVeIaDgEeykIpSMiCkpjw" name="titleButton" visibility="package" type="_OLctUaDgEeykIpSMiCkpjw" association="_ONPdEaDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_OMWFMaDgEeykIpSMiCkpjw" name="MyPokSk1" visibility="package" type="_OLctUaDgEeykIpSMiCkpjw" association="_ONQEIaDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_OMXTUKDgEeykIpSMiCkpjw" name="titlePanel" visibility="package" type="_OLhl0aDgEeykIpSMiCkpjw" association="_ONQrMaDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_OMX6YaDgEeykIpSMiCkpjw" name="town" visibility="package" type="_OLhl0aDgEeykIpSMiCkpjw" association="_ONRSQaDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_OMYhcKDgEeykIpSMiCkpjw" name="townLabel" visibility="package" type="_OLeigKDgEeykIpSMiCkpjw" association="_ONR5UaDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_OMZIgaDgEeykIpSMiCkpjw" name="playerBox" visibility="package" type="_OLeigKDgEeykIpSMiCkpjw" association="_ONSgYaDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_OMaWoKDgEeykIpSMiCkpjw" name="MyStat" visibility="package" type="_OLeigKDgEeykIpSMiCkpjw" association="_ONTHcKDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_OMa9sKDgEeykIpSMiCkpjw" name="tilteImage" visibility="package" type="_OLbfMaDgEeykIpSMiCkpjw" association="_ONTugKDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_OMbkwaDgEeykIpSMiCkpjw" name="townImage" visibility="package" type="_OLbfMaDgEeykIpSMiCkpjw" association="_ONUVkKDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_OMcL0KDgEeykIpSMiCkpjw" name="townScreen" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_OMcL0aDgEeykIpSMiCkpjw" value="false"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_OMcL06DgEeykIpSMiCkpjw" name="centerScreen" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_OMcL1KDgEeykIpSMiCkpjw" value="false"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_OMcy4aDgEeykIpSMiCkpjw" name="wildScreen" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_OMcy4qDgEeykIpSMiCkpjw" value="false"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_OMdZ8aDgEeykIpSMiCkpjw" name="momMeeting" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_OMdZ8qDgEeykIpSMiCkpjw" value="false"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_OMeBAKDgEeykIpSMiCkpjw" name="battleFinish" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_OMeBAaDgEeykIpSMiCkpjw" value="false"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_OMeBA6DgEeykIpSMiCkpjw" name="canfightBoss" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_OMeoEKDgEeykIpSMiCkpjw" value="false"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_OMeoEqDgEeykIpSMiCkpjw" name="myTurn" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_OMfPIaDgEeykIpSMiCkpjw" name="x" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_OMfPIqDgEeykIpSMiCkpjw" value="300"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_OMf2MaDgEeykIpSMiCkpjw" name="mainPok" visibility="package" type="_OMKfAKDgEeykIpSMiCkpjw" association="_ONUVk6DgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_OMgdQaDgEeykIpSMiCkpjw" name="enemyPok" visibility="package" type="_OMLGEaDgEeykIpSMiCkpjw" association="_ONU8oaDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_OMhEUaDgEeykIpSMiCkpjw" name="myPokDmg" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_OMhrYKDgEeykIpSMiCkpjw" name="bt" visibility="package" type="_ODttoKDgEeykIpSMiCkpjw" association="_ONVjsaDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_OMhrYqDgEeykIpSMiCkpjw" name="bossbt" visibility="package" type="_ODzNMKDgEeykIpSMiCkpjw" association="_ONWKwaDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_OM43wKDgEeykIpSMiCkpjw" name="eneAttMes" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_OM5e0aDgEeykIpSMiCkpjw" name="skillname" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_OM6F4KDgEeykIpSMiCkpjw" name="battleMes" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_OM6s8KDgEeykIpSMiCkpjw" name="centerF" visibility="package" type="_OLdUYaDgEeykIpSMiCkpjw" association="_ONWx0aDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_OM6s86DgEeykIpSMiCkpjw" name="BattleF" visibility="package" type="_OLdUYaDgEeykIpSMiCkpjw" association="_ONXY4aDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_OM7UAaDgEeykIpSMiCkpjw" name="InfoFrame" visibility="package" type="_OLdUYaDgEeykIpSMiCkpjw" association="_ONX_8aDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_OM77EKDgEeykIpSMiCkpjw" name="mapTownButton" visibility="package" type="_OLctUaDgEeykIpSMiCkpjw" association="_ONYnAaDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_OM77E6DgEeykIpSMiCkpjw" name="mapCenterButton" visibility="package" type="_OLctUaDgEeykIpSMiCkpjw" association="_ONZOEaDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_OM8iIqDgEeykIpSMiCkpjw" name="mapWildButton" visibility="package" type="_OLctUaDgEeykIpSMiCkpjw" association="_ONZ1IKDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_OM9JMKDgEeykIpSMiCkpjw" name="MyPokSk2" visibility="package" type="_OLctUaDgEeykIpSMiCkpjw" association="_ONZ1I6DgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_OM9JM6DgEeykIpSMiCkpjw" name="MyPokSk3" visibility="package" type="_OLctUaDgEeykIpSMiCkpjw" association="_ONacMaDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_OM9wQqDgEeykIpSMiCkpjw" name="wild" visibility="package" type="_OLhl0aDgEeykIpSMiCkpjw" association="_ONbDQaDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_OM-XUqDgEeykIpSMiCkpjw" name="center" visibility="package" type="_OLhl0aDgEeykIpSMiCkpjw" association="_ONbqUaDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_OM--YKDgEeykIpSMiCkpjw" name="wildLabel" visibility="package" type="_OLeigKDgEeykIpSMiCkpjw" association="_ONcRYKDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_OM_lcKDgEeykIpSMiCkpjw" name="centerLabel" visibility="package" type="_OLeigKDgEeykIpSMiCkpjw" association="_ONcRY6DgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_OM_lc6DgEeykIpSMiCkpjw" name="towntalk" visibility="package" type="_OLeigKDgEeykIpSMiCkpjw" association="_ONc4caDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_ONAMgaDgEeykIpSMiCkpjw" name="sentalk" visibility="package" type="_OLeigKDgEeykIpSMiCkpjw" association="_ONdfgaDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_ONAMhKDgEeykIpSMiCkpjw" name="wildtalk" visibility="package" type="_OLeigKDgEeykIpSMiCkpjw" association="_ONeGkaDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_ONAzkqDgEeykIpSMiCkpjw" name="momBox" visibility="package" type="_OLeigKDgEeykIpSMiCkpjw" association="_ONetoaDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_ONBaoaDgEeykIpSMiCkpjw" name="ha" visibility="package" type="_OLeigKDgEeykIpSMiCkpjw" association="_ONfUsKDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_ONCBsKDgEeykIpSMiCkpjw" name="titleLabel1" visibility="package" type="_OLeigKDgEeykIpSMiCkpjw" association="_ONfUs6DgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_ONCBs6DgEeykIpSMiCkpjw" name="bossBox" visibility="package" type="_OLeigKDgEeykIpSMiCkpjw" association="_ONf7waDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_ONCowaDgEeykIpSMiCkpjw" name="EnemyStat" visibility="package" type="_OLeigKDgEeykIpSMiCkpjw" association="_ONgi0aDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_ONDP0qDgEeykIpSMiCkpjw" name="BattleM" visibility="package" type="_OLeigKDgEeykIpSMiCkpjw" association="_ONhw8aDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_OND24aDgEeykIpSMiCkpjw" name="stat" visibility="package" type="_OLeigKDgEeykIpSMiCkpjw" association="_ONiYAaDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_OND25KDgEeykIpSMiCkpjw" name="pachoice" visibility="package" type="_OLeigKDgEeykIpSMiCkpjw" association="_ONi_EKDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_ONEd8qDgEeykIpSMiCkpjw" name="info" visibility="package" type="_OLeigKDgEeykIpSMiCkpjw" association="_ONjmIaDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_ONFFAKDgEeykIpSMiCkpjw" name="insk" visibility="package" type="_OLeigKDgEeykIpSMiCkpjw" association="_ONkNMaDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_ONFFA6DgEeykIpSMiCkpjw" name="y" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_ONFsEqDgEeykIpSMiCkpjw" value="600"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OM1NYKDgEeykIpSMiCkpjw" name="Pokemonster" specification="_OEOD8KDgEeykIpSMiCkpjw">
+          <ownedParameter xmi:id="_OM1NYaDgEeykIpSMiCkpjw" name="title">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OM1NYqDgEeykIpSMiCkpjw" type="_ODVTIKDgEeykIpSMiCkpjw" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>super(title);&#xD;
+		setLayout(null);&#xD;
+		setBounds(200, 100, 920, 930);&#xD;
+		&#xD;
+		titleLabel1 = new JLabel(&quot;타이틀 화면 클릭 시 게임 시작!&quot;);&#xD;
+		titleLabel1.setBounds(250,650,700,100);&#xD;
+		titleLabel1.setFont(new Font(&quot;Courier&quot;, Font.BOLD,30));&#xD;
+		add(titleLabel1);&#xD;
+		&#xD;
+//		//타이틀 화면&#xD;
+		titlePanel = new JPanel();&#xD;
+		titlePanel.setLayout(new BorderLayout());&#xD;
+		titlePanel.setBounds(0, 0, 900, 600);&#xD;
+		tilteImage = new ImageIcon(&quot;image/title.png&quot;);&#xD;
+		titleButton = new JButton(tilteImage);&#xD;
+		titlePanel.add(titleButton);&#xD;
+		add(titlePanel);&#xD;
+//		//누르면 타이틀 화면 스킵&#xD;
+		titleButton.addActionListener(new SkipTitle());&#xD;
+		&#xD;
+		playerBox = new JLabel(new ImageIcon(&quot;image/주인공.png&quot;));&#xD;
+		playerBox.setBounds(x, y, 30,30);&#xD;
+		playerBox.setOpaque(true);&#xD;
+		&#xD;
+		//간호사&#xD;
+		ha = new JLabel(new ImageIcon(&quot;image/ha.JPG&quot;));&#xD;
+		ha.setBounds(440, 20, 50,50);&#xD;
+		ha.setOpaque(false);&#xD;
+						&#xD;
+		add(ha);&#xD;
+		ha.setVisible(false);&#xD;
+				&#xD;
+		&#xD;
+		add(playerBox);&#xD;
+		playerBox.setVisible(false);&#xD;
+		&#xD;
+		&#xD;
+		momBox = new JLabel(new ImageIcon(&quot;image/엄마.png&quot;));&#xD;
+		momBox.setBounds(x+50, y, 30,30);&#xD;
+		momBox.setOpaque(true);&#xD;
+		add(momBox);&#xD;
+		momBox.setVisible(false);&#xD;
+		addKeyListener(new PlayerMove());&#xD;
+		&#xD;
+		ImageIcon bossImg = new ImageIcon(&quot;image/뮤츠150.jpg&quot;);&#xD;
+		bossBox = new JLabel(bossImg);&#xD;
+		bossBox.setBounds(10, 400, 150, 162);&#xD;
+		bossBox.setOpaque(true);&#xD;
+		add(bossBox);&#xD;
+		bossBox.setVisible(false);&#xD;
+	&#xD;
+		//마을설정&#xD;
+		town = new JPanel();&#xD;
+		town.setBounds(0,0, 900, 600);&#xD;
+		town.setLayout(null);&#xD;
+		&#xD;
+		&#xD;
+		&#xD;
+		townLabel = new JLabel(new ImageIcon(&quot;image/town1.jpg&quot;));&#xD;
+		townLabel.setBounds(0, 0, 900, 570);&#xD;
+		townLabel.setOpaque(false);&#xD;
+		town.add(townLabel);&#xD;
+		&#xD;
+//		&#xD;
+		//사냥터&#xD;
+		wild = new JPanel();&#xD;
+		wild.setBounds(0,0, 900, 600);&#xD;
+		wild.setLayout(null);&#xD;
+		wild.setVisible(false);&#xD;
+		add(wild);&#xD;
+		&#xD;
+		&#xD;
+		wildLabel = new JLabel(new ImageIcon(&quot;image/사냥터3.png&quot;));&#xD;
+		wildLabel.setBounds(0, 0, 900, 570);&#xD;
+		wildLabel.setOpaque(false);&#xD;
+		wild.add(wildLabel);&#xD;
+//		&#xD;
+		//센터&#xD;
+		center = new JPanel();&#xD;
+		center.setBounds(0,0, 900, 600);&#xD;
+		center.setLayout(null);&#xD;
+		center.setVisible(false);&#xD;
+		add(center);&#xD;
+		&#xD;
+		&#xD;
+		centerLabel = new JLabel(new ImageIcon(&quot;image/center.png&quot;));&#xD;
+		centerLabel.setBounds(0, 0, 900,570);&#xD;
+		centerLabel.setOpaque(false);&#xD;
+		center.add(centerLabel);&#xD;
+		&#xD;
+		add(town);&#xD;
+		&#xD;
+		&#xD;
+		ImageIcon senter = new ImageIcon(&quot;image/smallsenter.png&quot;);&#xD;
+		ImageIcon wild = new ImageIcon(&quot;image/smallWild.png&quot;);&#xD;
+		ImageIcon town = new ImageIcon(&quot;image/smalltown.jpg&quot;);&#xD;
+		&#xD;
+		&#xD;
+		sentalk = new JLabel(&quot;포켓몬 센터 이동&quot;);&#xD;
+		wildtalk = new JLabel(&quot;사냥터 이동&quot;);&#xD;
+		towntalk = new JLabel(&quot;태초 마을 이동&quot;);&#xD;
+		&#xD;
+		&#xD;
+		sentalk.setBounds(100, 620, 130, 23);&#xD;
+		wildtalk.setBounds(410, 620, 130, 23);&#xD;
+		towntalk.setBounds(710, 620, 130, 23);&#xD;
+		&#xD;
+		sentalk.setFont(new Font(&quot;Courier&quot;, Font.BOLD,13));&#xD;
+		towntalk.setFont(new Font(&quot;Courier&quot;, Font.BOLD,13));&#xD;
+		wildtalk.setFont(new Font(&quot;Courier&quot;, Font.BOLD,13));&#xD;
+		&#xD;
+		//포켓몬센터&#xD;
+		mapCenterButton = new JButton(senter);&#xD;
+		mapCenterButton.setBounds(50, 650, 200, 200);&#xD;
+		//사냥터&#xD;
+		mapWildButton = new JButton(wild);&#xD;
+		mapWildButton.setBounds(350, 650, 200, 200);&#xD;
+		&#xD;
+		//태초마을&#xD;
+		mapTownButton = new JButton(town);&#xD;
+		mapTownButton.setBounds(650, 650, 200, 200);&#xD;
+		&#xD;
+		mapCenterButton.addActionListener(new GoCenter());&#xD;
+		mapTownButton.addActionListener(new GoTown());&#xD;
+		mapWildButton.addActionListener(new GoWild());&#xD;
+		&#xD;
+		JMenuBar menubar = new JMenuBar();&#xD;
+		JMenu menu = new JMenu(&quot;제어&quot;);&#xD;
+		setJMenuBar(menubar);&#xD;
+		menubar.add(menu);&#xD;
+		JMenuItem showInfo = new JMenuItem(&quot;내 포켓몬 상태 보기&quot;);&#xD;
+		menu.add(showInfo);&#xD;
+		showInfo.addActionListener(new ActionListener() {&#xD;
+			@Override&#xD;
+			public void actionPerformed(ActionEvent e) {&#xD;
+				if(InfoFrame!=null)&#xD;
+				InfoFrame.setVisible(true);&#xD;
+			}&#xD;
+		});&#xD;
+		JMenuItem ExitGame = new JMenuItem(&quot;게임 종료&quot;);&#xD;
+		menu.add(ExitGame);&#xD;
+		ExitGame.addActionListener(new ActionListener() {&#xD;
+			@Override&#xD;
+			public void actionPerformed(ActionEvent e) {&#xD;
+				Pokemonster.this.dispose();&#xD;
+			}&#xD;
+		});&#xD;
+		&#xD;
+		setVisible(true);&#xD;
+		setResizable(false);&#xD;
+		&#xD;
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OM1NY6DgEeykIpSMiCkpjw" name="main" specification="_OEPSEKDgEeykIpSMiCkpjw">
+          <ownedParameter xmi:id="_OM1NZKDgEeykIpSMiCkpjw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OM1NZaDgEeykIpSMiCkpjw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>new Pokemonster(&quot;포켓몬스터 그린&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_OEOD8KDgEeykIpSMiCkpjw" name="Pokemonster" method="_OM1NYKDgEeykIpSMiCkpjw">
+          <eAnnotations xmi:id="_OEOD8qDgEeykIpSMiCkpjw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_OEOrAKDgEeykIpSMiCkpjw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_OEOD8aDgEeykIpSMiCkpjw" name="title">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OEOrAaDgEeykIpSMiCkpjw" type="_ODVTIKDgEeykIpSMiCkpjw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_OEPSEKDgEeykIpSMiCkpjw" name="main" isStatic="true" method="_OM1NY6DgEeykIpSMiCkpjw">
+          <ownedParameter xmi:id="_OEPSEaDgEeykIpSMiCkpjw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OEPSEqDgEeykIpSMiCkpjw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_ODlKwKDgEeykIpSMiCkpjw" name="SkipTitle" visibility="package">
+          <interfaceRealization xmi:id="_OL1u4KDgEeykIpSMiCkpjw" client="_ODlKwKDgEeykIpSMiCkpjw" supplier="_OLXNwaDgEeykIpSMiCkpjw" contract="_OLXNwaDgEeykIpSMiCkpjw"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OMtRkKDgEeykIpSMiCkpjw" name="actionPerformed" specification="_OL2V8KDgEeykIpSMiCkpjw">
+            <ownedParameter xmi:id="_OMtRkaDgEeykIpSMiCkpjw" name="e" type="_OLV_oaDgEeykIpSMiCkpjw"/>
+            <language>java</language>
+            <body>Pokemonster.this.add(mapCenterButton);&#xD;
+			Pokemonster.this.add(mapTownButton);&#xD;
+			Pokemonster.this.add(mapWildButton);&#xD;
+&#xD;
+			Pokemonster.this.add(sentalk);&#xD;
+			Pokemonster.this.add(towntalk);&#xD;
+			Pokemonster.this.add(wildtalk);&#xD;
+			&#xD;
+			titleButton.removeActionListener(this);//버튼 누른 액션 제거&#xD;
+			Pokemonster.this.titlePanel.setVisible(false);//버튼 패널 안보이게&#xD;
+			Pokemonster.this.remove(titlePanel);//버튼 패널 제거&#xD;
+			&#xD;
+			&#xD;
+			Pokemonster.this.requestFocus();   //포커스 가져오기&#xD;
+			playerBox.setVisible(true);&#xD;
+			playerBox.setLocation(400, 400);&#xD;
+			&#xD;
+			momBox.setVisible(true);&#xD;
+			momBox.setLocation(400,200);&#xD;
+			&#xD;
+			Pokemonster.this.titleLabel1.setVisible(false);&#xD;
+			Pokemonster.this.remove(titleLabel1);&#xD;
+			&#xD;
+			townScreen = true;&#xD;
+		</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_OL2V8KDgEeykIpSMiCkpjw" name="actionPerformed" method="_OMtRkKDgEeykIpSMiCkpjw">
+            <ownedParameter xmi:id="_OL2V8aDgEeykIpSMiCkpjw" name="e" type="_OLV_oaDgEeykIpSMiCkpjw"/>
+          </ownedOperation>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_ODnnAKDgEeykIpSMiCkpjw" name="GoWild" visibility="package">
+          <interfaceRealization xmi:id="_OL3kEKDgEeykIpSMiCkpjw" client="_ODnnAKDgEeykIpSMiCkpjw" supplier="_OLXNwaDgEeykIpSMiCkpjw" contract="_OLXNwaDgEeykIpSMiCkpjw"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OMxjAKDgEeykIpSMiCkpjw" name="actionPerformed" specification="_OL4LIKDgEeykIpSMiCkpjw">
+            <ownedParameter xmi:id="_OMxjAaDgEeykIpSMiCkpjw" name="e" type="_OLV_oaDgEeykIpSMiCkpjw"/>
+            <language>java</language>
+            <body>if(townScreen) {&#xD;
+				Pokemonster.this.wild.setVisible(true);&#xD;
+				Pokemonster.this.town.setVisible(false);&#xD;
+				townScreen = false;&#xD;
+			}&#xD;
+			if(centerScreen) {&#xD;
+				Pokemonster.this.wild.setVisible(true);&#xD;
+				Pokemonster.this.center.setVisible(false);&#xD;
+				centerScreen = false;&#xD;
+			}&#xD;
+			&#xD;
+			if(mainPok.level >=10) {&#xD;
+				canfightBoss = true;&#xD;
+				bossBox.setVisible(true);&#xD;
+				bossBox.setLocation(10, 400);&#xD;
+			}&#xD;
+			momBox.setVisible(false);&#xD;
+			Pokemonster.this.requestFocus();&#xD;
+			wildScreen = true;&#xD;
+			playerBox.setLocation(720,10);&#xD;
+			ha.setVisible(false);&#xD;
+		</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_OL4LIKDgEeykIpSMiCkpjw" name="actionPerformed" method="_OMxjAKDgEeykIpSMiCkpjw">
+            <ownedParameter xmi:id="_OL4LIaDgEeykIpSMiCkpjw" name="e" type="_OLV_oaDgEeykIpSMiCkpjw"/>
+          </ownedOperation>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_ODqDQKDgEeykIpSMiCkpjw" name="GoTown" visibility="package">
+          <interfaceRealization xmi:id="_OL4yMqDgEeykIpSMiCkpjw" client="_ODqDQKDgEeykIpSMiCkpjw" supplier="_OLXNwaDgEeykIpSMiCkpjw" contract="_OLXNwaDgEeykIpSMiCkpjw"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OMxjAqDgEeykIpSMiCkpjw" name="actionPerformed" specification="_OL5ZQKDgEeykIpSMiCkpjw">
+            <ownedParameter xmi:id="_OMxjA6DgEeykIpSMiCkpjw" name="e" type="_OLV_oaDgEeykIpSMiCkpjw"/>
+            <language>java</language>
+            <body>if(wildScreen) {&#xD;
+				Pokemonster.this.town.setVisible(true);&#xD;
+				Pokemonster.this.wild.setVisible(false);&#xD;
+				wildScreen = false;&#xD;
+			}&#xD;
+			if(centerScreen) {&#xD;
+				Pokemonster.this.town.setVisible(true);&#xD;
+				Pokemonster.this.center.setVisible(false);&#xD;
+				centerScreen = false;&#xD;
+			}&#xD;
+			bossBox.setVisible(false);&#xD;
+			playerBox.setLocation(400,400);&#xD;
+			momBox.setVisible(true);&#xD;
+			Pokemonster.this.requestFocus();&#xD;
+			ha.setVisible(false);&#xD;
+			townScreen = true;&#xD;
+		</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_OL5ZQKDgEeykIpSMiCkpjw" name="actionPerformed" method="_OMxjAqDgEeykIpSMiCkpjw">
+            <ownedParameter xmi:id="_OL5ZQaDgEeykIpSMiCkpjw" name="e" type="_OLV_oaDgEeykIpSMiCkpjw"/>
+          </ownedOperation>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_ODr4cKDgEeykIpSMiCkpjw" name="GoCenter" visibility="package">
+          <interfaceRealization xmi:id="_OL6nYKDgEeykIpSMiCkpjw" client="_ODr4cKDgEeykIpSMiCkpjw" supplier="_OLXNwaDgEeykIpSMiCkpjw" contract="_OLXNwaDgEeykIpSMiCkpjw"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OMxjBKDgEeykIpSMiCkpjw" name="actionPerformed" specification="_OL6nYaDgEeykIpSMiCkpjw">
+            <ownedParameter xmi:id="_OMxjBaDgEeykIpSMiCkpjw" name="e" type="_OLV_oaDgEeykIpSMiCkpjw"/>
+            <language>java</language>
+            <body>if(townScreen) {&#xD;
+				Pokemonster.this.center.setVisible(true);&#xD;
+				Pokemonster.this.town.setVisible(false);&#xD;
+				townScreen = false;&#xD;
+			}&#xD;
+			if(wildScreen) {&#xD;
+				Pokemonster.this.center.setVisible(true);&#xD;
+				Pokemonster.this.wild.setVisible(false);&#xD;
+				wildScreen = false;&#xD;
+			}&#xD;
+			bossBox.setVisible(false);&#xD;
+			momBox.setVisible(false);&#xD;
+			Pokemonster.this.requestFocus();&#xD;
+			centerScreen = true;&#xD;
+			playerBox.setLocation(440,530);&#xD;
+			ha.setVisible(true);&#xD;
+			ha.setLocation(460, 105);&#xD;
+		</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_OL6nYaDgEeykIpSMiCkpjw" name="actionPerformed" method="_OMxjBKDgEeykIpSMiCkpjw">
+            <ownedParameter xmi:id="_OL7OcKDgEeykIpSMiCkpjw" name="e" type="_OLV_oaDgEeykIpSMiCkpjw"/>
+          </ownedOperation>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_ODttoKDgEeykIpSMiCkpjw" name="Battle" visibility="package">
+          <generalization xmi:id="_OL8ckaDgEeykIpSMiCkpjw" general="_OL71g6DgEeykIpSMiCkpjw"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OMyKEKDgEeykIpSMiCkpjw" name="run" specification="_ODuUsKDgEeykIpSMiCkpjw">
+            <language>java</language>
+            <body>enemyPok = wpArray.get((int)(Math.random()*4));&#xD;
+			&#xD;
+			enemySkArr.add(enemyPok.SK1);&#xD;
+			enemySkArr.add(enemyPok.SK2);&#xD;
+			enemySkArr.add(enemyPok.SK3);&#xD;
+			&#xD;
+			JLabel enemyPokImg = new JLabel(enemyPok.image);&#xD;
+			enemyPokImg.setBounds(50, 300, 100, 100);&#xD;
+			BattleF.add(enemyPokImg);&#xD;
+			&#xD;
+			EnemyStat.setText(&quot;&lt;html>&quot;+enemyPok.name+&quot;&lt;br/>레벨: &quot;+enemyPok.level+&quot;&lt;br/>체력: &quot;+ enemyPok.hp+&quot;&lt;html>&quot;);&#xD;
+			&#xD;
+			BattleM.setText(&quot;야생의 &quot; + enemyPok.name+&quot;(이)가 나타났다!&quot;);&#xD;
+			&#xD;
+			while(!battleFinish) {&#xD;
+				try {&#xD;
+					sleep(500);&#xD;
+					if(myTurn) {&#xD;
+						MyPokSk1.setEnabled(true);&#xD;
+						MyPokSk2.setEnabled(true);&#xD;
+						MyPokSk3.setEnabled(true);&#xD;
+					}&#xD;
+					if(enemyPok.hp&lt;=0) {&#xD;
+						sleep(1000);&#xD;
+						if(mainPok.hp>0) {&#xD;
+							for(int i = 0;i&lt;enemyPok.level;i++) {&#xD;
+							mainPok.levelup();&#xD;
+							}&#xD;
+							BattleM.setText(&quot;&lt;html>배틀 종료! &lt;br/>&quot; + mainPok.name +&quot;의 레벨이 &quot;+enemyPok.level+&quot;만큼 올랐습니다!&lt;html>&quot;);&#xD;
+							JFrame ClearFrame = new JFrame(&quot;배틀 승리&quot;);&#xD;
+							ClearFrame.setLayout(null);&#xD;
+							ClearFrame.setBounds(500, 350, 300, 150);&#xD;
+							JButton ClearButton = new JButton(&quot;배틀 종료&quot;);&#xD;
+							ClearButton.setBounds(100, 20, 100, 50);&#xD;
+							ClearButton.addActionListener(new ActionListener() {&#xD;
+								@Override&#xD;
+								public void actionPerformed(ActionEvent e) {&#xD;
+									BattleF.dispose();&#xD;
+									ClearFrame.dispose();&#xD;
+								}&#xD;
+							});&#xD;
+							ClearFrame.setVisible(true);&#xD;
+							ClearFrame.add(ClearButton);&#xD;
+						}&#xD;
+						MyStat.setText(&quot;&lt;html>&quot;+mainPok.name+ &quot;&lt;br/>레벨: &quot;+mainPok.level+&quot;&lt;br/>체력: &quot;+ mainPok.hp+&quot;&lt;html>&quot;);&#xD;
+						info.setText(&quot;&lt;html>이름:&quot;+mainPok.name+&quot; 레벨: &quot;+mainPok.level+&quot;&lt;br/>&quot;+&quot;HP/MAXHP:&quot;+mainPok.hp+&quot;/&quot;+mainPok.maxhp+&quot;&lt;br/>공격력: &quot;+mainPok.att+&quot; 방어력: &quot;+mainPok.def+&quot;&lt;br/>&quot;+&quot;&lt;html>&quot;);&#xD;
+						insk.setText(&quot;&lt;html>스킬1: &quot;+ mainPok.SK1.Sname+&quot; 데미지: &quot;+mainPok.SK1.dmg+&quot;&lt;br/> 스킬2: &quot;+ mainPok.SK2.Sname+&quot; 데미지: &quot;+mainPok.SK2.dmg+&quot;&lt;br/>&quot;+&quot;스킬3: &quot;+ mainPok.SK3.Sname+&quot; 데미지: &quot;+mainPok.SK3.dmg+&quot;&lt;html>&quot;);&#xD;
+						battleFinish = true;&#xD;
+						break;&#xD;
+					}&#xD;
+					else if(!myTurn){&#xD;
+						sleep(500);&#xD;
+						int randNum = (int)(Math.random()*3);&#xD;
+						skillname = enemySkArr.get(randNum).Sname;&#xD;
+						int attackDmg = (enemySkArr.get(randNum).dmg - mainPok.def);&#xD;
+						if(attackDmg&lt;1)attackDmg = 1;&#xD;
+						mainPok.hp -= attackDmg;&#xD;
+						eneAttMes = enemyPok.name + &quot;의 &quot; + skillname + &quot; 공격!&quot;;&#xD;
+						battleMes = eneAttMes;&#xD;
+						BattleM.setText(battleMes);&#xD;
+						MyStat.setText(&quot;&lt;html>&quot;+mainPok.name+ &quot;&lt;br/>레벨: &quot;+mainPok.level+&quot;&lt;br/>체력: &quot;+ mainPok.hp+&quot;&lt;html>&quot;);&#xD;
+						info.setText(&quot;&lt;html>이름:&quot;+mainPok.name+&quot; 레벨: &quot;+mainPok.level+&quot;&lt;br/>&quot;+&quot;HP/MAXHP:&quot;+mainPok.hp+&quot;/&quot;+mainPok.maxhp+&quot;&lt;br/>공격력: &quot;+mainPok.att+&quot; 방어력: &quot;+mainPok.def+&quot;&lt;br/>&quot;+&quot;&lt;html>&quot;);&#xD;
+						myTurn = true;&#xD;
+					}&#xD;
+					if(mainPok.hp&lt;=0) {&#xD;
+						sleep(500);&#xD;
+						BattleM.setText(&quot;&lt;html>배틀 종료.. &lt;br/>&quot; + mainPok.name +&quot;(이)가 죽었습니다..&lt;html>&quot;);&#xD;
+						battleFinish = true;&#xD;
+					}&#xD;
+				} catch (InterruptedException e1) {&#xD;
+					e1.printStackTrace();&#xD;
+				}&#xD;
+			}&#xD;
+			myTurn = true;&#xD;
+			for(int i = 0; i&lt;4;i++) {&#xD;
+				wpArray.remove(0);&#xD;
+				if(i>=1) enemySkArr.remove(0);&#xD;
+			}&#xD;
+			if(mainPok.level>=10) {&#xD;
+					if(!canfightBoss) {&#xD;
+					bossBox.setVisible(true);&#xD;
+					bossBox.setLocation(10,400);&#xD;
+					JFrame BossAlert = new JFrame(&quot;보스 출현&quot;);&#xD;
+					BossAlert.setBounds(400, 300, 400, 200);&#xD;
+					JLabel BossAlertMessage = new JLabel(&quot;&lt;html>플레이어 포켓몬의 레벨이 10이 넘어&lt;br/>&quot;&#xD;
+							+ &quot;전설의 포켓몬 뮤츠가 출현했습니다.&lt;br/>&quot;&#xD;
+							+&quot;포켓몬 센터에서 치료를 하고 도전하세요!&lt;html>&quot;);&#xD;
+					BossAlertMessage.setFont(new Font(&quot;Courier&quot;, Font.BOLD,12));&#xD;
+					BossAlertMessage.setBounds(50, 50, 300, 70);&#xD;
+					BossAlert.add(BossAlertMessage);&#xD;
+					BossAlert.setLayout(null);&#xD;
+					BossAlert.setVisible(true);&#xD;
+					canfightBoss = true;&#xD;
+				}&#xD;
+			}&#xD;
+		</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_ODuUsKDgEeykIpSMiCkpjw" name="run" method="_OMyKEKDgEeykIpSMiCkpjw"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_ODzNMKDgEeykIpSMiCkpjw" name="BossBattle" visibility="package">
+          <generalization xmi:id="_OL9DoKDgEeykIpSMiCkpjw" general="_OL71g6DgEeykIpSMiCkpjw"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OMyKEaDgEeykIpSMiCkpjw" name="run" specification="_OD0bUKDgEeykIpSMiCkpjw">
+            <language>java</language>
+            <body>enemyPok = new BossPok();&#xD;
+			&#xD;
+			enemySkArr.add(enemyPok.SK1);&#xD;
+			enemySkArr.add(enemyPok.SK2);&#xD;
+			enemySkArr.add(enemyPok.SK3);&#xD;
+			&#xD;
+			JLabel enemyPokImg = new JLabel(enemyPok.image);&#xD;
+			enemyPokImg.setBounds(20, 270, 150, 163);&#xD;
+			BattleF.add(enemyPokImg);&#xD;
+			&#xD;
+			EnemyStat.setText(&quot;&lt;html>&quot;+enemyPok.name+&quot;&lt;br/>레벨: &quot;+enemyPok.level+&quot;&lt;br/>체력: &quot;+ enemyPok.hp+&quot;&lt;html>&quot;);&#xD;
+			&#xD;
+			BattleM.setText(&quot;최종보스 전설의 포켓몬 &quot; + enemyPok.name+&quot;가 나타났다!&quot;);&#xD;
+			&#xD;
+			while(!battleFinish) {&#xD;
+				try {&#xD;
+					sleep(500);&#xD;
+					if(myTurn) {&#xD;
+						MyPokSk1.setEnabled(true);&#xD;
+						MyPokSk2.setEnabled(true);&#xD;
+						MyPokSk3.setEnabled(true);&#xD;
+					}&#xD;
+					if(mainPok.hp&lt;=0 || enemyPok.hp&lt;=0) {&#xD;
+						sleep(1000);&#xD;
+						BattleM.setText(&quot;&lt;html>배틀 종료! &lt;br/>&quot; + mainPok.name +&quot;의 레벨이 1 올랐습니다!&lt;html>&quot;);&#xD;
+						if(mainPok.hp>0) {&#xD;
+							mainPok.levelup();&#xD;
+							BattleM.setText(&quot;&lt;html>배틀 종료! &lt;br/>축하합니다 게임을 클리어 하셨습니다!&lt;html>&quot;);&#xD;
+							JFrame ClearFrame = new JFrame(&quot;게임 클리어!&quot;);&#xD;
+							ClearFrame.setLayout(null);&#xD;
+							ClearFrame.setBounds(440, 350, 300, 200);&#xD;
+							JButton ClearExitButton = new JButton(&quot;게임 종료&quot;);&#xD;
+							ClearExitButton.setBounds(50, 75, 95, 50);&#xD;
+							ClearExitButton.addActionListener(new ActionListener() {&#xD;
+								@Override&#xD;
+								public void actionPerformed(ActionEvent e) {&#xD;
+									Pokemonster.this.dispose();&#xD;
+									System.exit(0);&#xD;
+								}&#xD;
+							});&#xD;
+							JButton ContinueButton = new JButton(&quot;계속하기&quot;);&#xD;
+							ContinueButton.setBounds(150, 75, 95, 50);&#xD;
+							ContinueButton.addActionListener(new ActionListener() {&#xD;
+								@Override&#xD;
+								public void actionPerformed(ActionEvent e) {&#xD;
+									ClearFrame.dispose();&#xD;
+									BattleF.dispose();&#xD;
+								}&#xD;
+							});&#xD;
+							ClearFrame.add(ClearExitButton);&#xD;
+							ClearFrame.add(ContinueButton);&#xD;
+							ClearFrame.setVisible(true);&#xD;
+						}&#xD;
+						else{&#xD;
+							BattleM.setText(&quot;&lt;html>배틀 종료.. &lt;br/>&quot; + mainPok.name +&quot;(이)가 죽었습니다..&lt;html>&quot;);&#xD;
+						}&#xD;
+						battleFinish = true;&#xD;
+					}&#xD;
+					else if(!myTurn){&#xD;
+						sleep(500);&#xD;
+						int randNum = (int)(Math.random()*3);&#xD;
+						skillname = enemySkArr.get(randNum).Sname;&#xD;
+						mainPok.hp -= (enemySkArr.get(randNum).dmg - mainPok.def);&#xD;
+						eneAttMes = enemyPok.name + &quot;의 &quot; + skillname + &quot; 공격!&quot;;&#xD;
+						battleMes = eneAttMes;&#xD;
+						BattleM.setText(battleMes);&#xD;
+						MyStat.setText(&quot;&lt;html>&quot;+mainPok.name+ &quot;&lt;br/>레벨: &quot;+mainPok.level+&quot;&lt;br/>체력: &quot;+ mainPok.hp+&quot;&lt;html>&quot;);&#xD;
+						info.setText(&quot;&lt;html>이름:&quot;+mainPok.name+&quot; 레벨: &quot;+mainPok.level+&quot;&lt;br/>&quot;+&quot;HP/MAXHP:&quot;+mainPok.hp+&quot;/&quot;+mainPok.maxhp+&quot;&lt;br/>공격력: &quot;+mainPok.att+&quot; 방어력: &quot;+mainPok.def+&quot;&lt;br/>&quot;+&quot;&lt;html>&quot;);&#xD;
+						myTurn = true;&#xD;
+					}&#xD;
+					if(mainPok.hp&lt;=0) {&#xD;
+						sleep(500);&#xD;
+						BattleM.setText(&quot;&lt;html>배틀 종료.. &lt;br/>&quot; + mainPok.name +&quot;(이)가 죽었습니다..&lt;html>&quot;);&#xD;
+						battleFinish = true;&#xD;
+					}&#xD;
+				} catch (InterruptedException e1) {&#xD;
+					e1.printStackTrace();&#xD;
+				}&#xD;
+			}&#xD;
+			myTurn = true;&#xD;
+		</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_OD0bUKDgEeykIpSMiCkpjw" name="run" method="_OMyKEaDgEeykIpSMiCkpjw"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_OD4FsKDgEeykIpSMiCkpjw" name="PlayerMove" visibility="package">
+          <interfaceRealization xmi:id="_OL9DoaDgEeykIpSMiCkpjw" client="_OD4FsKDgEeykIpSMiCkpjw" supplier="_OLaREKDgEeykIpSMiCkpjw" contract="_OLaREKDgEeykIpSMiCkpjw"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OMyKEqDgEeykIpSMiCkpjw" name="keyPressed" specification="_OL-RwqDgEeykIpSMiCkpjw">
+            <ownedParameter xmi:id="_OMyKE6DgEeykIpSMiCkpjw" name="e" type="_OLYb4KDgEeykIpSMiCkpjw"/>
+            <language>java</language>
+            <body>x = playerBox.getX();&#xD;
+			y = playerBox.getY();&#xD;
+			int key = e.getKeyCode();&#xD;
+			switch(key){&#xD;
+			case 37:&#xD;
+				x-=30;&#xD;
+				//System.out.println(&quot;왼쪽&quot;);&#xD;
+				break;&#xD;
+			case 39:&#xD;
+				x+=30;&#xD;
+				//System.out.println(&quot;오른쪽&quot;);&#xD;
+				break;&#xD;
+			case 38:&#xD;
+				y-=30;&#xD;
+				//System.out.println(&quot;위&quot;);&#xD;
+				break;&#xD;
+			case 40:&#xD;
+				y+=30;&#xD;
+				//System.out.println(&quot;아래&quot;);&#xD;
+				break;&#xD;
+			}&#xD;
+&#xD;
+			if(townScreen) {&#xD;
+				if(x&lt;50) {&#xD;
+					x=50;&#xD;
+				}&#xD;
+				if(y&lt;60) {&#xD;
+					y=60;&#xD;
+				}&#xD;
+				if(x>860-50-20) {&#xD;
+					x=860-50-20;&#xD;
+				}&#xD;
+				if(y>500-50-40) {&#xD;
+					y=500-50-40;&#xD;
+				}&#xD;
+				if(y>220 &amp;&amp; y&lt;350 &amp;&amp; x>450 &amp;&amp; x&lt;700) {&#xD;
+					x = 550;&#xD;
+					y = 400;&#xD;
+				}&#xD;
+				if(y>70 &amp;&amp; y&lt;180 &amp;&amp; x>150 &amp;&amp; x&lt;350) {&#xD;
+					x = 230;&#xD;
+					y = 200;&#xD;
+				}&#xD;
+				if(y>70 &amp;&amp; y&lt;180 &amp;&amp; x>500 &amp;&amp; x&lt;750) {&#xD;
+					x = 630;&#xD;
+					y = 200;&#xD;
+				}&#xD;
+				if(!momMeeting) {&#xD;
+					if(x>380 &amp;&amp; x&lt;450 &amp;&amp; y>180 &amp;&amp; y&lt;250) {&#xD;
+						ImageIcon paImage = new ImageIcon(&quot;image/파이리.png&quot;);&#xD;
+						ImageIcon ggoImage = new ImageIcon(&quot;image/꼬부기.png&quot;);&#xD;
+						ImageIcon leeImage = new ImageIcon(&quot;image/이상해씨.png&quot;);&#xD;
+						ImageIcon momImage = new ImageIcon(&quot;image/BigMom.png&quot;);&#xD;
+								&#xD;
+						SelPok = new JFrame(&quot;포켓몬 선택 창&quot;);&#xD;
+						JLabel momIm = new JLabel(momImage);&#xD;
+						momIm.setBounds(0, 0, 250,200);&#xD;
+						JTextArea momtalk = new JTextArea(&quot;어서 오렴~ &quot;+&quot;\n&quot;+&quot;기다리고 있었단다&quot;+&quot;\n&quot;+&quot;마음에 드는&quot;+&quot;\n&quot;+&quot;포켓몬을 고르렴&quot;);&#xD;
+						momtalk.setBounds(300,50,200,200);&#xD;
+						JTextArea patalk = new JTextArea(&quot;파이리&quot;);&#xD;
+						JTextArea ggotalk = new JTextArea(&quot;꼬부기&quot;);&#xD;
+						JTextArea leetalk = new JTextArea(&quot;이상해씨&quot;);&#xD;
+						patalk.setBounds(60, 350, 100, 100);&#xD;
+						ggotalk.setBounds(210, 350, 100, 100);&#xD;
+						leetalk.setBounds(350, 350, 100, 100);&#xD;
+						momtalk.setFont(new Font(&quot;Courier&quot;, Font.BOLD,20));&#xD;
+						patalk.setFont(new Font(&quot;Courier&quot;, Font.BOLD,20));&#xD;
+						patalk.setFont(new Font(&quot;Courier&quot;, Font.BOLD,20));&#xD;
+						ggotalk.setFont(new Font(&quot;Courier&quot;, Font.BOLD,20));&#xD;
+						leetalk.setFont(new Font(&quot;Courier&quot;, Font.BOLD,20));&#xD;
+								&#xD;
+						JButton pa1 = new JButton(paImage);&#xD;
+						JButton ggo1 = new JButton(ggoImage);&#xD;
+						JButton lee1 = new JButton(leeImage);&#xD;
+						pa1.setBackground(Color.white);&#xD;
+						ggo1.setBackground(Color.white);&#xD;
+						lee1.setBackground(Color.white);&#xD;
+						pa1.setBounds(40, 250, 105, 100);&#xD;
+						ggo1.setBounds(190, 250, 105, 100);&#xD;
+						lee1.setBounds(340, 250, 105, 100);&#xD;
+&#xD;
+						SelPok.add(patalk);&#xD;
+						SelPok.add(ggotalk);&#xD;
+						SelPok.add(leetalk);&#xD;
+						SelPok.add(momtalk);&#xD;
+						SelPok.add(momIm);&#xD;
+						SelPok.add(pa1);&#xD;
+						SelPok.add(ggo1);&#xD;
+						SelPok.add(lee1);&#xD;
+						SelPok.getContentPane().setBackground(Color.white);&#xD;
+						SelPok.setLayout(null);&#xD;
+						SelPok.setBounds(420, 280, 500, 500);&#xD;
+						SelPok.setVisible(true);&#xD;
+						SelPok.setResizable(false);&#xD;
+&#xD;
+						SelPok.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);&#xD;
+						&#xD;
+						pa1.addActionListener(new GivePIR());&#xD;
+						ggo1.addActionListener(new GiveGBG());&#xD;
+						lee1.addActionListener(new GiveLSHC());&#xD;
+						&#xD;
+						momMeeting = true;&#xD;
+												&#xD;
+					}&#xD;
+				}&#xD;
+			}		&#xD;
+			if(centerScreen) {&#xD;
+				if(x&lt;65) {&#xD;
+					x=65;&#xD;
+				}&#xD;
+				if(y&lt;250) {&#xD;
+					y=250;&#xD;
+				}&#xD;
+				if(x>640) {&#xD;
+					x=650;&#xD;
+				}&#xD;
+				if(y>530) {&#xD;
+					y=530;&#xD;
+				} if(y&lt;255 &amp; x>450 &amp; x&lt;500) {&#xD;
+					y= 260;&#xD;
+					x = 500;&#xD;
+					playerBox.setLocation(440, 530);&#xD;
+						centerF = new JFrame(&quot;포켓몬센터&quot;);&#xD;
+						&#xD;
+						JButton btn= new JButton(&quot;회복하기&quot;);&#xD;
+						&#xD;
+						ImageIcon hp = new ImageIcon(&quot;image/녹십자.png&quot;);&#xD;
+						JLabel hpL =new JLabel(hp);&#xD;
+						ImageIcon hpp = new ImageIcon(&quot;image/녹십자.png&quot;);&#xD;
+						JLabel hppL =new JLabel(hpp);&#xD;
+						&#xD;
+						ImageIcon gan = new ImageIcon(&quot;image/간호순.png&quot;);&#xD;
+						JLabel ganL =new JLabel(gan);&#xD;
+						&#xD;
+						//포켓몬 상태창&#xD;
+						JLabel myPokImg = new JLabel(mainPok.image);&#xD;
+						stat = new JLabel();&#xD;
+						&#xD;
+						stat.setText(&quot;&lt;html>&quot;+mainPok.name+ &quot;&lt;br/>레벨: &quot;+mainPok.level+&quot;&lt;br/>체력: &quot;+ mainPok.hp+&quot;/&quot;+mainPok.maxhp+&quot;&lt;html>&quot;);&#xD;
+						stat.setFont(new Font(&quot;굴림체&quot;,Font.BOLD,20));&#xD;
+						&#xD;
+						hpL.setBounds(40,190,60,60);&#xD;
+						hppL.setBounds(280,190,60,60);&#xD;
+						ganL.setBounds(20,20,347,165);&#xD;
+						btn.setBounds(140,190,100,60);&#xD;
+						myPokImg.setBounds(50, 300, 100, 100);&#xD;
+						stat.setBounds(230,250, 200, 200);&#xD;
+						centerF.setLayout(null);&#xD;
+						centerF.setBounds(440,350,400,500);&#xD;
+						&#xD;
+						centerF.add(hpL);&#xD;
+						centerF.add(hppL);&#xD;
+						centerF.add(ganL);&#xD;
+						centerF.add(btn);&#xD;
+						centerF.add(stat);&#xD;
+						centerF.add(myPokImg);&#xD;
+						centerF.setVisible(true);&#xD;
+						centerF.setResizable(false);&#xD;
+						&#xD;
+						btn.addActionListener(new Recover());&#xD;
+					}&#xD;
+				}&#xD;
+//			&#xD;
+			if(wildScreen) {&#xD;
+				if(x&lt;150) {&#xD;
+					x=150;&#xD;
+				}&#xD;
+				if(y&lt;20) {&#xD;
+					y=20;&#xD;
+				}&#xD;
+				if(x>860) {&#xD;
+					x=860;&#xD;
+				}&#xD;
+				if(y>535) {&#xD;
+					y=535;&#xD;
+				}&#xD;
+				&#xD;
+				if(y>350 &amp;&amp; y&lt;400 &amp;&amp; x>500 &amp;&amp; x&lt;800) { &#xD;
+					battleFinish = false;&#xD;
+					&#xD;
+					BattleF = new JFrame(&quot;배틀 시작&quot;);&#xD;
+					BattleF.setBounds(250, 250, 800, 500);&#xD;
+					BattleF.setLayout(null);&#xD;
+					&#xD;
+					JLabel myPokImg = new JLabel(mainPok.image);&#xD;
+					myPokImg.setBounds(50, 50, 100, 100);&#xD;
+					BattleF.add(myPokImg);&#xD;
+					&#xD;
+					wpArray.add(new GGorat());&#xD;
+					wpArray.add(new Catupi());&#xD;
+					wpArray.add(new Eve());&#xD;
+					wpArray.add(new Gugu());&#xD;
+					&#xD;
+					MyPokSk1 = new JButton(mainPok.SK1.Sname);&#xD;
+					MyPokSk1.setBounds(550, 50, 150, 100);&#xD;
+					MyPokSk1.setEnabled(false);&#xD;
+					MyPokSk1.addActionListener(new MyPokSkill());&#xD;
+					BattleF.add(MyPokSk1);&#xD;
+					&#xD;
+					MyPokSk2 = new JButton(mainPok.SK2.Sname);&#xD;
+					MyPokSk2.setBounds(550, 175, 150, 100);&#xD;
+					MyPokSk2.setEnabled(false);&#xD;
+					MyPokSk2.addActionListener(new MyPokSkill());&#xD;
+					BattleF.add(MyPokSk2);&#xD;
+					&#xD;
+					BattleM = new JLabel();&#xD;
+					BattleM.setBounds(50, 180, 330, 100);&#xD;
+					BattleM.setFont(new Font(&quot;굴림체&quot;,Font.BOLD,20));&#xD;
+					BattleF.add(BattleM);&#xD;
+					&#xD;
+					EnemyStat= new JLabel();&#xD;
+					EnemyStat.setBounds(200, 250, 200, 200);&#xD;
+					EnemyStat.setFont(new Font(&quot;굴림체&quot;,Font.BOLD,20));&#xD;
+					BattleF.add(EnemyStat);&#xD;
+					&#xD;
+					MyPokSk3 = new JButton(mainPok.SK3.Sname);&#xD;
+					MyPokSk3.setBounds(550, 300, 150, 100);&#xD;
+					MyPokSk3.setEnabled(false);&#xD;
+					MyPokSk3.addActionListener(new MyPokSkill());&#xD;
+					BattleF.add(MyPokSk3);&#xD;
+					&#xD;
+					&#xD;
+					MyStat = new JLabel();&#xD;
+					MyStat.setBounds(200, 0, 200, 200);&#xD;
+					MyStat.setText(&quot;&lt;html>&quot;+mainPok.name+ &quot;&lt;br/>레벨: &quot;+mainPok.level+&quot;&lt;br/>체력: &quot;+ mainPok.hp+&quot;&lt;html>&quot;);&#xD;
+					MyStat.setFont(new Font(&quot;굴림체&quot;,Font.BOLD,20));&#xD;
+					BattleF.add(MyStat);&#xD;
+					&#xD;
+					myTurn = true;&#xD;
+					&#xD;
+					BattleF.setVisible(true);&#xD;
+&#xD;
+					bt = new Battle();&#xD;
+					bt.start();&#xD;
+				}&#xD;
+				&#xD;
+				if(canfightBoss) {&#xD;
+					if(y>400 &amp;&amp; y&lt;440 &amp;&amp; x>130 &amp;&amp; x&lt;170) {&#xD;
+						x = 170;&#xD;
+						y = 440;&#xD;
+						battleFinish = false;&#xD;
+						&#xD;
+						BattleF = new JFrame(&quot;배틀 시작&quot;);&#xD;
+						BattleF.setBounds(250, 250, 800, 500);&#xD;
+						BattleF.setLayout(null);&#xD;
+						&#xD;
+						JLabel myPokImg = new JLabel(mainPok.image);&#xD;
+						myPokImg.setBounds(50, 50, 100, 100);&#xD;
+						BattleF.add(myPokImg);&#xD;
+						&#xD;
+						MyPokSk1 = new JButton(mainPok.SK1.Sname);&#xD;
+						MyPokSk1.setBounds(550, 50, 150, 100);&#xD;
+						MyPokSk1.setEnabled(false);&#xD;
+						MyPokSk1.addActionListener(new MyPokSkill());&#xD;
+						BattleF.add(MyPokSk1);&#xD;
+						&#xD;
+						MyPokSk2 = new JButton(mainPok.SK2.Sname);&#xD;
+						MyPokSk2.setBounds(550, 175, 150, 100);&#xD;
+						MyPokSk2.setEnabled(false);&#xD;
+						MyPokSk2.addActionListener(new MyPokSkill());&#xD;
+						BattleF.add(MyPokSk2);&#xD;
+						&#xD;
+						MyPokSk3 = new JButton(mainPok.SK3.Sname);&#xD;
+						MyPokSk3.setBounds(550, 300, 150, 100);&#xD;
+						MyPokSk3.setEnabled(false);&#xD;
+						MyPokSk3.addActionListener(new MyPokSkill());&#xD;
+						BattleF.add(MyPokSk3);&#xD;
+						&#xD;
+						BattleM = new JLabel();&#xD;
+						BattleM.setBounds(50, 180, 600, 100);&#xD;
+						BattleM.setFont(new Font(&quot;굴림체&quot;,Font.BOLD,20));&#xD;
+						BattleF.add(BattleM);&#xD;
+						&#xD;
+						EnemyStat= new JLabel();&#xD;
+						EnemyStat.setBounds(200, 250, 200, 200);&#xD;
+						EnemyStat.setFont(new Font(&quot;굴림체&quot;,Font.BOLD,20));&#xD;
+						BattleF.add(EnemyStat);&#xD;
+						&#xD;
+						MyStat = new JLabel();&#xD;
+						MyStat.setBounds(200, 0, 200, 200);&#xD;
+						MyStat.setText(&quot;&lt;html>&quot;+mainPok.name+ &quot;&lt;br/>레벨: &quot;+mainPok.level+&quot;&lt;br/>체력: &quot;+ mainPok.hp+&quot;&lt;html>&quot;);&#xD;
+						MyStat.setFont(new Font(&quot;굴림체&quot;,Font.BOLD,20));&#xD;
+						BattleF.add(MyStat);&#xD;
+						&#xD;
+						myTurn = true;&#xD;
+						&#xD;
+						BattleF.setVisible(true);&#xD;
+&#xD;
+						bossbt = new BossBattle();&#xD;
+						bossbt.start();&#xD;
+					}&#xD;
+				}&#xD;
+			}&#xD;
+			&#xD;
+			playerBox.setLocation(x,y);&#xD;
+		</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_OL9qsKDgEeykIpSMiCkpjw" name="keyTyped">
+            <ownedParameter xmi:id="_OL9qsaDgEeykIpSMiCkpjw" name="e" type="_OLYb4KDgEeykIpSMiCkpjw"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_OL-RwqDgEeykIpSMiCkpjw" name="keyPressed" method="_OMyKEqDgEeykIpSMiCkpjw">
+            <ownedParameter xmi:id="_OL-Rw6DgEeykIpSMiCkpjw" name="e" type="_OLYb4KDgEeykIpSMiCkpjw"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_OL-406DgEeykIpSMiCkpjw" name="keyReleased">
+            <ownedParameter xmi:id="_OL-41KDgEeykIpSMiCkpjw" name="e" type="_OLYb4KDgEeykIpSMiCkpjw"/>
+          </ownedOperation>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_OD8XIKDgEeykIpSMiCkpjw" name="GivePIR" visibility="package">
+          <interfaceRealization xmi:id="_OMAG8KDgEeykIpSMiCkpjw" client="_OD8XIKDgEeykIpSMiCkpjw" supplier="_OLXNwaDgEeykIpSMiCkpjw" contract="_OLXNwaDgEeykIpSMiCkpjw"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OMyKFKDgEeykIpSMiCkpjw" name="actionPerformed" specification="_OMAG8aDgEeykIpSMiCkpjw">
+            <ownedParameter xmi:id="_OMyKFaDgEeykIpSMiCkpjw" name="e" type="_OLV_oaDgEeykIpSMiCkpjw"/>
+            <language>java</language>
+            <body>mainPok = new Pa();&#xD;
+			ImageIcon paImageC = new ImageIcon(&quot;image/Big파이리.png&quot;);&#xD;
+			InfoFrame = new JFrame(&quot;포켓몬 정보&quot;);&#xD;
+			InfoFrame.getContentPane().setBackground(Color.white);&#xD;
+			InfoFrame.setBounds(1150, 100, 700, 320);&#xD;
+			pachoice = new JLabel(paImageC);&#xD;
+			pachoice.setBounds(0, 0, 300, 300);&#xD;
+			info = new JLabel(&quot;&lt;html>이름:&quot;+mainPok.name+&quot; 레벨: &quot;+mainPok.level+&quot;&lt;br/>&quot;+&quot;HP/MAXHP:&quot;+mainPok.hp+&quot;/&quot;+mainPok.maxhp+&quot;&lt;br/>공격력: &quot;+mainPok.att+&quot; 방어력: &quot;+mainPok.def+&quot;&lt;br/>&quot;+&quot;&lt;html>&quot;);&#xD;
+			info.setBounds(300, -50, 200, 200);&#xD;
+			info.setFont(new Font(&quot;Courier&quot;, Font.BOLD,20));&#xD;
+			insk = new JLabel(&quot;&lt;html>스킬1: &quot;+ mainPok.SK1.Sname+&quot; 데미지: &quot;+mainPok.SK1.dmg+&quot;&lt;br/> 스킬2: &quot;+ mainPok.SK2.Sname+&quot; 데미지: &quot;+mainPok.SK2.dmg+&quot;&lt;br/>&quot;+&quot;스킬3: &quot;+ mainPok.SK3.Sname+&quot; 데미지: &quot;+mainPok.SK3.dmg+&quot;&lt;html>&quot;);&#xD;
+			insk.setBounds(300, 60, 520, 200);&#xD;
+			insk.setFont(new Font(&quot;Courier&quot;, Font.BOLD,20));&#xD;
+			InfoFrame.add(pachoice);&#xD;
+			InfoFrame.add(info);&#xD;
+			InfoFrame.add(insk);&#xD;
+			InfoFrame.setLayout(null);&#xD;
+			InfoFrame.setVisible(true);&#xD;
+			SelPok.dispose();&#xD;
+		</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_OMAG8aDgEeykIpSMiCkpjw" name="actionPerformed" method="_OMyKFKDgEeykIpSMiCkpjw">
+            <ownedParameter xmi:id="_OMAG8qDgEeykIpSMiCkpjw" name="e" type="_OLV_oaDgEeykIpSMiCkpjw"/>
+          </ownedOperation>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_OD_acKDgEeykIpSMiCkpjw" name="GiveGBG" visibility="package">
+          <interfaceRealization xmi:id="_OMBVEKDgEeykIpSMiCkpjw" client="_OD_acKDgEeykIpSMiCkpjw" supplier="_OLXNwaDgEeykIpSMiCkpjw" contract="_OLXNwaDgEeykIpSMiCkpjw"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OMyxIKDgEeykIpSMiCkpjw" name="actionPerformed" specification="_OMBVEaDgEeykIpSMiCkpjw">
+            <ownedParameter xmi:id="_OMyxIaDgEeykIpSMiCkpjw" name="e" type="_OLV_oaDgEeykIpSMiCkpjw"/>
+            <language>java</language>
+            <body>mainPok = new Ggobu();&#xD;
+			ImageIcon paImageC = new ImageIcon(&quot;image/Big꼬부기.jpg&quot;);&#xD;
+			InfoFrame = new JFrame(&quot;포켓몬 정보&quot;);&#xD;
+			InfoFrame.getContentPane().setBackground(Color.white);&#xD;
+			InfoFrame.setBounds(1100, 100, 700, 320);&#xD;
+			pachoice = new JLabel(paImageC);&#xD;
+			pachoice.setBounds(0, 0, 300, 300);&#xD;
+			info = new JLabel(&quot;&lt;html>이름:&quot;+mainPok.name+&quot; 레벨: &quot;+mainPok.level+&quot;&lt;br/>&quot;+&quot;HP/MAXHP:&quot;+mainPok.hp+&quot;/&quot;+mainPok.maxhp+&quot;&lt;br/>공격력: &quot;+mainPok.att+&quot; 방어력: &quot;+mainPok.def+&quot;&lt;br/>&quot;+&quot;&lt;html>&quot;);&#xD;
+			info.setBounds(300, -50, 250, 200);&#xD;
+			info.setFont(new Font(&quot;Courier&quot;, Font.BOLD,20));&#xD;
+			insk = new JLabel(&quot;&lt;html>스킬1: &quot;+ mainPok.SK1.Sname+&quot; 데미지: &quot;+mainPok.SK1.dmg+&quot;&lt;br/> 스킬2: &quot;+ mainPok.SK2.Sname+&quot; 데미지: &quot;+mainPok.SK2.dmg+&quot;&lt;br/>&quot;+&quot;스킬3: &quot;+ mainPok.SK3.Sname+&quot; 데미지: &quot;+mainPok.SK3.dmg+&quot;&lt;html>&quot;);&#xD;
+			insk.setBounds(300, 70, 520, 200);&#xD;
+			insk.setFont(new Font(&quot;Courier&quot;, Font.BOLD,20));&#xD;
+			InfoFrame.add(pachoice);&#xD;
+			InfoFrame.add(info);&#xD;
+			InfoFrame.add(insk);&#xD;
+			InfoFrame.setLayout(null);&#xD;
+			InfoFrame.setVisible(true);&#xD;
+			SelPok.dispose();&#xD;
+&#xD;
+		</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_OMBVEaDgEeykIpSMiCkpjw" name="actionPerformed" method="_OMyxIKDgEeykIpSMiCkpjw">
+            <ownedParameter xmi:id="_OMBVEqDgEeykIpSMiCkpjw" name="e" type="_OLV_oaDgEeykIpSMiCkpjw"/>
+          </ownedOperation>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_OEAokKDgEeykIpSMiCkpjw" name="GiveLSHC" visibility="package">
+          <interfaceRealization xmi:id="_OMCjMKDgEeykIpSMiCkpjw" client="_OEAokKDgEeykIpSMiCkpjw" supplier="_OLXNwaDgEeykIpSMiCkpjw" contract="_OLXNwaDgEeykIpSMiCkpjw"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OMyxIqDgEeykIpSMiCkpjw" name="actionPerformed" specification="_OMCjMaDgEeykIpSMiCkpjw">
+            <ownedParameter xmi:id="_OMyxI6DgEeykIpSMiCkpjw" name="e" type="_OLV_oaDgEeykIpSMiCkpjw"/>
+            <language>java</language>
+            <body>mainPok = new Lee();&#xD;
+			ImageIcon paImageC = new ImageIcon(&quot;image/Big이상해씨.jpg&quot;);&#xD;
+			InfoFrame = new JFrame(&quot;포켓몬 정보&quot;);&#xD;
+			InfoFrame.getContentPane().setBackground(Color.white);&#xD;
+			InfoFrame.setBounds(1100, 100, 700, 320);&#xD;
+			pachoice = new JLabel(paImageC);&#xD;
+			pachoice.setBounds(0, 0, 300, 300);&#xD;
+			info = new JLabel(&quot;&lt;html>이름:&quot;+mainPok.name+&quot; 레벨: &quot;+mainPok.level+&quot;&lt;br/>&quot;+&quot;HP/MAXHP:&quot;+mainPok.hp+&quot;/&quot;+mainPok.maxhp+&quot;&lt;br/>공격력: &quot;+mainPok.att+&quot; 방어력: &quot;+mainPok.def+&quot;&lt;br/>&quot;+&quot;&lt;html>&quot;);&#xD;
+			info.setBounds(300, -50, 250, 200);&#xD;
+			info.setFont(new Font(&quot;Courier&quot;, Font.BOLD,20));&#xD;
+			insk = new JLabel(&quot;&lt;html>스킬1: &quot;+ mainPok.SK1.Sname+&quot; 데미지: &quot;+mainPok.SK1.dmg+&quot;&lt;br/> 스킬2: &quot;+ mainPok.SK2.Sname+&quot; 데미지: &quot;+mainPok.SK2.dmg+&quot;&lt;br/>&quot;+&quot;스킬3: &quot;+ mainPok.SK3.Sname+&quot; 데미지: &quot;+mainPok.SK3.dmg+&quot;&lt;html>&quot;);&#xD;
+			insk.setBounds(300, 70, 520, 200);&#xD;
+			insk.setFont(new Font(&quot;Courier&quot;, Font.BOLD,20));&#xD;
+			InfoFrame.add(pachoice);&#xD;
+			InfoFrame.add(info);&#xD;
+			InfoFrame.add(insk);&#xD;
+			InfoFrame.setLayout(null);&#xD;
+			InfoFrame.setVisible(true);&#xD;
+			SelPok.dispose();&#xD;
+		</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_OMCjMaDgEeykIpSMiCkpjw" name="actionPerformed" method="_OMyxIqDgEeykIpSMiCkpjw">
+            <ownedParameter xmi:id="_OMCjMqDgEeykIpSMiCkpjw" name="e" type="_OLV_oaDgEeykIpSMiCkpjw"/>
+          </ownedOperation>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_OEDr4KDgEeykIpSMiCkpjw" name="Recover" visibility="package">
+          <interfaceRealization xmi:id="_OMDxUaDgEeykIpSMiCkpjw" client="_OEDr4KDgEeykIpSMiCkpjw" supplier="_OLXNwaDgEeykIpSMiCkpjw" contract="_OLXNwaDgEeykIpSMiCkpjw"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OMyxJKDgEeykIpSMiCkpjw" name="actionPerformed" specification="_OMEYYKDgEeykIpSMiCkpjw">
+            <ownedParameter xmi:id="_OMyxJaDgEeykIpSMiCkpjw" name="e" type="_OLV_oaDgEeykIpSMiCkpjw"/>
+            <language>java</language>
+            <body>mainPok.hp = mainPok.maxhp;&#xD;
+			playerBox.setLocation(440,530);&#xD;
+			stat.setText(&quot;&lt;html>&quot;+mainPok.name+ &quot;&lt;br/>레벨: &quot;+mainPok.level+&quot;&lt;br/>체력: &quot;+ mainPok.hp+&quot;/&quot;+mainPok.maxhp+&quot;&lt;html>&quot;);&#xD;
+			info.setText(&quot;&lt;html>이름:&quot;+mainPok.name+&quot; 레벨: &quot;+mainPok.level+&quot;&lt;br/>&quot;+&quot;HP/MAXHP:&quot;+mainPok.hp+&quot;/&quot;+mainPok.maxhp+&quot;&lt;br/>공격력: &quot;+mainPok.att+&quot; 방어력: &quot;+mainPok.def+&quot;&lt;br/>&quot;+&quot;&lt;html>&quot;);&#xD;
+		</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_OMEYYKDgEeykIpSMiCkpjw" name="actionPerformed" method="_OMyxJKDgEeykIpSMiCkpjw">
+            <ownedParameter xmi:id="_OMEYYaDgEeykIpSMiCkpjw" name="e" type="_OLV_oaDgEeykIpSMiCkpjw"/>
+          </ownedOperation>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_OEGvMKDgEeykIpSMiCkpjw" name="ButtonInfoPage" visibility="package">
+          <interfaceRealization xmi:id="_OME_cqDgEeykIpSMiCkpjw" client="_OEGvMKDgEeykIpSMiCkpjw" supplier="_OLXNwaDgEeykIpSMiCkpjw" contract="_OLXNwaDgEeykIpSMiCkpjw"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OMyxJqDgEeykIpSMiCkpjw" name="actionPerformed" specification="_OMFmgKDgEeykIpSMiCkpjw">
+            <ownedParameter xmi:id="_OMyxJ6DgEeykIpSMiCkpjw" name="e" type="_OLV_oaDgEeykIpSMiCkpjw"/>
+            <language>java</language>
+            <body>JButton inputPok = (JButton)e.getSource();&#xD;
+			&#xD;
+			if(inputPok.getText().equals(&quot;파이리&quot;)) {&#xD;
+				&#xD;
+			}&#xD;
+		</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_OMFmgKDgEeykIpSMiCkpjw" name="actionPerformed" method="_OMyxJqDgEeykIpSMiCkpjw">
+            <ownedParameter xmi:id="_OMFmgaDgEeykIpSMiCkpjw" name="e" type="_OLV_oaDgEeykIpSMiCkpjw"/>
+          </ownedOperation>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_OEJLcKDgEeykIpSMiCkpjw" name="MyPokSkill" visibility="package">
+          <interfaceRealization xmi:id="_OMGNkqDgEeykIpSMiCkpjw" client="_OEJLcKDgEeykIpSMiCkpjw" supplier="_OLXNwaDgEeykIpSMiCkpjw" contract="_OLXNwaDgEeykIpSMiCkpjw"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OMzYMKDgEeykIpSMiCkpjw" name="actionPerformed" specification="_OMG0oKDgEeykIpSMiCkpjw">
+            <ownedParameter xmi:id="_OMzYMaDgEeykIpSMiCkpjw" name="e" type="_OLV_oaDgEeykIpSMiCkpjw"/>
+            <language>java</language>
+            <body>JButton Input = (JButton)e.getSource();&#xD;
+			&#xD;
+			if(Input.getText().equals(mainPok.SK1.Sname)) {&#xD;
+				int attackDmg = (mainPok.SK1.dmg - enemyPok.def);&#xD;
+				if(attackDmg&lt;1) attackDmg =1;&#xD;
+				enemyPok.hp -= attackDmg;&#xD;
+				skillname = mainPok.SK1.Sname;&#xD;
+			}&#xD;
+			&#xD;
+			else if(Input.getText().equals(mainPok.SK2.Sname)) {&#xD;
+				int attackDmg = (mainPok.SK2.dmg - enemyPok.def);&#xD;
+				if(attackDmg&lt;1) attackDmg =1;&#xD;
+				enemyPok.hp -= attackDmg;&#xD;
+				skillname = mainPok.SK2.Sname;&#xD;
+			}&#xD;
+			&#xD;
+			else if(Input.getText().equals(mainPok.SK3.Sname)) {&#xD;
+				int attackDmg = (mainPok.SK3.dmg - enemyPok.def);&#xD;
+				if(attackDmg&lt;1) attackDmg =1;&#xD;
+				enemyPok.hp -= attackDmg;&#xD;
+				skillname = mainPok.SK3.Sname;&#xD;
+			}&#xD;
+			&#xD;
+			myAttMes = mainPok.name + &quot;의 &quot; + skillname + &quot; 공격!&quot;;&#xD;
+			battleMes = myAttMes;&#xD;
+			&#xD;
+			MyPokSk1.setEnabled(false);&#xD;
+			MyPokSk2.setEnabled(false);&#xD;
+			MyPokSk3.setEnabled(false);&#xD;
+			&#xD;
+			BattleM.setText(battleMes);&#xD;
+			EnemyStat.setText(&quot;&lt;html>&quot;+enemyPok.name+&quot;&lt;br/>레벨: &quot;+enemyPok.level+&quot;&lt;br/>체력: &quot;+ enemyPok.hp+&quot;&lt;html>&quot;);&#xD;
+			&#xD;
+			myTurn = false;&#xD;
+		</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_OMG0oKDgEeykIpSMiCkpjw" name="actionPerformed" method="_OMzYMKDgEeykIpSMiCkpjw">
+            <ownedParameter xmi:id="_OMG0oaDgEeykIpSMiCkpjw" name="e" type="_OLV_oaDgEeykIpSMiCkpjw"/>
+          </ownedOperation>
+        </nestedClassifier>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_OMKfAKDgEeykIpSMiCkpjw" name="Pokemon" visibility="package">
+        <ownedAttribute xmi:id="_XGgj0KDgEeykIpSMiCkpjw" name="name" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_XGhK4aDgEeykIpSMiCkpjw" name="level" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_XGhx8KDgEeykIpSMiCkpjw" value="5"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_XGhx8qDgEeykIpSMiCkpjw" name="hp" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_XGhx86DgEeykIpSMiCkpjw" value="50"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_XGjAEaDgEeykIpSMiCkpjw" name="maxhp" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_XGjAEqDgEeykIpSMiCkpjw" value="hp"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_XGjnIaDgEeykIpSMiCkpjw" name="att" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_XGjnIqDgEeykIpSMiCkpjw" value="16"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_XGkOMaDgEeykIpSMiCkpjw" name="def" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_XGkOMqDgEeykIpSMiCkpjw" value="5"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_XGk1QaDgEeykIpSMiCkpjw" name="image" visibility="package" type="_OLbfMaDgEeykIpSMiCkpjw" association="_XGq74KDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_XGmDYaDgEeykIpSMiCkpjw" name="SK1" visibility="package" type="_XGPeEKDgEeykIpSMiCkpjw" association="_XGq746DgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_XGofoKDgEeykIpSMiCkpjw" name="SK2" visibility="package" type="_XGPeEKDgEeykIpSMiCkpjw" association="_XGri8aDgEeykIpSMiCkpjw"/>
+        <ownedAttribute xmi:id="_XGofo6DgEeykIpSMiCkpjw" name="SK3" visibility="package" type="_XGPeEKDgEeykIpSMiCkpjw" association="_XGsKAKDgEeykIpSMiCkpjw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGn4kKDgEeykIpSMiCkpjw" name="levelup" specification="_XGQsMKDgEeykIpSMiCkpjw">
+          <language>java</language>
+          <body>level += 1;&#xD;
+			hp += 1;&#xD;
+			maxhp += 1;&#xD;
+			att +=1;&#xD;
+			def += 1;&#xD;
+			SK1.dmg += 1;&#xD;
+			SK2.dmg += 1;&#xD;
+			SK3.dmg += 1;&#xD;
+		</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGn4kaDgEeykIpSMiCkpjw" name="Pokemon" specification="_XGRTQaDgEeykIpSMiCkpjw">
+          <ownedParameter xmi:id="_XGn4kqDgEeykIpSMiCkpjw" type="_OMKfAKDgEeykIpSMiCkpjw" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>set();&#xD;
+		</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_XGQsMKDgEeykIpSMiCkpjw" name="levelup" visibility="package" method="_XGn4kKDgEeykIpSMiCkpjw"/>
+        <ownedOperation xmi:id="_XGQsMaDgEeykIpSMiCkpjw" name="set"/>
+        <ownedOperation xmi:id="_XGRTQaDgEeykIpSMiCkpjw" name="Pokemon" method="_XGn4kaDgEeykIpSMiCkpjw">
+          <eAnnotations xmi:id="_XGRTQqDgEeykIpSMiCkpjw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_XGRTQ6DgEeykIpSMiCkpjw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_XGRTRKDgEeykIpSMiCkpjw" type="_OMKfAKDgEeykIpSMiCkpjw" direction="return"/>
+        </ownedOperation>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_XGLzsKDgEeykIpSMiCkpjw" name="Pa" visibility="package">
+          <eAnnotations xmi:id="_XGLzsaDgEeykIpSMiCkpjw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_XGLzsqDgEeykIpSMiCkpjw" key="sameFile"/>
+          </eAnnotations>
+          <generalization xmi:id="_XGeHkKDgEeykIpSMiCkpjw" general="_OMKfAKDgEeykIpSMiCkpjw"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGnRgKDgEeykIpSMiCkpjw" name="set" specification="_XGLzs6DgEeykIpSMiCkpjw">
+            <language>java</language>
+            <body>name = &quot;파이리&quot;;&#xD;
+		image = new ImageIcon(&quot;image/파이리.png&quot;);&#xD;
+		SK1 = new Skill(&quot;할퀴기&quot;, 5);&#xD;
+		SK2 = new Skill(&quot;불꽃셰레&quot;, 10);&#xD;
+		SK3 = new Skill(&quot;화염방사&quot;, 15);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_XGLzs6DgEeykIpSMiCkpjw" name="set" method="_XGnRgKDgEeykIpSMiCkpjw"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_XGNB0qDgEeykIpSMiCkpjw" name="Ggobu" visibility="package">
+          <eAnnotations xmi:id="_XGNB06DgEeykIpSMiCkpjw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_XGNB1KDgEeykIpSMiCkpjw" key="sameFile"/>
+          </eAnnotations>
+          <generalization xmi:id="_XGeuoKDgEeykIpSMiCkpjw" general="_OMKfAKDgEeykIpSMiCkpjw"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGnRgaDgEeykIpSMiCkpjw" name="set" specification="_XGNo4KDgEeykIpSMiCkpjw">
+            <language>java</language>
+            <body>name =&quot;꼬부기&quot;;&#xD;
+		image = new ImageIcon(&quot;image/꼬부기.png&quot;);&#xD;
+		SK1 = new Skill(&quot;몸통박치기&quot;,5);&#xD;
+		SK2 = new Skill(&quot;물대포&quot;,10);&#xD;
+		SK3 = new Skill(&quot;물의파동&quot;,15);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_XGNo4KDgEeykIpSMiCkpjw" name="set" method="_XGnRgaDgEeykIpSMiCkpjw"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_XGOP8KDgEeykIpSMiCkpjw" name="Lee" visibility="package">
+          <eAnnotations xmi:id="_XGOP8aDgEeykIpSMiCkpjw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_XGOP8qDgEeykIpSMiCkpjw" key="sameFile"/>
+          </eAnnotations>
+          <generalization xmi:id="_XGeuoaDgEeykIpSMiCkpjw" general="_OMKfAKDgEeykIpSMiCkpjw"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGnRgqDgEeykIpSMiCkpjw" name="set" specification="_XGOP86DgEeykIpSMiCkpjw">
+            <language>java</language>
+            <body>name =&quot;이상해씨&quot;;&#xD;
+		image = new ImageIcon(&quot;image/이상해씨.png&quot;);&#xD;
+		SK1 = new Skill(&quot;덩쿨채찍&quot;,5);&#xD;
+		SK2 = new Skill(&quot;잎날 가르기&quot;,10);&#xD;
+		SK3 = new Skill(&quot;솔라빔&quot;,15);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_XGOP86DgEeykIpSMiCkpjw" name="set" method="_XGnRgqDgEeykIpSMiCkpjw"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_XGPeEKDgEeykIpSMiCkpjw" name="Skill" visibility="package">
+          <ownedAttribute xmi:id="_XGlcUKDgEeykIpSMiCkpjw" name="Sname" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_XGlcUqDgEeykIpSMiCkpjw" name="dmg" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_XGlcU6DgEeykIpSMiCkpjw" value="10"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGnRg6DgEeykIpSMiCkpjw" name="Skill" specification="_XGQFIKDgEeykIpSMiCkpjw">
+            <ownedParameter xmi:id="_XGnRhKDgEeykIpSMiCkpjw" name="sname">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_XGnRhaDgEeykIpSMiCkpjw" name="dmg">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_XGnRhqDgEeykIpSMiCkpjw" type="_XGPeEKDgEeykIpSMiCkpjw" direction="return">
+              <name xsi:nil="true"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>Sname = sname;&#xD;
+				this.dmg = dmg+att;&#xD;
+			</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_XGQFIKDgEeykIpSMiCkpjw" name="Skill" method="_XGnRg6DgEeykIpSMiCkpjw">
+            <eAnnotations xmi:id="_XGQFI6DgEeykIpSMiCkpjw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_XGQFJKDgEeykIpSMiCkpjw" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_XGQFIaDgEeykIpSMiCkpjw" name="sname">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_XGQFIqDgEeykIpSMiCkpjw" name="dmg">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_XGQFJaDgEeykIpSMiCkpjw" type="_XGPeEKDgEeykIpSMiCkpjw" direction="return"/>
+          </ownedOperation>
+        </nestedClassifier>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_OMLGEaDgEeykIpSMiCkpjw" name="WildPokemon" visibility="package">
+        <generalization xmi:id="_Yiic8qDgEeykIpSMiCkpjw" general="_OMKfAKDgEeykIpSMiCkpjw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YijEBqDgEeykIpSMiCkpjw" name="WildPokemon" specification="_YiHmMKDgEeykIpSMiCkpjw">
+          <ownedParameter xmi:id="_YijrEKDgEeykIpSMiCkpjw" type="_OMLGEaDgEeykIpSMiCkpjw" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>setW();&#xD;
+		set();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YijrEaDgEeykIpSMiCkpjw" name="setW" specification="_YiI0UaDgEeykIpSMiCkpjw">
+          <language>java</language>
+          <body>level = (int)(Math.random()*5) + 1;&#xD;
+		hp = 30 + level*5;&#xD;
+		maxhp = 30;&#xD;
+		att = level;&#xD;
+		def = level;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_YiHmMKDgEeykIpSMiCkpjw" name="WildPokemon" method="_YijEBqDgEeykIpSMiCkpjw">
+          <eAnnotations xmi:id="_YiINQKDgEeykIpSMiCkpjw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_YiINQaDgEeykIpSMiCkpjw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_YiI0UKDgEeykIpSMiCkpjw" type="_OMLGEaDgEeykIpSMiCkpjw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_YiI0UaDgEeykIpSMiCkpjw" name="setW" method="_YijrEaDgEeykIpSMiCkpjw"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_Yh3HgKDgEeykIpSMiCkpjw" name="GGorat" visibility="package">
+          <eAnnotations xmi:id="_Yh3ukKDgEeykIpSMiCkpjw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_Yh3ukaDgEeykIpSMiCkpjw" key="sameFile"/>
+          </eAnnotations>
+          <generalization xmi:id="_Yih14KDgEeykIpSMiCkpjw" general="_OMLGEaDgEeykIpSMiCkpjw"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YijEAKDgEeykIpSMiCkpjw" name="set" specification="_Yh4VoKDgEeykIpSMiCkpjw">
+            <language>java</language>
+            <body>name = &quot;꼬렛&quot;;&#xD;
+		image = new ImageIcon(&quot;image/꼬렛.png&quot;);&#xD;
+		SK1 = new Skill(&quot;몸통박치기&quot;, 5);&#xD;
+		SK2 = new Skill(&quot;전광석화&quot;, 10);&#xD;
+		SK3 = new Skill(&quot;필살앞니&quot;, 15);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_Yh4VoKDgEeykIpSMiCkpjw" name="set" method="_YijEAKDgEeykIpSMiCkpjw"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_Yh9OIKDgEeykIpSMiCkpjw" name="Catupi" visibility="package">
+          <eAnnotations xmi:id="_Yh91MKDgEeykIpSMiCkpjw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_Yh91MaDgEeykIpSMiCkpjw" key="sameFile"/>
+          </eAnnotations>
+          <generalization xmi:id="_Yih14aDgEeykIpSMiCkpjw" general="_OMLGEaDgEeykIpSMiCkpjw"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YijEAaDgEeykIpSMiCkpjw" name="set" specification="_Yh91MqDgEeykIpSMiCkpjw">
+            <language>java</language>
+            <body>name = &quot;캐터피&quot;;&#xD;
+		image = new ImageIcon(&quot;image/캐터피.png&quot;);&#xD;
+		SK1 = new Skill(&quot;몸통박치기&quot;, 5);&#xD;
+		SK2 = new Skill(&quot;실뿜기&quot;, 10);&#xD;
+		SK3 = new Skill(&quot;벌레먹음&quot;, 15);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_Yh91MqDgEeykIpSMiCkpjw" name="set" method="_YijEAaDgEeykIpSMiCkpjw"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_Yh_DUKDgEeykIpSMiCkpjw" name="Gugu" visibility="package">
+          <eAnnotations xmi:id="_Yh_DUaDgEeykIpSMiCkpjw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_Yh_DUqDgEeykIpSMiCkpjw" key="sameFile"/>
+          </eAnnotations>
+          <generalization xmi:id="_Yih14qDgEeykIpSMiCkpjw" general="_OMLGEaDgEeykIpSMiCkpjw"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YijEAqDgEeykIpSMiCkpjw" name="set" specification="_Yh_DU6DgEeykIpSMiCkpjw">
+            <language>java</language>
+            <body>name = &quot;구구&quot;;&#xD;
+		image = new ImageIcon(&quot;image/구구.png&quot;);&#xD;
+		SK1 = new Skill(&quot;몸통박치기&quot;, 5);&#xD;
+		SK2 = new Skill(&quot;바람일으키기&quot;, 10);&#xD;
+		SK3 = new Skill(&quot;에어슬래시&quot;, 15);	&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_Yh_DU6DgEeykIpSMiCkpjw" name="set" method="_YijEAqDgEeykIpSMiCkpjw"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_YiARcKDgEeykIpSMiCkpjw" name="Eve" visibility="package">
+          <eAnnotations xmi:id="_YiARcaDgEeykIpSMiCkpjw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_YiARcqDgEeykIpSMiCkpjw" key="sameFile"/>
+          </eAnnotations>
+          <generalization xmi:id="_Yiic8KDgEeykIpSMiCkpjw" general="_OMLGEaDgEeykIpSMiCkpjw"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YijEA6DgEeykIpSMiCkpjw" name="set" specification="_YiA4gKDgEeykIpSMiCkpjw">
+            <language>java</language>
+            <body>name = &quot;이브이&quot;;&#xD;
+		image = new ImageIcon(&quot;image/이브이.png&quot;);&#xD;
+		SK1 = new Skill(&quot;몸통박치기&quot;, 5);&#xD;
+		SK2 = new Skill(&quot;전광석화&quot;, 10);&#xD;
+		SK3 = new Skill(&quot;스피드 스타&quot;, 15);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_YiA4gKDgEeykIpSMiCkpjw" name="set" method="_YijEA6DgEeykIpSMiCkpjw"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_YiEi4KDgEeykIpSMiCkpjw" name="BossPok" visibility="package">
+          <eAnnotations xmi:id="_YiEi4aDgEeykIpSMiCkpjw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_YiFJ8KDgEeykIpSMiCkpjw" key="sameFile"/>
+          </eAnnotations>
+          <generalization xmi:id="_Yiic8aDgEeykIpSMiCkpjw" general="_OMLGEaDgEeykIpSMiCkpjw"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YijEBKDgEeykIpSMiCkpjw" name="setW" specification="_YiFJ8aDgEeykIpSMiCkpjw">
+            <language>java</language>
+            <body>level = 50;&#xD;
+		hp = 150;&#xD;
+		maxhp = 150;&#xD;
+		att = 10;&#xD;
+		def = 10;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YijEBaDgEeykIpSMiCkpjw" name="set" specification="_YiGYEqDgEeykIpSMiCkpjw">
+            <language>java</language>
+            <body>name = &quot;뮤츠&quot;;&#xD;
+		image = new ImageIcon(&quot;image/뮤츠150.jpg&quot;);&#xD;
+		SK1 = new Skill(&quot;염동력&quot;, 10);&#xD;
+		SK2 = new Skill(&quot;사이코키네시스&quot;, 20);&#xD;
+		SK3 = new Skill(&quot;정신 파괴&quot;, 30);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_YiFJ8aDgEeykIpSMiCkpjw" name="setW" method="_YijEBKDgEeykIpSMiCkpjw"/>
+          <ownedOperation xmi:id="_YiGYEqDgEeykIpSMiCkpjw" name="set" method="_YijEBaDgEeykIpSMiCkpjw"/>
+        </nestedClassifier>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONNA0KDgEeykIpSMiCkpjw" name="" memberEnd="_ONNA0aDgEeykIpSMiCkpjw _OMRzwaDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONNA0aDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONNA0KDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONOO8KDgEeykIpSMiCkpjw" name="" memberEnd="_ONOO8aDgEeykIpSMiCkpjw _OMTB4KDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONOO8aDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONOO8KDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONOO86DgEeykIpSMiCkpjw" name="" memberEnd="_ONOO9KDgEeykIpSMiCkpjw _OMTo8qDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONOO9KDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONOO86DgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONO2AaDgEeykIpSMiCkpjw" name="" memberEnd="_ONO2AqDgEeykIpSMiCkpjw _OMU3EaDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONO2AqDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONO2AaDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONPdEaDgEeykIpSMiCkpjw" name="" memberEnd="_ONPdEqDgEeykIpSMiCkpjw _OMVeIaDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONPdEqDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONPdEaDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONQEIaDgEeykIpSMiCkpjw" name="" memberEnd="_ONQEIqDgEeykIpSMiCkpjw _OMWFMaDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONQEIqDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONQEIaDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONQrMaDgEeykIpSMiCkpjw" name="" memberEnd="_ONQrMqDgEeykIpSMiCkpjw _OMXTUKDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONQrMqDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONQrMaDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONRSQaDgEeykIpSMiCkpjw" name="" memberEnd="_ONRSQqDgEeykIpSMiCkpjw _OMX6YaDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONRSQqDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONRSQaDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONR5UaDgEeykIpSMiCkpjw" name="" memberEnd="_ONR5UqDgEeykIpSMiCkpjw _OMYhcKDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONR5UqDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONR5UaDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONSgYaDgEeykIpSMiCkpjw" name="" memberEnd="_ONSgYqDgEeykIpSMiCkpjw _OMZIgaDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONSgYqDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONSgYaDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONTHcKDgEeykIpSMiCkpjw" name="" memberEnd="_ONTHcaDgEeykIpSMiCkpjw _OMaWoKDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONTHcaDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONTHcKDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONTugKDgEeykIpSMiCkpjw" name="" memberEnd="_ONTugaDgEeykIpSMiCkpjw _OMa9sKDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONTugaDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONTugKDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONUVkKDgEeykIpSMiCkpjw" name="" memberEnd="_ONUVkaDgEeykIpSMiCkpjw _OMbkwaDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONUVkaDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONUVkKDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONUVk6DgEeykIpSMiCkpjw" name="" memberEnd="_ONUVlKDgEeykIpSMiCkpjw _OMf2MaDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONUVlKDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONUVk6DgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONU8oaDgEeykIpSMiCkpjw" name="" memberEnd="_ONU8oqDgEeykIpSMiCkpjw _OMgdQaDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONU8oqDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONU8oaDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONVjsaDgEeykIpSMiCkpjw" name="" memberEnd="_ONVjsqDgEeykIpSMiCkpjw _OMhrYKDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONVjsqDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONVjsaDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONWKwaDgEeykIpSMiCkpjw" name="" memberEnd="_ONWKwqDgEeykIpSMiCkpjw _OMhrYqDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONWKwqDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONWKwaDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONWx0aDgEeykIpSMiCkpjw" name="" memberEnd="_ONWx0qDgEeykIpSMiCkpjw _OM6s8KDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONWx0qDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONWx0aDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONXY4aDgEeykIpSMiCkpjw" name="" memberEnd="_ONXY4qDgEeykIpSMiCkpjw _OM6s86DgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONXY4qDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONXY4aDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONX_8aDgEeykIpSMiCkpjw" name="" memberEnd="_ONX_8qDgEeykIpSMiCkpjw _OM7UAaDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONX_8qDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONX_8aDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONYnAaDgEeykIpSMiCkpjw" name="" memberEnd="_ONYnAqDgEeykIpSMiCkpjw _OM77EKDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONYnAqDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONYnAaDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONZOEaDgEeykIpSMiCkpjw" name="" memberEnd="_ONZOEqDgEeykIpSMiCkpjw _OM77E6DgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONZOEqDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONZOEaDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONZ1IKDgEeykIpSMiCkpjw" name="" memberEnd="_ONZ1IaDgEeykIpSMiCkpjw _OM8iIqDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONZ1IaDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONZ1IKDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONZ1I6DgEeykIpSMiCkpjw" name="" memberEnd="_ONZ1JKDgEeykIpSMiCkpjw _OM9JMKDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONZ1JKDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONZ1I6DgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONacMaDgEeykIpSMiCkpjw" name="" memberEnd="_ONacMqDgEeykIpSMiCkpjw _OM9JM6DgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONacMqDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONacMaDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONbDQaDgEeykIpSMiCkpjw" name="" memberEnd="_ONbDQqDgEeykIpSMiCkpjw _OM9wQqDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONbDQqDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONbDQaDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONbqUaDgEeykIpSMiCkpjw" name="" memberEnd="_ONbqUqDgEeykIpSMiCkpjw _OM-XUqDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONbqUqDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONbqUaDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONcRYKDgEeykIpSMiCkpjw" name="" memberEnd="_ONcRYaDgEeykIpSMiCkpjw _OM--YKDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONcRYaDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONcRYKDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONcRY6DgEeykIpSMiCkpjw" name="" memberEnd="_ONcRZKDgEeykIpSMiCkpjw _OM_lcKDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONcRZKDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONcRY6DgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONc4caDgEeykIpSMiCkpjw" name="" memberEnd="_ONc4cqDgEeykIpSMiCkpjw _OM_lc6DgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONc4cqDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONc4caDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONdfgaDgEeykIpSMiCkpjw" name="" memberEnd="_ONdfgqDgEeykIpSMiCkpjw _ONAMgaDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONdfgqDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONdfgaDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONeGkaDgEeykIpSMiCkpjw" name="" memberEnd="_ONeGkqDgEeykIpSMiCkpjw _ONAMhKDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONeGkqDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONeGkaDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONetoaDgEeykIpSMiCkpjw" name="" memberEnd="_ONetoqDgEeykIpSMiCkpjw _ONAzkqDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONetoqDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONetoaDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONfUsKDgEeykIpSMiCkpjw" name="" memberEnd="_ONfUsaDgEeykIpSMiCkpjw _ONBaoaDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONfUsaDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONfUsKDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONfUs6DgEeykIpSMiCkpjw" name="" memberEnd="_ONfUtKDgEeykIpSMiCkpjw _ONCBsKDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONfUtKDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONfUs6DgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONf7waDgEeykIpSMiCkpjw" name="" memberEnd="_ONf7wqDgEeykIpSMiCkpjw _ONCBs6DgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONf7wqDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONf7waDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONgi0aDgEeykIpSMiCkpjw" name="" memberEnd="_ONgi0qDgEeykIpSMiCkpjw _ONCowaDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONgi0qDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONgi0aDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONhw8aDgEeykIpSMiCkpjw" name="" memberEnd="_ONhw8qDgEeykIpSMiCkpjw _ONDP0qDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONhw8qDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONhw8aDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONiYAaDgEeykIpSMiCkpjw" name="" memberEnd="_ONiYAqDgEeykIpSMiCkpjw _OND24aDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONiYAqDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONiYAaDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONi_EKDgEeykIpSMiCkpjw" name="" memberEnd="_ONi_EaDgEeykIpSMiCkpjw _OND25KDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONi_EaDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONi_EKDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONjmIaDgEeykIpSMiCkpjw" name="" memberEnd="_ONjmIqDgEeykIpSMiCkpjw _ONEd8qDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONjmIqDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONjmIaDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ONkNMaDgEeykIpSMiCkpjw" name="" memberEnd="_ONkNMqDgEeykIpSMiCkpjw _ONFFAKDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_ONkNMqDgEeykIpSMiCkpjw" name="" type="_ODVTIKDgEeykIpSMiCkpjw" association="_ONkNMaDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_XGq74KDgEeykIpSMiCkpjw" name="" memberEnd="_XGq74aDgEeykIpSMiCkpjw _XGk1QaDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_XGq74aDgEeykIpSMiCkpjw" name="" type="_OMKfAKDgEeykIpSMiCkpjw" association="_XGq74KDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_XGq746DgEeykIpSMiCkpjw" name="" memberEnd="_XGq75KDgEeykIpSMiCkpjw _XGmDYaDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_XGq75KDgEeykIpSMiCkpjw" name="" type="_OMKfAKDgEeykIpSMiCkpjw" association="_XGq746DgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_XGri8aDgEeykIpSMiCkpjw" name="" memberEnd="_XGri8qDgEeykIpSMiCkpjw _XGofoKDgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_XGri8qDgEeykIpSMiCkpjw" name="" type="_OMKfAKDgEeykIpSMiCkpjw" association="_XGri8aDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_XGsKAKDgEeykIpSMiCkpjw" name="" memberEnd="_XGsKAaDgEeykIpSMiCkpjw _XGofo6DgEeykIpSMiCkpjw">
+        <ownedEnd xmi:id="_XGsKAaDgEeykIpSMiCkpjw" name="" type="_OMKfAKDgEeykIpSMiCkpjw" association="_XGsKAKDgEeykIpSMiCkpjw"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_ODV6MKDgEeykIpSMiCkpjw">
+      <eAnnotations xmi:id="_ODY9gKDgEeykIpSMiCkpjw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ODwJ4KDgEeykIpSMiCkpjw" base_Element="_ODuUsKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Annotations xmi:id="_ODx_EKDgEeykIpSMiCkpjw" base_Element="_ODuUsKDgEeykIpSMiCkpjw">
+    <annotations xmi:id="_ODx_EaDgEeykIpSMiCkpjw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OD1pcKDgEeykIpSMiCkpjw" base_Element="_OD0bUKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Annotations xmi:id="_OD3eoKDgEeykIpSMiCkpjw" base_Element="_OD0bUKDgEeykIpSMiCkpjw">
+    <annotations xmi:id="_OD3eoaDgEeykIpSMiCkpjw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_OLP5AKDgEeykIpSMiCkpjw" base_Element="_OLOq4KDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_OLSVQKDgEeykIpSMiCkpjw" base_Element="_OLRHIKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_OLTjYKDgEeykIpSMiCkpjw" base_Element="_OLS8UKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_OLUKcKDgEeykIpSMiCkpjw" base_Element="_OLTjYaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_OLUxgKDgEeykIpSMiCkpjw" base_Element="_OLUKcaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_OLV_oKDgEeykIpSMiCkpjw" base_Element="_OLVYkKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_OLXNwKDgEeykIpSMiCkpjw" base_Element="_OLV_oaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_OLX00KDgEeykIpSMiCkpjw" base_Element="_OLXNwaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_OLZqAKDgEeykIpSMiCkpjw" base_Element="_OLYb4KDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_OLa4IKDgEeykIpSMiCkpjw" base_Element="_OLaREKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_OLbfMKDgEeykIpSMiCkpjw" base_Element="_OLa4IaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_OLctUKDgEeykIpSMiCkpjw" base_Element="_OLbfMaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_OLdUYKDgEeykIpSMiCkpjw" base_Element="_OLctUaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_OLd7cKDgEeykIpSMiCkpjw" base_Element="_OLdUYaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_OLeigaDgEeykIpSMiCkpjw" base_Element="_OLeigKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_OLfwoKDgEeykIpSMiCkpjw" base_Element="_OLfJkKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_OLgXsKDgEeykIpSMiCkpjw" base_Element="_OLfwoaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_OLhl0KDgEeykIpSMiCkpjw" base_Element="_OLgXsaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_OLiM4KDgEeykIpSMiCkpjw" base_Element="_OLhl0aDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_OLiz8KDgEeykIpSMiCkpjw" base_Element="_OLiM4aDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OL29AKDgEeykIpSMiCkpjw" base_Element="_OL2V8KDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Annotations xmi:id="_OL29AaDgEeykIpSMiCkpjw" base_Element="_OL2V8KDgEeykIpSMiCkpjw">
+    <annotations xmi:id="_OL29AqDgEeykIpSMiCkpjw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OL4LIqDgEeykIpSMiCkpjw" base_Element="_OL4LIKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Annotations xmi:id="_OL4yMKDgEeykIpSMiCkpjw" base_Element="_OL4LIKDgEeykIpSMiCkpjw">
+    <annotations xmi:id="_OL4yMaDgEeykIpSMiCkpjw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OL6AUKDgEeykIpSMiCkpjw" base_Element="_OL5ZQKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Annotations xmi:id="_OL6AUaDgEeykIpSMiCkpjw" base_Element="_OL5ZQKDgEeykIpSMiCkpjw">
+    <annotations xmi:id="_OL6AUqDgEeykIpSMiCkpjw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OL7OcaDgEeykIpSMiCkpjw" base_Element="_OL6nYaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Annotations xmi:id="_OL71gKDgEeykIpSMiCkpjw" base_Element="_OL6nYaDgEeykIpSMiCkpjw">
+    <annotations xmi:id="_OL71gaDgEeykIpSMiCkpjw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_OL8ckKDgEeykIpSMiCkpjw" base_Element="_OL71g6DgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OL9qsqDgEeykIpSMiCkpjw" base_Element="_OL9qsKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Annotations xmi:id="_OL-RwKDgEeykIpSMiCkpjw" base_Element="_OL9qsKDgEeykIpSMiCkpjw">
+    <annotations xmi:id="_OL-RwaDgEeykIpSMiCkpjw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OL-40KDgEeykIpSMiCkpjw" base_Element="_OL-RwqDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Annotations xmi:id="_OL-40aDgEeykIpSMiCkpjw" base_Element="_OL-RwqDgEeykIpSMiCkpjw">
+    <annotations xmi:id="_OL-40qDgEeykIpSMiCkpjw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OL_f4KDgEeykIpSMiCkpjw" base_Element="_OL-406DgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Annotations xmi:id="_OL_f4aDgEeykIpSMiCkpjw" base_Element="_OL-406DgEeykIpSMiCkpjw">
+    <annotations xmi:id="_OL_f4qDgEeykIpSMiCkpjw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OMAuAKDgEeykIpSMiCkpjw" base_Element="_OMAG8aDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Annotations xmi:id="_OMAuAaDgEeykIpSMiCkpjw" base_Element="_OMAG8aDgEeykIpSMiCkpjw">
+    <annotations xmi:id="_OMAuAqDgEeykIpSMiCkpjw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OMB8IKDgEeykIpSMiCkpjw" base_Element="_OMBVEaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Annotations xmi:id="_OMB8IaDgEeykIpSMiCkpjw" base_Element="_OMBVEaDgEeykIpSMiCkpjw">
+    <annotations xmi:id="_OMB8IqDgEeykIpSMiCkpjw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OMDKQKDgEeykIpSMiCkpjw" base_Element="_OMCjMaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Annotations xmi:id="_OMDKQaDgEeykIpSMiCkpjw" base_Element="_OMCjMaDgEeykIpSMiCkpjw">
+    <annotations xmi:id="_OMDxUKDgEeykIpSMiCkpjw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OMEYYqDgEeykIpSMiCkpjw" base_Element="_OMEYYKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Annotations xmi:id="_OME_cKDgEeykIpSMiCkpjw" base_Element="_OMEYYKDgEeykIpSMiCkpjw">
+    <annotations xmi:id="_OME_caDgEeykIpSMiCkpjw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OMFmgqDgEeykIpSMiCkpjw" base_Element="_OMFmgKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Annotations xmi:id="_OMGNkKDgEeykIpSMiCkpjw" base_Element="_OMFmgKDgEeykIpSMiCkpjw">
+    <annotations xmi:id="_OMGNkaDgEeykIpSMiCkpjw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OMHbsKDgEeykIpSMiCkpjw" base_Element="_OMG0oKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Annotations xmi:id="_OMICwKDgEeykIpSMiCkpjw" base_Element="_OMG0oKDgEeykIpSMiCkpjw">
+    <annotations xmi:id="_OMIp0KDgEeykIpSMiCkpjw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:MultiDeclaration xmi:id="_OMRMsKDgEeykIpSMiCkpjw" base_Property="_OMQloKDgEeykIpSMiCkpjw" siblings="_OM43wKDgEeykIpSMiCkpjw _OM5e0aDgEeykIpSMiCkpjw _OM6F4KDgEeykIpSMiCkpjw" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OMRzwKDgEeykIpSMiCkpjw" base_Element="_OMQloKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_OMSa0KDgEeykIpSMiCkpjw" base_Property="_OMRzwaDgEeykIpSMiCkpjw" siblings="_OM6s8KDgEeykIpSMiCkpjw _OM6s86DgEeykIpSMiCkpjw _OM7UAaDgEeykIpSMiCkpjw" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OMSa0aDgEeykIpSMiCkpjw" base_Element="_OMRzwaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Generics xmi:id="_OMTB4aDgEeykIpSMiCkpjw" genericsValue="WildPokemon" base_Element="_OMTB4KDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OMTo8aDgEeykIpSMiCkpjw" base_Element="_OMTB4KDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Generics xmi:id="_OMUQAKDgEeykIpSMiCkpjw" genericsValue="Pokemon.Skill" base_Element="_OMTo8qDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OMU3EKDgEeykIpSMiCkpjw" base_Element="_OMTo8qDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_OMU3EqDgEeykIpSMiCkpjw" base_Property="_OMU3EaDgEeykIpSMiCkpjw" siblings="_OM77EKDgEeykIpSMiCkpjw _OM77E6DgEeykIpSMiCkpjw _OM8iIqDgEeykIpSMiCkpjw" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OMVeIKDgEeykIpSMiCkpjw" base_Element="_OMU3EaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OMWFMKDgEeykIpSMiCkpjw" base_Element="_OMVeIaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_OMWFMqDgEeykIpSMiCkpjw" base_Property="_OMWFMaDgEeykIpSMiCkpjw" siblings="_OM9JMKDgEeykIpSMiCkpjw _OM9JM6DgEeykIpSMiCkpjw" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OMWsQKDgEeykIpSMiCkpjw" base_Element="_OMWFMaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OMX6YKDgEeykIpSMiCkpjw" base_Element="_OMXTUKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_OMX6YqDgEeykIpSMiCkpjw" base_Property="_OMX6YaDgEeykIpSMiCkpjw" siblings="_OM9wQqDgEeykIpSMiCkpjw _OM-XUqDgEeykIpSMiCkpjw" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OMX6Y6DgEeykIpSMiCkpjw" base_Element="_OMX6YaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_OMYhcaDgEeykIpSMiCkpjw" base_Property="_OMYhcKDgEeykIpSMiCkpjw" siblings="_OM--YKDgEeykIpSMiCkpjw _OM_lcKDgEeykIpSMiCkpjw _OM_lc6DgEeykIpSMiCkpjw _ONAMgaDgEeykIpSMiCkpjw _ONAMhKDgEeykIpSMiCkpjw" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OMZIgKDgEeykIpSMiCkpjw" base_Element="_OMYhcKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_OMZvkKDgEeykIpSMiCkpjw" base_Property="_OMZIgaDgEeykIpSMiCkpjw" siblings="_ONAzkqDgEeykIpSMiCkpjw _ONBaoaDgEeykIpSMiCkpjw _ONCBsKDgEeykIpSMiCkpjw _ONCBs6DgEeykIpSMiCkpjw" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OMZvkaDgEeykIpSMiCkpjw" base_Element="_OMZIgaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_OMaWoaDgEeykIpSMiCkpjw" base_Property="_OMaWoKDgEeykIpSMiCkpjw" siblings="_ONCowaDgEeykIpSMiCkpjw _ONDP0qDgEeykIpSMiCkpjw _OND24aDgEeykIpSMiCkpjw _OND25KDgEeykIpSMiCkpjw _ONEd8qDgEeykIpSMiCkpjw _ONFFAKDgEeykIpSMiCkpjw" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OMaWoqDgEeykIpSMiCkpjw" base_Element="_OMaWoKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OMbkwKDgEeykIpSMiCkpjw" base_Element="_OMa9sKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OMbkwqDgEeykIpSMiCkpjw" base_Element="_OMbkwaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OMcL0qDgEeykIpSMiCkpjw" base_Element="_OMcL0KDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OMcy4KDgEeykIpSMiCkpjw" base_Element="_OMcL06DgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OMdZ8KDgEeykIpSMiCkpjw" base_Element="_OMcy4aDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OMdZ86DgEeykIpSMiCkpjw" base_Element="_OMdZ8aDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OMeBAqDgEeykIpSMiCkpjw" base_Element="_OMeBAKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OMeoEaDgEeykIpSMiCkpjw" base_Element="_OMeBA6DgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OMfPIKDgEeykIpSMiCkpjw" base_Element="_OMeoEqDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_OMfPI6DgEeykIpSMiCkpjw" base_Property="_OMfPIaDgEeykIpSMiCkpjw" siblings="_ONFFA6DgEeykIpSMiCkpjw" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OMf2MKDgEeykIpSMiCkpjw" base_Element="_OMfPIaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OMgdQKDgEeykIpSMiCkpjw" base_Element="_OMf2MaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OMhEUKDgEeykIpSMiCkpjw" base_Element="_OMgdQaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OMhEUqDgEeykIpSMiCkpjw" base_Element="_OMhEUaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OMhrYaDgEeykIpSMiCkpjw" base_Element="_OMhrYKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OMiScKDgEeykIpSMiCkpjw" base_Element="_OMhrYqDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_OM43waDgEeykIpSMiCkpjw" base_Property="_OM43wKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OM5e0KDgEeykIpSMiCkpjw" base_Element="_OM43wKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_OM5e0qDgEeykIpSMiCkpjw" base_Property="_OM5e0aDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OM5e06DgEeykIpSMiCkpjw" base_Element="_OM5e0aDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_OM6F4aDgEeykIpSMiCkpjw" base_Property="_OM6F4KDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OM6F4qDgEeykIpSMiCkpjw" base_Element="_OM6F4KDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_OM6s8aDgEeykIpSMiCkpjw" base_Property="_OM6s8KDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OM6s8qDgEeykIpSMiCkpjw" base_Element="_OM6s8KDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_OM6s9KDgEeykIpSMiCkpjw" base_Property="_OM6s86DgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OM7UAKDgEeykIpSMiCkpjw" base_Element="_OM6s86DgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_OM7UAqDgEeykIpSMiCkpjw" base_Property="_OM7UAaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OM7UA6DgEeykIpSMiCkpjw" base_Element="_OM7UAaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_OM77EaDgEeykIpSMiCkpjw" base_Property="_OM77EKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OM77EqDgEeykIpSMiCkpjw" base_Element="_OM77EKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_OM8iIKDgEeykIpSMiCkpjw" base_Property="_OM77E6DgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OM8iIaDgEeykIpSMiCkpjw" base_Element="_OM77E6DgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_OM8iI6DgEeykIpSMiCkpjw" base_Property="_OM8iIqDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OM8iJKDgEeykIpSMiCkpjw" base_Element="_OM8iIqDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_OM9JMaDgEeykIpSMiCkpjw" base_Property="_OM9JMKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OM9JMqDgEeykIpSMiCkpjw" base_Element="_OM9JMKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_OM9wQKDgEeykIpSMiCkpjw" base_Property="_OM9JM6DgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OM9wQaDgEeykIpSMiCkpjw" base_Element="_OM9JM6DgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_OM-XUKDgEeykIpSMiCkpjw" base_Property="_OM9wQqDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OM-XUaDgEeykIpSMiCkpjw" base_Element="_OM9wQqDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_OM-XU6DgEeykIpSMiCkpjw" base_Property="_OM-XUqDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OM-XVKDgEeykIpSMiCkpjw" base_Element="_OM-XUqDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_OM--YaDgEeykIpSMiCkpjw" base_Property="_OM--YKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OM--YqDgEeykIpSMiCkpjw" base_Element="_OM--YKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_OM_lcaDgEeykIpSMiCkpjw" base_Property="_OM_lcKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OM_lcqDgEeykIpSMiCkpjw" base_Element="_OM_lcKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_OM_ldKDgEeykIpSMiCkpjw" base_Property="_OM_lc6DgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ONAMgKDgEeykIpSMiCkpjw" base_Element="_OM_lc6DgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_ONAMgqDgEeykIpSMiCkpjw" base_Property="_ONAMgaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ONAMg6DgEeykIpSMiCkpjw" base_Element="_ONAMgaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_ONAzkKDgEeykIpSMiCkpjw" base_Property="_ONAMhKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ONAzkaDgEeykIpSMiCkpjw" base_Element="_ONAMhKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_ONAzk6DgEeykIpSMiCkpjw" base_Property="_ONAzkqDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ONBaoKDgEeykIpSMiCkpjw" base_Element="_ONAzkqDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_ONBaoqDgEeykIpSMiCkpjw" base_Property="_ONBaoaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ONBao6DgEeykIpSMiCkpjw" base_Element="_ONBaoaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_ONCBsaDgEeykIpSMiCkpjw" base_Property="_ONCBsKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ONCBsqDgEeykIpSMiCkpjw" base_Element="_ONCBsKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_ONCBtKDgEeykIpSMiCkpjw" base_Property="_ONCBs6DgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ONCowKDgEeykIpSMiCkpjw" base_Element="_ONCBs6DgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_ONDP0KDgEeykIpSMiCkpjw" base_Property="_ONCowaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ONDP0aDgEeykIpSMiCkpjw" base_Element="_ONCowaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_ONDP06DgEeykIpSMiCkpjw" base_Property="_ONDP0qDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OND24KDgEeykIpSMiCkpjw" base_Element="_ONDP0qDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_OND24qDgEeykIpSMiCkpjw" base_Property="_OND24aDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OND246DgEeykIpSMiCkpjw" base_Element="_OND24aDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_ONEd8KDgEeykIpSMiCkpjw" base_Property="_OND25KDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ONEd8aDgEeykIpSMiCkpjw" base_Element="_OND25KDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_ONEd86DgEeykIpSMiCkpjw" base_Property="_ONEd8qDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ONEd9KDgEeykIpSMiCkpjw" base_Element="_ONEd8qDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_ONFFAaDgEeykIpSMiCkpjw" base_Property="_ONFFAKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ONFFAqDgEeykIpSMiCkpjw" base_Element="_ONFFAKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_ONFsEKDgEeykIpSMiCkpjw" base_Property="_ONFFA6DgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ONFsEaDgEeykIpSMiCkpjw" base_Element="_ONFFA6DgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONNn4KDgEeykIpSMiCkpjw" base_Element="_ONNA0KDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONOO8qDgEeykIpSMiCkpjw" base_Element="_ONOO8KDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONO2AKDgEeykIpSMiCkpjw" base_Element="_ONOO86DgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONPdEKDgEeykIpSMiCkpjw" base_Element="_ONO2AaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONQEIKDgEeykIpSMiCkpjw" base_Element="_ONPdEaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONQrMKDgEeykIpSMiCkpjw" base_Element="_ONQEIaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONRSQKDgEeykIpSMiCkpjw" base_Element="_ONQrMaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONR5UKDgEeykIpSMiCkpjw" base_Element="_ONRSQaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONSgYKDgEeykIpSMiCkpjw" base_Element="_ONR5UaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONSgY6DgEeykIpSMiCkpjw" base_Element="_ONSgYaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONTHcqDgEeykIpSMiCkpjw" base_Element="_ONTHcKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONTugqDgEeykIpSMiCkpjw" base_Element="_ONTugKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONUVkqDgEeykIpSMiCkpjw" base_Element="_ONUVkKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONU8oKDgEeykIpSMiCkpjw" base_Element="_ONUVk6DgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONVjsKDgEeykIpSMiCkpjw" base_Element="_ONU8oaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONWKwKDgEeykIpSMiCkpjw" base_Element="_ONVjsaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONWx0KDgEeykIpSMiCkpjw" base_Element="_ONWKwaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONXY4KDgEeykIpSMiCkpjw" base_Element="_ONWx0aDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONX_8KDgEeykIpSMiCkpjw" base_Element="_ONXY4aDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONYnAKDgEeykIpSMiCkpjw" base_Element="_ONX_8aDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONZOEKDgEeykIpSMiCkpjw" base_Element="_ONYnAaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONZOE6DgEeykIpSMiCkpjw" base_Element="_ONZOEaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONZ1IqDgEeykIpSMiCkpjw" base_Element="_ONZ1IKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONacMKDgEeykIpSMiCkpjw" base_Element="_ONZ1I6DgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONbDQKDgEeykIpSMiCkpjw" base_Element="_ONacMaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONbqUKDgEeykIpSMiCkpjw" base_Element="_ONbDQaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONbqU6DgEeykIpSMiCkpjw" base_Element="_ONbqUaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONcRYqDgEeykIpSMiCkpjw" base_Element="_ONcRYKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONc4cKDgEeykIpSMiCkpjw" base_Element="_ONcRY6DgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONdfgKDgEeykIpSMiCkpjw" base_Element="_ONc4caDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONeGkKDgEeykIpSMiCkpjw" base_Element="_ONdfgaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONetoKDgEeykIpSMiCkpjw" base_Element="_ONeGkaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONeto6DgEeykIpSMiCkpjw" base_Element="_ONetoaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONfUsqDgEeykIpSMiCkpjw" base_Element="_ONfUsKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONf7wKDgEeykIpSMiCkpjw" base_Element="_ONfUs6DgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONgi0KDgEeykIpSMiCkpjw" base_Element="_ONf7waDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONhw8KDgEeykIpSMiCkpjw" base_Element="_ONgi0aDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONiYAKDgEeykIpSMiCkpjw" base_Element="_ONhw8aDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONiYA6DgEeykIpSMiCkpjw" base_Element="_ONiYAaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONjmIKDgEeykIpSMiCkpjw" base_Element="_ONi_EKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONkNMKDgEeykIpSMiCkpjw" base_Element="_ONjmIaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_ONkNM6DgEeykIpSMiCkpjw" base_Element="_ONkNMaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XGMawKDgEeykIpSMiCkpjw" base_Element="_XGLzs6DgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Annotations xmi:id="_XGNB0KDgEeykIpSMiCkpjw" base_Element="_XGLzs6DgEeykIpSMiCkpjw">
+    <annotations xmi:id="_XGNB0aDgEeykIpSMiCkpjw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XGNo4aDgEeykIpSMiCkpjw" base_Element="_XGNo4KDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Annotations xmi:id="_XGNo4qDgEeykIpSMiCkpjw" base_Element="_XGNo4KDgEeykIpSMiCkpjw">
+    <annotations xmi:id="_XGNo46DgEeykIpSMiCkpjw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XGOP9KDgEeykIpSMiCkpjw" base_Element="_XGOP86DgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Annotations xmi:id="_XGO3AKDgEeykIpSMiCkpjw" base_Element="_XGOP86DgEeykIpSMiCkpjw">
+    <annotations xmi:id="_XGO3AaDgEeykIpSMiCkpjw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XGRTQKDgEeykIpSMiCkpjw" base_Element="_XGQsMaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XGhK4KDgEeykIpSMiCkpjw" base_Element="_XGgj0KDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XGhx8aDgEeykIpSMiCkpjw" base_Element="_XGhK4aDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XGjAEKDgEeykIpSMiCkpjw" base_Element="_XGhx8qDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XGjnIKDgEeykIpSMiCkpjw" base_Element="_XGjAEaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XGkOMKDgEeykIpSMiCkpjw" base_Element="_XGjnIaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XGk1QKDgEeykIpSMiCkpjw" base_Element="_XGkOMaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XGk1QqDgEeykIpSMiCkpjw" base_Element="_XGk1QaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XGlcUaDgEeykIpSMiCkpjw" base_Element="_XGlcUKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XGmDYKDgEeykIpSMiCkpjw" base_Element="_XGlcUqDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_XGmDYqDgEeykIpSMiCkpjw" base_Property="_XGmDYaDgEeykIpSMiCkpjw" siblings="_XGofoKDgEeykIpSMiCkpjw _XGofo6DgEeykIpSMiCkpjw" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XGmDY6DgEeykIpSMiCkpjw" base_Element="_XGmDYaDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_XGofoaDgEeykIpSMiCkpjw" base_Property="_XGofoKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XGofoqDgEeykIpSMiCkpjw" base_Element="_XGofoKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_XGpGsKDgEeykIpSMiCkpjw" base_Property="_XGofo6DgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XGpGsaDgEeykIpSMiCkpjw" base_Element="_XGofo6DgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_XGq74qDgEeykIpSMiCkpjw" base_Element="_XGq74KDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_XGri8KDgEeykIpSMiCkpjw" base_Element="_XGq746DgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_XGri86DgEeykIpSMiCkpjw" base_Element="_XGri8aDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Reference xmi:id="_XGsKAqDgEeykIpSMiCkpjw" base_Element="_XGsKAKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Yh7Y8KDgEeykIpSMiCkpjw" base_Element="_Yh4VoKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Annotations xmi:id="_Yh8nEKDgEeykIpSMiCkpjw" base_Element="_Yh4VoKDgEeykIpSMiCkpjw">
+    <annotations xmi:id="_Yh8nEaDgEeykIpSMiCkpjw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Yh-cQKDgEeykIpSMiCkpjw" base_Element="_Yh91MqDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Annotations xmi:id="_Yh-cQaDgEeykIpSMiCkpjw" base_Element="_Yh91MqDgEeykIpSMiCkpjw">
+    <annotations xmi:id="_Yh-cQqDgEeykIpSMiCkpjw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Yh_qYKDgEeykIpSMiCkpjw" base_Element="_Yh_DU6DgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Annotations xmi:id="_Yh_qYaDgEeykIpSMiCkpjw" base_Element="_Yh_DU6DgEeykIpSMiCkpjw">
+    <annotations xmi:id="_Yh_qYqDgEeykIpSMiCkpjw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_YiCtsKDgEeykIpSMiCkpjw" base_Element="_YiA4gKDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Annotations xmi:id="_YiD70KDgEeykIpSMiCkpjw" base_Element="_YiA4gKDgEeykIpSMiCkpjw">
+    <annotations xmi:id="_YiD70aDgEeykIpSMiCkpjw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_YiFJ8qDgEeykIpSMiCkpjw" base_Element="_YiFJ8aDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Annotations xmi:id="_YiGYEKDgEeykIpSMiCkpjw" base_Element="_YiFJ8aDgEeykIpSMiCkpjw">
+    <annotations xmi:id="_YiGYEaDgEeykIpSMiCkpjw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_YiG_IKDgEeykIpSMiCkpjw" base_Element="_YiGYEqDgEeykIpSMiCkpjw"/>
+  <UMLLabProfile:Annotations xmi:id="_YiG_IaDgEeykIpSMiCkpjw" base_Element="_YiGYEqDgEeykIpSMiCkpjw">
+    <annotations xmi:id="_YiG_IqDgEeykIpSMiCkpjw" name="Override"/>
+  </UMLLabProfile:Annotations>
+</xmi:XMI>

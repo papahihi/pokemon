@@ -1,0 +1,2332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_D_nLcKDgEeykIpSMiCkpjw">
+  <modelElement href="Pokemon.uml#_OCu2MKDgEeykIpSMiCkpjw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OUkNEKDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONNA0KDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OUk0IKDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONNn4KDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OUk0IaDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OUk0IqDgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONNA0aDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OUk0I6DgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OUk0JKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OUk0JaDgEeykIpSMiCkpjw" aggregationKind="NONE" name="SelPok" navigable="true">
+      <modelElement href="Pokemon.uml#_OMRzwaDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OUk0JqDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OUk0J6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OUlbMKDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONOO8KDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OUlbMaDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONOO8qDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OUlbMqDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OUlbM6DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONOO8aDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OUlbNKDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OUlbNaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OUlbNqDgEeykIpSMiCkpjw" aggregationKind="NONE" name="wpArray" navigable="true">
+      <modelElement href="Pokemon.uml#_OMTB4KDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OUlbN6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OUlbOKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OUmpUKDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONOO86DgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OUmpUaDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONO2AKDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OUmpUqDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OUmpU6DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONOO9KDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OUmpVKDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OUmpVaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OUmpVqDgEeykIpSMiCkpjw" aggregationKind="NONE" name="enemySkArr" navigable="true">
+      <modelElement href="Pokemon.uml#_OMTo8qDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OUmpV6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OUmpWKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OUnQYKDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONO2AaDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OUnQYaDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONPdEKDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OUnQYqDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OUnQY6DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONO2AqDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OUnQZKDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OUnQZaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OUnQZqDgEeykIpSMiCkpjw" aggregationKind="NONE" name="mapGymButton" navigable="true">
+      <modelElement href="Pokemon.uml#_OMU3EaDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OUnQZ6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OUnQaKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OUn3cKDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONPdEaDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OUoegKDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONQEIKDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OUoegaDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OUoegqDgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONPdEqDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OUoeg6DgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OUoehKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OUoehaDgEeykIpSMiCkpjw" aggregationKind="NONE" name="titleButton" navigable="true">
+      <modelElement href="Pokemon.uml#_OMVeIaDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OUoehqDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OUoeh6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OUpFkKDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONQEIaDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OUpFkaDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONQrMKDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OUpFkqDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OUpFk6DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONQEIqDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OUpFlKDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OUpFlaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OUpFlqDgEeykIpSMiCkpjw" aggregationKind="NONE" name="MyPokSk1" navigable="true">
+      <modelElement href="Pokemon.uml#_OMWFMaDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OUpFl6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OUpFmKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OUpsoKDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONQrMaDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OUpsoaDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONRSQKDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OUpsoqDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OUpso6DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONQrMqDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OUpspKDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OUpspaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OUpspqDgEeykIpSMiCkpjw" aggregationKind="NONE" name="titlePanel" navigable="true">
+      <modelElement href="Pokemon.uml#_OMXTUKDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OUpsp6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OUpsqKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OUqTsKDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONRSQaDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OUqTsaDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONR5UKDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OUqTsqDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OUqTs6DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONRSQqDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OUqTtKDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OUqTtaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OUqTtqDgEeykIpSMiCkpjw" aggregationKind="NONE" name="town" navigable="true">
+      <modelElement href="Pokemon.uml#_OMX6YaDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OUqTt6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OUqTuKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OUrh0KDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONR5UaDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OUrh0aDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONSgYKDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OUrh0qDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OUrh06DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONR5UqDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OUrh1KDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OUrh1aDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OUrh1qDgEeykIpSMiCkpjw" aggregationKind="NONE" name="townLabel" navigable="true">
+      <modelElement href="Pokemon.uml#_OMYhcKDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OUrh16DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OUrh2KDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OUsI4KDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONSgYaDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OUsI4aDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONSgY6DgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OUsI4qDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OUsI46DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONSgYqDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OUsI5KDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OUsI5aDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OUsI5qDgEeykIpSMiCkpjw" aggregationKind="NONE" name="playerBox" navigable="true">
+      <modelElement href="Pokemon.uml#_OMZIgaDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OUsI56DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OUsI6KDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OUsv8KDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONTHcKDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OUsv8aDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONTHcqDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OUsv8qDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OUsv86DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONTHcaDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OUsv9KDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OUsv9aDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OUsv9qDgEeykIpSMiCkpjw" aggregationKind="NONE" name="MyStat" navigable="true">
+      <modelElement href="Pokemon.uml#_OMaWoKDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OUsv96DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OUsv-KDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OUtXAKDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONTugKDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OUtXAaDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONTugqDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OUtXAqDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OUtXA6DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONTugaDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OUtXBKDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OUtXBaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OUtXBqDgEeykIpSMiCkpjw" aggregationKind="NONE" name="tilteImage" navigable="true">
+      <modelElement href="Pokemon.uml#_OMa9sKDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OUtXB6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OUtXCKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OUt-EKDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONUVkKDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OUt-EaDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONUVkqDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OUt-EqDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OUt-E6DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONUVkaDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OUt-FKDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OUt-FaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OUt-FqDgEeykIpSMiCkpjw" aggregationKind="NONE" name="townImage" navigable="true">
+      <modelElement href="Pokemon.uml#_OMbkwaDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OUt-F6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OUt-GKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OUulIKDgEeykIpSMiCkpjw" sourceAnchor="256.0,0.0" targetAnchor="186.0,116.0" target="_XI6XkKDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONUVk6DgEeykIpSMiCkpjw"/>
+    <bendpoints xmi:id="_YrtnEKDgEeykIpSMiCkpjw" sourceY="-223" targetX="284"/>
+    <stereotypes xmi:id="_OUulIaDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONU8oKDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OUulIqDgEeykIpSMiCkpjw" text="">
+      <visualProperties xmi:id="_XPZaEKDgEeykIpSMiCkpjw" position="-28.0,17.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_OUulI6DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONUVlKDgEeykIpSMiCkpjw"/>
+      <visualProperties xmi:id="_XPYzBKDgEeykIpSMiCkpjw" position="-19.0,-72.0"/>
+      <visibility xmi:id="_OUulJKDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OUulJaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OUulJqDgEeykIpSMiCkpjw" aggregationKind="NONE" name="mainPok" navigable="true">
+      <modelElement href="Pokemon.uml#_OMf2MaDgEeykIpSMiCkpjw"/>
+      <visualProperties xmi:id="_XPaBIKDgEeykIpSMiCkpjw" position="241.0,-137.99999999999994"/>
+      <visibility xmi:id="_OUulJ6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OUulKKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OUulKaDgEeykIpSMiCkpjw" sourceAnchor="0.0,654.0" targetAnchor="0.0,37.0" target="_YlUEIKDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONU8oaDgEeykIpSMiCkpjw"/>
+    <bendpoints xmi:id="_YruOIKDgEeykIpSMiCkpjw" sourceX="-1337" targetX="-844" targetY="471"/>
+    <bendpoints xmi:id="_YruOIaDgEeykIpSMiCkpjw" sourceX="-1337" sourceY="-471" targetX="-844"/>
+    <stereotypes xmi:id="_OUulKqDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONVjsKDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OUulK6DgEeykIpSMiCkpjw" text="">
+      <visualProperties xmi:id="_Yr3YEKDgEeykIpSMiCkpjw" position="925.7299854452219,219.24072238997758"/>
+    </nameVisual>
+    <sourceRole xmi:id="_OUulLKDgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONU8oqDgEeykIpSMiCkpjw"/>
+      <visualProperties xmi:id="_Yr2J8KDgEeykIpSMiCkpjw" position="-59.483269424000014,-33.82429688730497"/>
+      <visibility xmi:id="_OUulLaDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OUulLqDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OUulL6DgEeykIpSMiCkpjw" aggregationKind="NONE" name="enemyPok" navigable="true">
+      <modelElement href="Pokemon.uml#_OMgdQaDgEeykIpSMiCkpjw"/>
+      <visualProperties xmi:id="_Yr3_IKDgEeykIpSMiCkpjw" position="-268.8960066837633,437.85380472271356"/>
+      <visibility xmi:id="_OUulMKDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OUulMaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OUvMMKDgEeykIpSMiCkpjw" sourceAnchor="184.0,0.0" targetAnchor="57.0,54.0" target="_OXEugKDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONVjsaDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OUvMMaDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONWKwKDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OUvMMqDgEeykIpSMiCkpjw" text="">
+      <visualProperties xmi:id="_Ojs1QKDgEeykIpSMiCkpjw" position="-9.0,-57.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_OUvMM6DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONVjsqDgEeykIpSMiCkpjw"/>
+      <visualProperties xmi:id="_OjsOMKDgEeykIpSMiCkpjw" position="3.0,-77.0"/>
+      <visibility xmi:id="_OUvMNKDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OUvMNaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OUvMNqDgEeykIpSMiCkpjw" aggregationKind="NONE" name="bt" navigable="true">
+      <modelElement href="Pokemon.uml#_OMhrYKDgEeykIpSMiCkpjw"/>
+      <visualProperties xmi:id="_Ojs1QaDgEeykIpSMiCkpjw" position="-2.0,-76.0"/>
+      <visibility xmi:id="_OUvMN6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OUvMOKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OUvzQKDgEeykIpSMiCkpjw" sourceAnchor="354.0,0.0" targetAnchor="47.0,54.0" target="_OXVNMKDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONWKwaDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OUvzQaDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONWx0KDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OUvzQqDgEeykIpSMiCkpjw" text="">
+      <visualProperties xmi:id="_OjvRgKDgEeykIpSMiCkpjw" position="-11.0,-67.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_OUvzQ6DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONWKwqDgEeykIpSMiCkpjw"/>
+      <visualProperties xmi:id="_OjuqcKDgEeykIpSMiCkpjw" position="2.0,-77.0"/>
+      <visibility xmi:id="_OUvzRKDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OUvzRaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OUvzRqDgEeykIpSMiCkpjw" aggregationKind="NONE" name="bossbt" navigable="true">
+      <modelElement href="Pokemon.uml#_OMhrYqDgEeykIpSMiCkpjw"/>
+      <visualProperties xmi:id="_OjvRgaDgEeykIpSMiCkpjw" position="-15.0,-96.0"/>
+      <visibility xmi:id="_OUvzR6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OUvzSKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OUwaUKDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONWx0aDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OUwaUaDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONXY4KDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OUwaUqDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OUwaU6DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONWx0qDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OUwaVKDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OUwaVaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OUwaVqDgEeykIpSMiCkpjw" aggregationKind="NONE" name="centerF" navigable="true">
+      <modelElement href="Pokemon.uml#_OM6s8KDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OUwaV6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OUwaWKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OUxocKDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONXY4aDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OUxocaDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONX_8KDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OUxocqDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OUxoc6DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONXY4qDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OUxodKDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OUxodaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OUxodqDgEeykIpSMiCkpjw" aggregationKind="NONE" name="BattleF" navigable="true">
+      <modelElement href="Pokemon.uml#_OM6s86DgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OUxod6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OUxoeKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OUyPgKDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONX_8aDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OUyPgaDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONYnAKDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OUyPgqDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OUyPg6DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONX_8qDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OUyPhKDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OUyPhaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OUyPhqDgEeykIpSMiCkpjw" aggregationKind="NONE" name="InfoFrame" navigable="true">
+      <modelElement href="Pokemon.uml#_OM7UAaDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OUyPh6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OUyPiKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OUy2kKDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONYnAaDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OUy2kaDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONZOEKDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OUy2kqDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OUy2k6DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONYnAqDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OUy2lKDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OUy2laDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OUy2lqDgEeykIpSMiCkpjw" aggregationKind="NONE" name="mapTownButton" navigable="true">
+      <modelElement href="Pokemon.uml#_OM77EKDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OUy2l6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OUy2mKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OUzdoKDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONZOEaDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OUzdoaDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONZOE6DgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OUzdoqDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OUzdo6DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONZOEqDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OUzdpKDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OUzdpaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OUzdpqDgEeykIpSMiCkpjw" aggregationKind="NONE" name="mapCenterButton" navigable="true">
+      <modelElement href="Pokemon.uml#_OM77E6DgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OUzdp6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OUzdqKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OU0EsKDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONZ1IKDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OU0EsaDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONZ1IqDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OU0EsqDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OU0Es6DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONZ1IaDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU0EtKDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OU0EtaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OU0EtqDgEeykIpSMiCkpjw" aggregationKind="NONE" name="mapWildButton" navigable="true">
+      <modelElement href="Pokemon.uml#_OM8iIqDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU0Et6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OU0EuKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OU0rwKDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONZ1I6DgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OU0rwaDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONacMKDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OU0rwqDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OU0rw6DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONZ1JKDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU0rxKDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OU0rxaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OU0rxqDgEeykIpSMiCkpjw" aggregationKind="NONE" name="MyPokSk2" navigable="true">
+      <modelElement href="Pokemon.uml#_OM9JMKDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU0rx6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OU0ryKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OU1S0KDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONacMaDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OU1S0aDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONbDQKDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OU1S0qDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OU1S06DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONacMqDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU1S1KDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OU1S1aDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OU1S1qDgEeykIpSMiCkpjw" aggregationKind="NONE" name="MyPokSk3" navigable="true">
+      <modelElement href="Pokemon.uml#_OM9JM6DgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU1S16DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OU1S2KDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OU154KDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONbDQaDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OU154aDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONbqUKDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OU154qDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OU2g8KDgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONbDQqDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU2g8aDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OU2g8qDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OU2g86DgEeykIpSMiCkpjw" aggregationKind="NONE" name="wild" navigable="true">
+      <modelElement href="Pokemon.uml#_OM9wQqDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU2g9KDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OU2g9aDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OU2g9qDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONbqUaDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OU2g96DgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONbqU6DgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OU2g-KDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OU2g-aDgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONbqUqDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU2g-qDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OU2g-6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OU2g_KDgEeykIpSMiCkpjw" aggregationKind="NONE" name="center" navigable="true">
+      <modelElement href="Pokemon.uml#_OM-XUqDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU2g_aDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OU2g_qDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OU3vEKDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONcRYKDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OU3vEaDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONcRYqDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OU3vEqDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OU3vE6DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONcRYaDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU3vFKDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OU3vFaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OU3vFqDgEeykIpSMiCkpjw" aggregationKind="NONE" name="wildLabel" navigable="true">
+      <modelElement href="Pokemon.uml#_OM--YKDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU3vF6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OU3vGKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OU4WIKDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONcRY6DgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OU4WIaDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONc4cKDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OU4WIqDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OU4WI6DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONcRZKDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU4WJKDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OU4WJaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OU4WJqDgEeykIpSMiCkpjw" aggregationKind="NONE" name="centerLabel" navigable="true">
+      <modelElement href="Pokemon.uml#_OM_lcKDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU4WJ6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OU4WKKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OU49MKDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONc4caDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OU49MaDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONdfgKDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OU49MqDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OU49M6DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONc4cqDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU49NKDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OU49NaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OU49NqDgEeykIpSMiCkpjw" aggregationKind="NONE" name="towntalk" navigable="true">
+      <modelElement href="Pokemon.uml#_OM_lc6DgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU49N6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OU49OKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OU5kQKDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONdfgaDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OU5kQaDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONeGkKDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OU5kQqDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OU5kQ6DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONdfgqDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU5kRKDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OU5kRaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OU5kRqDgEeykIpSMiCkpjw" aggregationKind="NONE" name="sentalk" navigable="true">
+      <modelElement href="Pokemon.uml#_ONAMgaDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU5kR6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OU5kSKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OU6LUKDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONeGkaDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OU6LUaDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONetoKDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OU6LUqDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OU6LU6DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONeGkqDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU6LVKDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OU6LVaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OU6LVqDgEeykIpSMiCkpjw" aggregationKind="NONE" name="wildtalk" navigable="true">
+      <modelElement href="Pokemon.uml#_ONAMhKDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU6LV6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OU6LWKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OU6yYKDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONetoaDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OU6yYaDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONeto6DgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OU6yYqDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OU6yY6DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONetoqDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU6yZKDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OU6yZaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OU6yZqDgEeykIpSMiCkpjw" aggregationKind="NONE" name="momBox" navigable="true">
+      <modelElement href="Pokemon.uml#_ONAzkqDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU6yZ6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OU6yaKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OU8AgKDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONfUsKDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OU8AgaDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONfUsqDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OU8AgqDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OU8Ag6DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONfUsaDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU8AhKDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OU8AhaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OU8AhqDgEeykIpSMiCkpjw" aggregationKind="NONE" name="ha" navigable="true">
+      <modelElement href="Pokemon.uml#_ONBaoaDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU8Ah6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OU8AiKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OU8nkKDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONfUs6DgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OU8nkaDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONf7wKDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OU8nkqDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OU8nk6DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONfUtKDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU8nlKDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OU8nlaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OU8nlqDgEeykIpSMiCkpjw" aggregationKind="NONE" name="titleLabel1" navigable="true">
+      <modelElement href="Pokemon.uml#_ONCBsKDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU8nl6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OU8nmKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OU9OoKDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONf7waDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OU9OoaDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONgi0KDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OU9OoqDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OU9Oo6DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONf7wqDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU9OpKDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OU9OpaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OU9OpqDgEeykIpSMiCkpjw" aggregationKind="NONE" name="bossBox" navigable="true">
+      <modelElement href="Pokemon.uml#_ONCBs6DgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU9Op6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OU9OqKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OU91sKDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONgi0aDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OU91saDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONhw8KDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OU91sqDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OU91s6DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONgi0qDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU91tKDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OU91taDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OU91tqDgEeykIpSMiCkpjw" aggregationKind="NONE" name="EnemyStat" navigable="true">
+      <modelElement href="Pokemon.uml#_ONCowaDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU91t6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OU91uKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OU-cwKDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONhw8aDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OU-cwaDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONiYAKDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OU-cwqDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OU-cw6DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONhw8qDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU-cxKDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OU-cxaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OU-cxqDgEeykIpSMiCkpjw" aggregationKind="NONE" name="BattleM" navigable="true">
+      <modelElement href="Pokemon.uml#_ONDP0qDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU-cx6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OU-cyKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OU_D0KDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONiYAaDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OU_D0aDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONiYA6DgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OU_D0qDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OU_D06DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONiYAqDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU_D1KDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OU_D1aDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OU_D1qDgEeykIpSMiCkpjw" aggregationKind="NONE" name="stat" navigable="true">
+      <modelElement href="Pokemon.uml#_OND24aDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU_D16DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OU_D2KDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OU_q4KDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONi_EKDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OU_q4aDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONjmIKDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OU_q4qDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OU_q46DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONi_EaDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU_q5KDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OU_q5aDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OU_q5qDgEeykIpSMiCkpjw" aggregationKind="NONE" name="pachoice" navigable="true">
+      <modelElement href="Pokemon.uml#_OND25KDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU_q56DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OU_q6KDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OU_q6aDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONjmIaDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OU_q6qDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONkNMKDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OU_q66DgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OU_q7KDgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONjmIqDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU_q7aDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OU_q7qDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OU_q76DgEeykIpSMiCkpjw" aggregationKind="NONE" name="info" navigable="true">
+      <modelElement href="Pokemon.uml#_ONEd8qDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OU_q8KDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OU_q8aDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OVAR8KDgEeykIpSMiCkpjw" source="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ONkNMaDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_OVAR8aDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_ONkNM6DgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OVAR8qDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_OVAR86DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_ONkNMqDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OVAR9KDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OVAR9aDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OVAR9qDgEeykIpSMiCkpjw" aggregationKind="NONE" name="insk" navigable="true">
+      <modelElement href="Pokemon.uml#_ONFFAKDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OVAR96DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVAR-KDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_OVA5AKDgEeykIpSMiCkpjw" subClass="_OVBgEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_OMMUMKDgEeykIpSMiCkpjw"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_XI0Q8KDgEeykIpSMiCkpjw" source="_XI6XkKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_XGq74KDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_XI2GIqDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_XGq74qDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_XI1fEKDgEeykIpSMiCkpjw" text=""/>
+    <sourceRole xmi:id="_XI2GIKDgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_XGq74aDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_XI2tMaDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_XI2tMKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_XI2GIaDgEeykIpSMiCkpjw" aggregationKind="NONE" name="image" navigable="true">
+      <modelElement href="Pokemon.uml#_XGk1QaDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_XI2tM6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_XI2tMqDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_XI4iYKDgEeykIpSMiCkpjw" sourceAnchor="93.0,0.0" targetAnchor="132.0,99.0" target="_XJPHsKDgEeykIpSMiCkpjw" source="_XI6XkKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_XGq746DgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_XI4iYaDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_XGri8KDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_XI4iYqDgEeykIpSMiCkpjw" text="">
+      <visualProperties xmi:id="_XPb2UKDgEeykIpSMiCkpjw" position="-17.0,-30.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_XI4iY6DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_XGq75KDgEeykIpSMiCkpjw"/>
+      <visualProperties xmi:id="_XPbPQKDgEeykIpSMiCkpjw" position="-1.0,-63.0"/>
+      <visibility xmi:id="_XI4iZKDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_XI4iZaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_XI4iZqDgEeykIpSMiCkpjw" aggregationKind="NONE" name="SK1" navigable="true">
+      <modelElement href="Pokemon.uml#_XGmDYaDgEeykIpSMiCkpjw"/>
+      <visualProperties xmi:id="_XPb2UaDgEeykIpSMiCkpjw" position="-12.0,-27.0"/>
+      <visibility xmi:id="_XI4iZ6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_XI4iaKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_XI5JcKDgEeykIpSMiCkpjw" sourceAnchor="63.0,0.0" targetAnchor="102.0,99.0" target="_XJPHsKDgEeykIpSMiCkpjw" source="_XI6XkKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_XGri8aDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_XI5JcaDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_XGri86DgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_XI5JcqDgEeykIpSMiCkpjw" text="">
+      <visualProperties xmi:id="_XPcdYaDgEeykIpSMiCkpjw" position="-17.0,-30.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_XI5Jc6DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_XGri8qDgEeykIpSMiCkpjw"/>
+      <visualProperties xmi:id="_XPcdYKDgEeykIpSMiCkpjw" position="-1.0,-63.0"/>
+      <visibility xmi:id="_XI5JdKDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_XI5JdaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_XI5JdqDgEeykIpSMiCkpjw" aggregationKind="NONE" name="SK2" navigable="true">
+      <modelElement href="Pokemon.uml#_XGofoKDgEeykIpSMiCkpjw"/>
+      <visualProperties xmi:id="_XPdEcKDgEeykIpSMiCkpjw" position="-12.0,-27.0"/>
+      <visibility xmi:id="_XI5Jd6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_XI5JeKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_XI5wgKDgEeykIpSMiCkpjw" sourceAnchor="123.0,0.0" targetAnchor="162.0,99.0" target="_XJPHsKDgEeykIpSMiCkpjw" source="_XI6XkKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_XGsKAKDgEeykIpSMiCkpjw"/>
+    <stereotypes xmi:id="_XI5wgaDgEeykIpSMiCkpjw" name="Reference">
+      <modelElement href="Pokemon.uml#_XGsKAqDgEeykIpSMiCkpjw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_XI5wgqDgEeykIpSMiCkpjw" text="">
+      <visualProperties xmi:id="_XPdrgKDgEeykIpSMiCkpjw" position="-17.0,-30.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_XI5wg6DgEeykIpSMiCkpjw" aggregationKind="NONE" name="">
+      <modelElement href="Pokemon.uml#_XGsKAaDgEeykIpSMiCkpjw"/>
+      <visualProperties xmi:id="_XPdEcaDgEeykIpSMiCkpjw" position="-1.0,-63.0"/>
+      <visibility xmi:id="_XI5whKDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_XI5whaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_XI5whqDgEeykIpSMiCkpjw" aggregationKind="NONE" name="SK3" navigable="true">
+      <modelElement href="Pokemon.uml#_XGofo6DgEeykIpSMiCkpjw"/>
+      <visualProperties xmi:id="_XPdrgaDgEeykIpSMiCkpjw" position="-12.0,-27.0"/>
+      <visibility xmi:id="_XI5wh6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_XI5wiKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_XJAeMKDgEeykIpSMiCkpjw" sourceAnchor="54.0,0.0" targetAnchor="93.0,232.0" superClass="_XI6XkKDgEeykIpSMiCkpjw" subClass="_XJBFQKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_XGeHkKDgEeykIpSMiCkpjw"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_XJJBEKDgEeykIpSMiCkpjw" sourceAnchor="9.0,0.0" targetAnchor="93.0,232.0" superClass="_XI6XkKDgEeykIpSMiCkpjw" subClass="_XJKPMKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_XGeuoKDgEeykIpSMiCkpjw"/>
+    <bendpoints xmi:id="_YrwqYKDgEeykIpSMiCkpjw" sourceY="-158" targetX="-69" targetY="88"/>
+    <bendpoints xmi:id="_YrxRcKDgEeykIpSMiCkpjw" sourceX="69" sourceY="-158" targetY="88"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_XJLdUKDgEeykIpSMiCkpjw" sourceAnchor="55.0,0.0" targetAnchor="93.0,232.0" superClass="_XI6XkKDgEeykIpSMiCkpjw" subClass="_XJMrcKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_XGeuoaDgEeykIpSMiCkpjw"/>
+    <bendpoints xmi:id="_YrxRcaDgEeykIpSMiCkpjw" sourceY="-30" targetX="-177" targetY="88"/>
+    <bendpoints xmi:id="_YrxRcqDgEeykIpSMiCkpjw" sourceX="177" sourceY="-30" targetY="88"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_YlSO8KDgEeykIpSMiCkpjw" sourceAnchor="117.0,0.0" targetAnchor="93.0,232.0" superClass="_XI6XkKDgEeykIpSMiCkpjw" subClass="_YlUEIKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_Yiic8qDgEeykIpSMiCkpjw"/>
+    <bendpoints xmi:id="_Yrx4gKDgEeykIpSMiCkpjw" sourceY="-165" targetX="-255" targetY="88"/>
+    <bendpoints xmi:id="_Yrx4gaDgEeykIpSMiCkpjw" sourceX="255" sourceY="-165" targetY="88"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_YlWgYKDgEeykIpSMiCkpjw" sourceAnchor="55.0,0.0" targetAnchor="117.0,73.0" superClass="_YlUEIKDgEeykIpSMiCkpjw" subClass="_YlXHcKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_Yih14KDgEeykIpSMiCkpjw"/>
+    <bendpoints xmi:id="_Yrx4gqDgEeykIpSMiCkpjw" sourceY="-51" targetX="247" targetY="6"/>
+    <bendpoints xmi:id="_YryfkKDgEeykIpSMiCkpjw" sourceX="-175" sourceY="-51" targetX="72" targetY="6"/>
+    <bendpoints xmi:id="_YryfkaDgEeykIpSMiCkpjw" sourceX="-175" sourceY="-29" targetX="72" targetY="28"/>
+    <bendpoints xmi:id="_YryfkqDgEeykIpSMiCkpjw" sourceX="-247" sourceY="-29" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_YlZjsKDgEeykIpSMiCkpjw" sourceAnchor="0.0,35.0" targetAnchor="117.0,73.0" superClass="_YlUEIKDgEeykIpSMiCkpjw" subClass="_YlaKwKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_Yih14aDgEeykIpSMiCkpjw"/>
+    <bendpoints xmi:id="_Yryfk6DgEeykIpSMiCkpjw" sourceX="-55" targetX="147" targetY="236"/>
+    <bendpoints xmi:id="_YrzGoKDgEeykIpSMiCkpjw" sourceX="-55" sourceY="-208" targetX="147" targetY="28"/>
+    <bendpoints xmi:id="_YrzGoaDgEeykIpSMiCkpjw" sourceX="-202" sourceY="-208" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_YlbY4KDgEeykIpSMiCkpjw" sourceAnchor="53.0,0.0" targetAnchor="117.0,73.0" superClass="_YlUEIKDgEeykIpSMiCkpjw" subClass="_YlcnAKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_Yih14qDgEeykIpSMiCkpjw"/>
+    <bendpoints xmi:id="_YrztsKDgEeykIpSMiCkpjw" sourceY="-29" targetX="72" targetY="28"/>
+    <bendpoints xmi:id="_YrztsaDgEeykIpSMiCkpjw" sourceX="-72" sourceY="-29" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Yld1IKDgEeykIpSMiCkpjw" sourceAnchor="0.0,35.0" targetAnchor="117.0,73.0" superClass="_YlUEIKDgEeykIpSMiCkpjw" subClass="_YlfDQKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_Yiic8KDgEeykIpSMiCkpjw"/>
+    <bendpoints xmi:id="_YrztsqDgEeykIpSMiCkpjw" sourceX="-641" targetX="-641" targetY="236"/>
+    <bendpoints xmi:id="_Yrzts6DgEeykIpSMiCkpjw" sourceX="-641" sourceY="-208" targetX="-641" targetY="28"/>
+    <bendpoints xmi:id="_YrzttKDgEeykIpSMiCkpjw" sourceY="-208" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_YlgRYKDgEeykIpSMiCkpjw" sourceAnchor="0.0,45.0" targetAnchor="117.0,73.0" superClass="_YlUEIKDgEeykIpSMiCkpjw" subClass="_YlhfgKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_Yiic8aDgEeykIpSMiCkpjw"/>
+    <bendpoints xmi:id="_Yr070KDgEeykIpSMiCkpjw" sourceX="-834" targetX="-671" targetY="375"/>
+    <bendpoints xmi:id="_Yr070aDgEeykIpSMiCkpjw" sourceX="-834" sourceY="-347" targetX="-671" targetY="28"/>
+    <bendpoints xmi:id="_Yr070qDgEeykIpSMiCkpjw" sourceX="-163" sourceY="-347" targetY="28"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OVBgEKDgEeykIpSMiCkpjw" name="Pokemonster" associationsOut="_OUkNEKDgEeykIpSMiCkpjw _OUlbMKDgEeykIpSMiCkpjw _OUmpUKDgEeykIpSMiCkpjw _OUnQYKDgEeykIpSMiCkpjw _OUn3cKDgEeykIpSMiCkpjw _OUpFkKDgEeykIpSMiCkpjw _OUpsoKDgEeykIpSMiCkpjw _OUqTsKDgEeykIpSMiCkpjw _OUrh0KDgEeykIpSMiCkpjw _OUsI4KDgEeykIpSMiCkpjw _OUsv8KDgEeykIpSMiCkpjw _OUtXAKDgEeykIpSMiCkpjw _OUt-EKDgEeykIpSMiCkpjw _OUulIKDgEeykIpSMiCkpjw _OUulKaDgEeykIpSMiCkpjw _OUvMMKDgEeykIpSMiCkpjw _OUvzQKDgEeykIpSMiCkpjw _OUwaUKDgEeykIpSMiCkpjw _OUxocKDgEeykIpSMiCkpjw _OUyPgKDgEeykIpSMiCkpjw _OUy2kKDgEeykIpSMiCkpjw _OUzdoKDgEeykIpSMiCkpjw _OU0EsKDgEeykIpSMiCkpjw _OU0rwKDgEeykIpSMiCkpjw _OU1S0KDgEeykIpSMiCkpjw _OU154KDgEeykIpSMiCkpjw _OU2g9qDgEeykIpSMiCkpjw _OU3vEKDgEeykIpSMiCkpjw _OU4WIKDgEeykIpSMiCkpjw _OU49MKDgEeykIpSMiCkpjw _OU5kQKDgEeykIpSMiCkpjw _OU6LUKDgEeykIpSMiCkpjw _OU6yYKDgEeykIpSMiCkpjw _OU8AgKDgEeykIpSMiCkpjw _OU8nkKDgEeykIpSMiCkpjw _OU9OoKDgEeykIpSMiCkpjw _OU91sKDgEeykIpSMiCkpjw _OU-cwKDgEeykIpSMiCkpjw _OU_D0KDgEeykIpSMiCkpjw _OU_q4KDgEeykIpSMiCkpjw _OU_q6aDgEeykIpSMiCkpjw _OVAR8KDgEeykIpSMiCkpjw" generalizations="_OVA5AKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ODVTIKDgEeykIpSMiCkpjw"/>
+    <visualProperties xmi:id="_OVBgEaDgEeykIpSMiCkpjw" position="300.0,188.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OVBgEqDgEeykIpSMiCkpjw" label="+"/>
+    <attributes xmi:id="_OVBgE6DgEeykIpSMiCkpjw" name="myAttMes">
+      <modelElement href="Pokemon.uml#_OMQloKDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBgFKDgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_OMRMsKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBgFaDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OMRzwKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBgFqDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBgF6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBgGKDgEeykIpSMiCkpjw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBgGaDgEeykIpSMiCkpjw" name="SelPok">
+      <modelElement href="Pokemon.uml#_OMRzwaDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBgGqDgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_OMSa0KDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBgG6DgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OMSa0aDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBgHKDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBgHaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBgHqDgEeykIpSMiCkpjw" name="JFrame">
+        <modelElement href="Pokemon.uml#_OLdUYaDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBgH6DgEeykIpSMiCkpjw" defaultValue="new ArrayList&lt;WildPokemon>()" name="wpArray">
+      <modelElement href="Pokemon.uml#_OMTB4KDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBgIKDgEeykIpSMiCkpjw" name="Generics">
+        <modelElement href="Pokemon.uml#_OMTB4aDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBgIaDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OMTo8aDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBgIqDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBgI6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBgJKDgEeykIpSMiCkpjw" name="ArrayList">
+        <modelElement href="Pokemon.uml#_OLa4IaDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBgJaDgEeykIpSMiCkpjw" defaultValue="new ArrayList&lt;Pokemon.Skill>()" name="enemySkArr">
+      <modelElement href="Pokemon.uml#_OMTo8qDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBgJqDgEeykIpSMiCkpjw" name="Generics">
+        <modelElement href="Pokemon.uml#_OMUQAKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBgJ6DgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OMU3EKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBgKKDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBgKaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBgKqDgEeykIpSMiCkpjw" name="ArrayList">
+        <modelElement href="Pokemon.uml#_OLa4IaDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBgK6DgEeykIpSMiCkpjw" name="mapGymButton">
+      <modelElement href="Pokemon.uml#_OMU3EaDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBgLKDgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_OMU3EqDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBgLaDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OMVeIKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBgLqDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBgL6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBgMKDgEeykIpSMiCkpjw" name="JButton">
+        <modelElement href="Pokemon.uml#_OLctUaDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBgMaDgEeykIpSMiCkpjw" name="titleButton">
+      <modelElement href="Pokemon.uml#_OMVeIaDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBgMqDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OMWFMKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBgM6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBgNKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBgNaDgEeykIpSMiCkpjw" name="JButton">
+        <modelElement href="Pokemon.uml#_OLctUaDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBgNqDgEeykIpSMiCkpjw" name="MyPokSk1">
+      <modelElement href="Pokemon.uml#_OMWFMaDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBgN6DgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_OMWFMqDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBgOKDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OMWsQKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBgOaDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBgOqDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBgO6DgEeykIpSMiCkpjw" name="JButton">
+        <modelElement href="Pokemon.uml#_OLctUaDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBgPKDgEeykIpSMiCkpjw" name="titlePanel">
+      <modelElement href="Pokemon.uml#_OMXTUKDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBgPaDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OMX6YKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBgPqDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBgP6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBgQKDgEeykIpSMiCkpjw" name="JPanel">
+        <modelElement href="Pokemon.uml#_OLhl0aDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBgQaDgEeykIpSMiCkpjw" name="town">
+      <modelElement href="Pokemon.uml#_OMX6YaDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBgQqDgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_OMX6YqDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBgQ6DgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OMX6Y6DgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBgRKDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBgRaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBgRqDgEeykIpSMiCkpjw" name="JPanel">
+        <modelElement href="Pokemon.uml#_OLhl0aDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBgR6DgEeykIpSMiCkpjw" name="townLabel">
+      <modelElement href="Pokemon.uml#_OMYhcKDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBgSKDgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_OMYhcaDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBgSaDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OMZIgKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBgSqDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBgS6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBgTKDgEeykIpSMiCkpjw" name="JLabel">
+        <modelElement href="Pokemon.uml#_OLeigKDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBgTaDgEeykIpSMiCkpjw" name="playerBox">
+      <modelElement href="Pokemon.uml#_OMZIgaDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBgTqDgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_OMZvkKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBgT6DgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OMZvkaDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBgUKDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBgUaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBgUqDgEeykIpSMiCkpjw" name="JLabel">
+        <modelElement href="Pokemon.uml#_OLeigKDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBgU6DgEeykIpSMiCkpjw" name="MyStat">
+      <modelElement href="Pokemon.uml#_OMaWoKDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBgVKDgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_OMaWoaDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBgVaDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OMaWoqDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBgVqDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBgV6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBgWKDgEeykIpSMiCkpjw" name="JLabel">
+        <modelElement href="Pokemon.uml#_OLeigKDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBgWaDgEeykIpSMiCkpjw" name="tilteImage">
+      <modelElement href="Pokemon.uml#_OMa9sKDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBgWqDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OMbkwKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBgW6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBgXKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBgXaDgEeykIpSMiCkpjw" name="ImageIcon">
+        <modelElement href="Pokemon.uml#_OLbfMaDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBgXqDgEeykIpSMiCkpjw" name="townImage">
+      <modelElement href="Pokemon.uml#_OMbkwaDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBgX6DgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OMbkwqDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBgYKDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBgYaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBgYqDgEeykIpSMiCkpjw" name="ImageIcon">
+        <modelElement href="Pokemon.uml#_OLbfMaDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBgY6DgEeykIpSMiCkpjw" defaultValue="false" name="townScreen">
+      <modelElement href="Pokemon.uml#_OMcL0KDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBgZKDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OMcL0qDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBgZaDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBgZqDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBgZ6DgEeykIpSMiCkpjw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBgaKDgEeykIpSMiCkpjw" defaultValue="false" name="centerScreen">
+      <modelElement href="Pokemon.uml#_OMcL06DgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBgaaDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OMcy4KDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBgaqDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBga6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBgbKDgEeykIpSMiCkpjw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBgbaDgEeykIpSMiCkpjw" defaultValue="false" name="wildScreen">
+      <modelElement href="Pokemon.uml#_OMcy4aDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBgbqDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OMdZ8KDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBgb6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBgcKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBgcaDgEeykIpSMiCkpjw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBgcqDgEeykIpSMiCkpjw" defaultValue="false" name="momMeeting">
+      <modelElement href="Pokemon.uml#_OMdZ8aDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBgc6DgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OMdZ86DgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBgdKDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBgdaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBgdqDgEeykIpSMiCkpjw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBgd6DgEeykIpSMiCkpjw" defaultValue="false" name="battleFinish">
+      <modelElement href="Pokemon.uml#_OMeBAKDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBgeKDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OMeBAqDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBgeaDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBgeqDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBge6DgEeykIpSMiCkpjw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBgfKDgEeykIpSMiCkpjw" defaultValue="false" name="canfightBoss">
+      <modelElement href="Pokemon.uml#_OMeBA6DgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBgfaDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OMeoEaDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBgfqDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBgf6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBggKDgEeykIpSMiCkpjw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBggaDgEeykIpSMiCkpjw" name="myTurn">
+      <modelElement href="Pokemon.uml#_OMeoEqDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBggqDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OMfPIKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBgg6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBghKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBghaDgEeykIpSMiCkpjw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBghqDgEeykIpSMiCkpjw" defaultValue="300" name="x">
+      <modelElement href="Pokemon.uml#_OMfPIaDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBgh6DgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_OMfPI6DgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBgiKDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OMf2MKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBgiaDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBgiqDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBgi6DgEeykIpSMiCkpjw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBgjKDgEeykIpSMiCkpjw" name="mainPok">
+      <modelElement href="Pokemon.uml#_OMf2MaDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBgjaDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OMgdQKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBgjqDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBgj6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBgkKDgEeykIpSMiCkpjw" name="Pokemon">
+        <modelElement href="Pokemon.uml#_OMKfAKDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBgkaDgEeykIpSMiCkpjw" name="enemyPok">
+      <modelElement href="Pokemon.uml#_OMgdQaDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBgkqDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OMhEUKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBgk6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBglKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBglaDgEeykIpSMiCkpjw" name="WildPokemon">
+        <modelElement href="Pokemon.uml#_OMLGEaDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBglqDgEeykIpSMiCkpjw" name="myPokDmg">
+      <modelElement href="Pokemon.uml#_OMhEUaDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBgl6DgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OMhEUqDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBgmKDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBgmaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBgmqDgEeykIpSMiCkpjw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBgm6DgEeykIpSMiCkpjw" name="bt">
+      <modelElement href="Pokemon.uml#_OMhrYKDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBgnKDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OMhrYaDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBgnaDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBgnqDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBgn6DgEeykIpSMiCkpjw" name="Battle">
+        <modelElement href="Pokemon.uml#_ODttoKDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBgoKDgEeykIpSMiCkpjw" name="bossbt">
+      <modelElement href="Pokemon.uml#_OMhrYqDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBgoaDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OMiScKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBgoqDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBgo6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBgpKDgEeykIpSMiCkpjw" name="BossBattle">
+        <modelElement href="Pokemon.uml#_ODzNMKDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBgpaDgEeykIpSMiCkpjw" name="eneAttMes">
+      <modelElement href="Pokemon.uml#_OM43wKDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBgpqDgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_OM43waDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBgp6DgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OM5e0KDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBgqKDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBgqaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBgqqDgEeykIpSMiCkpjw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBgq6DgEeykIpSMiCkpjw" name="skillname">
+      <modelElement href="Pokemon.uml#_OM5e0aDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBgrKDgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_OM5e0qDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBgraDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OM5e06DgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBgrqDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBgr6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBgsKDgEeykIpSMiCkpjw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBgsaDgEeykIpSMiCkpjw" name="battleMes">
+      <modelElement href="Pokemon.uml#_OM6F4KDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBgsqDgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_OM6F4aDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBgs6DgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OM6F4qDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBgtKDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBgtaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBgtqDgEeykIpSMiCkpjw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBgt6DgEeykIpSMiCkpjw" name="centerF">
+      <modelElement href="Pokemon.uml#_OM6s8KDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBguKDgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_OM6s8aDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBguaDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OM6s8qDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBguqDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBgu6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBgvKDgEeykIpSMiCkpjw" name="JFrame">
+        <modelElement href="Pokemon.uml#_OLdUYaDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBgvaDgEeykIpSMiCkpjw" name="BattleF">
+      <modelElement href="Pokemon.uml#_OM6s86DgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBgvqDgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_OM6s9KDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBgv6DgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OM7UAKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBgwKDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBgwaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBgwqDgEeykIpSMiCkpjw" name="JFrame">
+        <modelElement href="Pokemon.uml#_OLdUYaDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBgw6DgEeykIpSMiCkpjw" name="InfoFrame">
+      <modelElement href="Pokemon.uml#_OM7UAaDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBgxKDgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_OM7UAqDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBgxaDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OM7UA6DgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBgxqDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBgx6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBgyKDgEeykIpSMiCkpjw" name="JFrame">
+        <modelElement href="Pokemon.uml#_OLdUYaDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBgyaDgEeykIpSMiCkpjw" name="mapTownButton">
+      <modelElement href="Pokemon.uml#_OM77EKDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBgyqDgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_OM77EaDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBgy6DgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OM77EqDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBgzKDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBgzaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBgzqDgEeykIpSMiCkpjw" name="JButton">
+        <modelElement href="Pokemon.uml#_OLctUaDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBgz6DgEeykIpSMiCkpjw" name="mapCenterButton">
+      <modelElement href="Pokemon.uml#_OM77E6DgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBg0KDgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_OM8iIKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBg0aDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OM8iIaDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBg0qDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBg06DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBg1KDgEeykIpSMiCkpjw" name="JButton">
+        <modelElement href="Pokemon.uml#_OLctUaDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBg1aDgEeykIpSMiCkpjw" name="mapWildButton">
+      <modelElement href="Pokemon.uml#_OM8iIqDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBg1qDgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_OM8iI6DgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBg16DgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OM8iJKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBg2KDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBg2aDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBg2qDgEeykIpSMiCkpjw" name="JButton">
+        <modelElement href="Pokemon.uml#_OLctUaDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBg26DgEeykIpSMiCkpjw" name="MyPokSk2">
+      <modelElement href="Pokemon.uml#_OM9JMKDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBg3KDgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_OM9JMaDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBg3aDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OM9JMqDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBg3qDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBg36DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBg4KDgEeykIpSMiCkpjw" name="JButton">
+        <modelElement href="Pokemon.uml#_OLctUaDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBg4aDgEeykIpSMiCkpjw" name="MyPokSk3">
+      <modelElement href="Pokemon.uml#_OM9JM6DgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBg4qDgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_OM9wQKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBg46DgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OM9wQaDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBg5KDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBg5aDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBg5qDgEeykIpSMiCkpjw" name="JButton">
+        <modelElement href="Pokemon.uml#_OLctUaDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBg56DgEeykIpSMiCkpjw" name="wild">
+      <modelElement href="Pokemon.uml#_OM9wQqDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBg6KDgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_OM-XUKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBg6aDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OM-XUaDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBg6qDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBg66DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBg7KDgEeykIpSMiCkpjw" name="JPanel">
+        <modelElement href="Pokemon.uml#_OLhl0aDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBg7aDgEeykIpSMiCkpjw" name="center">
+      <modelElement href="Pokemon.uml#_OM-XUqDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBg7qDgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_OM-XU6DgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBg76DgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OM-XVKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBg8KDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBg8aDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBg8qDgEeykIpSMiCkpjw" name="JPanel">
+        <modelElement href="Pokemon.uml#_OLhl0aDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBg86DgEeykIpSMiCkpjw" name="wildLabel">
+      <modelElement href="Pokemon.uml#_OM--YKDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBg9KDgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_OM--YaDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBg9aDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OM--YqDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBg9qDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBg96DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBg-KDgEeykIpSMiCkpjw" name="JLabel">
+        <modelElement href="Pokemon.uml#_OLeigKDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBg-aDgEeykIpSMiCkpjw" name="centerLabel">
+      <modelElement href="Pokemon.uml#_OM_lcKDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBg-qDgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_OM_lcaDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBg-6DgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OM_lcqDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBg_KDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBg_aDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBg_qDgEeykIpSMiCkpjw" name="JLabel">
+        <modelElement href="Pokemon.uml#_OLeigKDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBg_6DgEeykIpSMiCkpjw" name="towntalk">
+      <modelElement href="Pokemon.uml#_OM_lc6DgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBhAKDgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_OM_ldKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBhAaDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_ONAMgKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBhAqDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBhA6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBhBKDgEeykIpSMiCkpjw" name="JLabel">
+        <modelElement href="Pokemon.uml#_OLeigKDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBhBaDgEeykIpSMiCkpjw" name="sentalk">
+      <modelElement href="Pokemon.uml#_ONAMgaDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBhBqDgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_ONAMgqDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBhB6DgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_ONAMg6DgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBhCKDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBhCaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBhCqDgEeykIpSMiCkpjw" name="JLabel">
+        <modelElement href="Pokemon.uml#_OLeigKDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBhC6DgEeykIpSMiCkpjw" name="wildtalk">
+      <modelElement href="Pokemon.uml#_ONAMhKDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBhDKDgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_ONAzkKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBhDaDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_ONAzkaDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBhDqDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBhD6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBhEKDgEeykIpSMiCkpjw" name="JLabel">
+        <modelElement href="Pokemon.uml#_OLeigKDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBhEaDgEeykIpSMiCkpjw" name="momBox">
+      <modelElement href="Pokemon.uml#_ONAzkqDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBhEqDgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_ONAzk6DgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBhE6DgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_ONBaoKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBhFKDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBhFaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBhFqDgEeykIpSMiCkpjw" name="JLabel">
+        <modelElement href="Pokemon.uml#_OLeigKDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBhF6DgEeykIpSMiCkpjw" name="ha">
+      <modelElement href="Pokemon.uml#_ONBaoaDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBhGKDgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_ONBaoqDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBhGaDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_ONBao6DgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBhGqDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBhG6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBhHKDgEeykIpSMiCkpjw" name="JLabel">
+        <modelElement href="Pokemon.uml#_OLeigKDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBhHaDgEeykIpSMiCkpjw" name="titleLabel1">
+      <modelElement href="Pokemon.uml#_ONCBsKDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBhHqDgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_ONCBsaDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBhH6DgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_ONCBsqDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBhIKDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBhIaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBhIqDgEeykIpSMiCkpjw" name="JLabel">
+        <modelElement href="Pokemon.uml#_OLeigKDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBhI6DgEeykIpSMiCkpjw" name="bossBox">
+      <modelElement href="Pokemon.uml#_ONCBs6DgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBhJKDgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_ONCBtKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBhJaDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_ONCowKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBhJqDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBhJ6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBhKKDgEeykIpSMiCkpjw" name="JLabel">
+        <modelElement href="Pokemon.uml#_OLeigKDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBhKaDgEeykIpSMiCkpjw" name="EnemyStat">
+      <modelElement href="Pokemon.uml#_ONCowaDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBhKqDgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_ONDP0KDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBhK6DgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_ONDP0aDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBhLKDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBhLaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBhLqDgEeykIpSMiCkpjw" name="JLabel">
+        <modelElement href="Pokemon.uml#_OLeigKDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBhL6DgEeykIpSMiCkpjw" name="BattleM">
+      <modelElement href="Pokemon.uml#_ONDP0qDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBhMKDgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_ONDP06DgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBhMaDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OND24KDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBhMqDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBhM6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBhNKDgEeykIpSMiCkpjw" name="JLabel">
+        <modelElement href="Pokemon.uml#_OLeigKDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBhNaDgEeykIpSMiCkpjw" name="stat">
+      <modelElement href="Pokemon.uml#_OND24aDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBhNqDgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_OND24qDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBhN6DgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OND246DgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBhOKDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBhOaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBhOqDgEeykIpSMiCkpjw" name="JLabel">
+        <modelElement href="Pokemon.uml#_OLeigKDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBhO6DgEeykIpSMiCkpjw" name="pachoice">
+      <modelElement href="Pokemon.uml#_OND25KDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBhPKDgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_ONEd8KDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBhPaDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_ONEd8aDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBhPqDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBhP6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBhQKDgEeykIpSMiCkpjw" name="JLabel">
+        <modelElement href="Pokemon.uml#_OLeigKDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBhQaDgEeykIpSMiCkpjw" name="info">
+      <modelElement href="Pokemon.uml#_ONEd8qDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBhQqDgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_ONEd86DgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBhQ6DgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_ONEd9KDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBhRKDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBhRaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBhRqDgEeykIpSMiCkpjw" name="JLabel">
+        <modelElement href="Pokemon.uml#_OLeigKDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBhR6DgEeykIpSMiCkpjw" name="insk">
+      <modelElement href="Pokemon.uml#_ONFFAKDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBhSKDgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_ONFFAaDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBhSaDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_ONFFAqDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBhSqDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBhS6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBhTKDgEeykIpSMiCkpjw" name="JLabel">
+        <modelElement href="Pokemon.uml#_OLeigKDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OVBhTaDgEeykIpSMiCkpjw" defaultValue="600" name="y">
+      <modelElement href="Pokemon.uml#_ONFFA6DgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OVBhTqDgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_ONFsEKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OVBhT6DgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_ONFsEaDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OVBhUKDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_OVBhUaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_OVBhUqDgEeykIpSMiCkpjw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_OVCHIKDgEeykIpSMiCkpjw" name="Pokemonster">
+      <modelElement href="Pokemon.uml#_OEOD8KDgEeykIpSMiCkpjw"/>
+      <keywords xmi:id="_OVCHIaDgEeykIpSMiCkpjw" keyword="create"/>
+      <visibility xmi:id="_OVCHIqDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OVCHI6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OVCHJKDgEeykIpSMiCkpjw">
+        <modelElement href="Pokemon.uml#_OEOrAaDgEeykIpSMiCkpjw"/>
+        <type xmi:id="_OVCHJaDgEeykIpSMiCkpjw" name="Pokemonster">
+          <modelElement href="Pokemon.uml#_ODVTIKDgEeykIpSMiCkpjw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OVCHJqDgEeykIpSMiCkpjw" name="title">
+        <modelElement href="Pokemon.uml#_OEOD8aDgEeykIpSMiCkpjw"/>
+        <cardinality xmi:id="_OVCHJ6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+        <type xmi:id="_OVCHKKDgEeykIpSMiCkpjw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OVCHKaDgEeykIpSMiCkpjw" name="main" staticOperation="true">
+      <modelElement href="Pokemon.uml#_OEPSEKDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_OVCHKqDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OVCHK6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_OVCHLKDgEeykIpSMiCkpjw" name="args">
+        <modelElement href="Pokemon.uml#_OEPSEaDgEeykIpSMiCkpjw"/>
+        <cardinality xmi:id="_OVCHLaDgEeykIpSMiCkpjw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_OVCHLqDgEeykIpSMiCkpjw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OW7kkKDgEeykIpSMiCkpjw" name="SkipTitle">
+    <modelElement href="Pokemon.uml#_ODlKwKDgEeykIpSMiCkpjw"/>
+    <visualProperties xmi:id="_OW7kkaDgEeykIpSMiCkpjw" position="731.0,1060.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OW7kkqDgEeykIpSMiCkpjw" label="~"/>
+    <operations xmi:id="_OW7kk6DgEeykIpSMiCkpjw" name="actionPerformed">
+      <modelElement href="Pokemon.uml#_OL2V8KDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OW7klKDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OL29AKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OW7klaDgEeykIpSMiCkpjw" name="Annotations">
+        <modelElement href="Pokemon.uml#_OL29AaDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OW7klqDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OW7kl6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_OW7kmKDgEeykIpSMiCkpjw" name="e">
+        <modelElement href="Pokemon.uml#_OL2V8aDgEeykIpSMiCkpjw"/>
+        <cardinality xmi:id="_OW7kmaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+        <type xmi:id="_OW7kmqDgEeykIpSMiCkpjw" name="ActionEvent">
+          <modelElement href="Pokemon.uml#_OLV_oaDgEeykIpSMiCkpjw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OW9ZwKDgEeykIpSMiCkpjw" name="GoWild">
+    <modelElement href="Pokemon.uml#_ODnnAKDgEeykIpSMiCkpjw"/>
+    <visualProperties xmi:id="_OW9ZwaDgEeykIpSMiCkpjw" position="-29.0,1060.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OW9ZwqDgEeykIpSMiCkpjw" label="~"/>
+    <operations xmi:id="_OW9Zw6DgEeykIpSMiCkpjw" name="actionPerformed">
+      <modelElement href="Pokemon.uml#_OL4LIKDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OW9ZxKDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OL4LIqDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OW9ZxaDgEeykIpSMiCkpjw" name="Annotations">
+        <modelElement href="Pokemon.uml#_OL4yMKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OW9ZxqDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OW9Zx6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_OW9ZyKDgEeykIpSMiCkpjw" name="e">
+        <modelElement href="Pokemon.uml#_OL4LIaDgEeykIpSMiCkpjw"/>
+        <cardinality xmi:id="_OW9ZyaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+        <type xmi:id="_OW9ZyqDgEeykIpSMiCkpjw" name="ActionEvent">
+          <modelElement href="Pokemon.uml#_OLV_oaDgEeykIpSMiCkpjw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OW_2AKDgEeykIpSMiCkpjw" name="GoTown">
+    <modelElement href="Pokemon.uml#_ODqDQKDgEeykIpSMiCkpjw"/>
+    <visualProperties xmi:id="_OW_2AaDgEeykIpSMiCkpjw" position="-349.0,1060.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OW_2AqDgEeykIpSMiCkpjw" label="~"/>
+    <operations xmi:id="_OW_2A6DgEeykIpSMiCkpjw" name="actionPerformed">
+      <modelElement href="Pokemon.uml#_OL5ZQKDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OW_2BKDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OL6AUKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OW_2BaDgEeykIpSMiCkpjw" name="Annotations">
+        <modelElement href="Pokemon.uml#_OL6AUaDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OW_2BqDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OW_2B6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_OW_2CKDgEeykIpSMiCkpjw" name="e">
+        <modelElement href="Pokemon.uml#_OL5ZQaDgEeykIpSMiCkpjw"/>
+        <cardinality xmi:id="_OW_2CaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+        <type xmi:id="_OW_2CqDgEeykIpSMiCkpjw" name="ActionEvent">
+          <modelElement href="Pokemon.uml#_OLV_oaDgEeykIpSMiCkpjw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OXCSQKDgEeykIpSMiCkpjw" name="GoCenter">
+    <modelElement href="Pokemon.uml#_ODr4cKDgEeykIpSMiCkpjw"/>
+    <visualProperties xmi:id="_OXCSQaDgEeykIpSMiCkpjw" position="1071.0,1060.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OXCSQqDgEeykIpSMiCkpjw" label="~"/>
+    <operations xmi:id="_OXCSQ6DgEeykIpSMiCkpjw" name="actionPerformed">
+      <modelElement href="Pokemon.uml#_OL6nYaDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OXCSRKDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OL7OcaDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OXCSRaDgEeykIpSMiCkpjw" name="Annotations">
+        <modelElement href="Pokemon.uml#_OL71gKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OXCSRqDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OXCSR6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_OXCSSKDgEeykIpSMiCkpjw" name="e">
+        <modelElement href="Pokemon.uml#_OL7OcKDgEeykIpSMiCkpjw"/>
+        <cardinality xmi:id="_OXCSSaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+        <type xmi:id="_OXCSSqDgEeykIpSMiCkpjw" name="ActionEvent">
+          <modelElement href="Pokemon.uml#_OLV_oaDgEeykIpSMiCkpjw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OXEugKDgEeykIpSMiCkpjw" name="Battle" associationsIn="_OUvMMKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ODttoKDgEeykIpSMiCkpjw"/>
+    <visualProperties xmi:id="_OXEugaDgEeykIpSMiCkpjw" position="427.0,79.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OXEugqDgEeykIpSMiCkpjw" label="~"/>
+    <operations xmi:id="_OXEug6DgEeykIpSMiCkpjw" name="run">
+      <modelElement href="Pokemon.uml#_ODuUsKDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OXEuhKDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_ODwJ4KDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OXEuhaDgEeykIpSMiCkpjw" name="Annotations">
+        <modelElement href="Pokemon.uml#_ODx_EKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OXEuhqDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OXEuh6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OXVNMKDgEeykIpSMiCkpjw" name="BossBattle" associationsIn="_OUvzQKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_ODzNMKDgEeykIpSMiCkpjw"/>
+    <visualProperties xmi:id="_OXVNMaDgEeykIpSMiCkpjw" position="607.0,79.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OXVNMqDgEeykIpSMiCkpjw" label="~"/>
+    <operations xmi:id="_OXVNM6DgEeykIpSMiCkpjw" name="run">
+      <modelElement href="Pokemon.uml#_OD0bUKDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OXVNNKDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OD1pcKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OXVNNaDgEeykIpSMiCkpjw" name="Annotations">
+        <modelElement href="Pokemon.uml#_OD3eoKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OXVNNqDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OXVNN6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OXYQgKDgEeykIpSMiCkpjw" name="PlayerMove">
+    <modelElement href="Pokemon.uml#_OD4FsKDgEeykIpSMiCkpjw"/>
+    <visualProperties xmi:id="_OXYQgaDgEeykIpSMiCkpjw" position="-636.0,1022.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OXYQgqDgEeykIpSMiCkpjw" label="~"/>
+    <operations xmi:id="_OXYQg6DgEeykIpSMiCkpjw" name="keyTyped">
+      <modelElement href="Pokemon.uml#_OL9qsKDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OXYQhKDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OL9qsqDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OXYQhaDgEeykIpSMiCkpjw" name="Annotations">
+        <modelElement href="Pokemon.uml#_OL-RwKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OXYQhqDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OXYQh6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_OXYQiKDgEeykIpSMiCkpjw" name="e">
+        <modelElement href="Pokemon.uml#_OL9qsaDgEeykIpSMiCkpjw"/>
+        <cardinality xmi:id="_OXYQiaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+        <type xmi:id="_OXYQiqDgEeykIpSMiCkpjw" name="KeyEvent">
+          <modelElement href="Pokemon.uml#_OLYb4KDgEeykIpSMiCkpjw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OXYQi6DgEeykIpSMiCkpjw" name="keyPressed">
+      <modelElement href="Pokemon.uml#_OL-RwqDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OXYQjKDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OL-40KDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OXYQjaDgEeykIpSMiCkpjw" name="Annotations">
+        <modelElement href="Pokemon.uml#_OL-40aDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OXYQjqDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OXYQj6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_OXYQkKDgEeykIpSMiCkpjw" name="e">
+        <modelElement href="Pokemon.uml#_OL-Rw6DgEeykIpSMiCkpjw"/>
+        <cardinality xmi:id="_OXYQkaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+        <type xmi:id="_OXYQkqDgEeykIpSMiCkpjw" name="KeyEvent">
+          <modelElement href="Pokemon.uml#_OLYb4KDgEeykIpSMiCkpjw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OXYQk6DgEeykIpSMiCkpjw" name="keyReleased">
+      <modelElement href="Pokemon.uml#_OL-406DgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OXYQlKDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OL_f4KDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OXYQlaDgEeykIpSMiCkpjw" name="Annotations">
+        <modelElement href="Pokemon.uml#_OL_f4aDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OXYQlqDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OXYQl6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_OXYQmKDgEeykIpSMiCkpjw" name="e">
+        <modelElement href="Pokemon.uml#_OL-41KDgEeykIpSMiCkpjw"/>
+        <cardinality xmi:id="_OXYQmaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+        <type xmi:id="_OXYQmqDgEeykIpSMiCkpjw" name="KeyEvent">
+          <modelElement href="Pokemon.uml#_OLYb4KDgEeykIpSMiCkpjw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OXb64KDgEeykIpSMiCkpjw" name="GivePIR">
+    <modelElement href="Pokemon.uml#_OD8XIKDgEeykIpSMiCkpjw"/>
+    <visualProperties xmi:id="_OXb64aDgEeykIpSMiCkpjw" position="1411.0,1060.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OXb64qDgEeykIpSMiCkpjw" label="~"/>
+    <operations xmi:id="_OXb646DgEeykIpSMiCkpjw" name="actionPerformed">
+      <modelElement href="Pokemon.uml#_OMAG8aDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OXb65KDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OMAuAKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OXb65aDgEeykIpSMiCkpjw" name="Annotations">
+        <modelElement href="Pokemon.uml#_OMAuAaDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OXb65qDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OXb656DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_OXb66KDgEeykIpSMiCkpjw" name="e">
+        <modelElement href="Pokemon.uml#_OMAG8qDgEeykIpSMiCkpjw"/>
+        <cardinality xmi:id="_OXb66aDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+        <type xmi:id="_OXb66qDgEeykIpSMiCkpjw" name="ActionEvent">
+          <modelElement href="Pokemon.uml#_OLV_oaDgEeykIpSMiCkpjw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OXdwEKDgEeykIpSMiCkpjw" name="GiveGBG">
+    <modelElement href="Pokemon.uml#_OD_acKDgEeykIpSMiCkpjw"/>
+    <visualProperties xmi:id="_OXdwEaDgEeykIpSMiCkpjw" position="-969.0,1060.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OXdwEqDgEeykIpSMiCkpjw" label="~"/>
+    <operations xmi:id="_OXdwE6DgEeykIpSMiCkpjw" name="actionPerformed">
+      <modelElement href="Pokemon.uml#_OMBVEaDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OXdwFKDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OMB8IKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OXdwFaDgEeykIpSMiCkpjw" name="Annotations">
+        <modelElement href="Pokemon.uml#_OMB8IaDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OXdwFqDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OXdwF6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_OXdwGKDgEeykIpSMiCkpjw" name="e">
+        <modelElement href="Pokemon.uml#_OMBVEqDgEeykIpSMiCkpjw"/>
+        <cardinality xmi:id="_OXdwGaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+        <type xmi:id="_OXdwGqDgEeykIpSMiCkpjw" name="ActionEvent">
+          <modelElement href="Pokemon.uml#_OLV_oaDgEeykIpSMiCkpjw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OXgMUKDgEeykIpSMiCkpjw" name="GiveLSHC">
+    <modelElement href="Pokemon.uml#_OEAokKDgEeykIpSMiCkpjw"/>
+    <visualProperties xmi:id="_OXgMUaDgEeykIpSMiCkpjw" position="1751.0,1060.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OXgMUqDgEeykIpSMiCkpjw" label="~"/>
+    <operations xmi:id="_OXgMU6DgEeykIpSMiCkpjw" name="actionPerformed">
+      <modelElement href="Pokemon.uml#_OMCjMaDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OXgMVKDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OMDKQKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OXgMVaDgEeykIpSMiCkpjw" name="Annotations">
+        <modelElement href="Pokemon.uml#_OMDKQaDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OXgMVqDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OXgMV6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_OXgMWKDgEeykIpSMiCkpjw" name="e">
+        <modelElement href="Pokemon.uml#_OMCjMqDgEeykIpSMiCkpjw"/>
+        <cardinality xmi:id="_OXgMWaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+        <type xmi:id="_OXgMWqDgEeykIpSMiCkpjw" name="ActionEvent">
+          <modelElement href="Pokemon.uml#_OLV_oaDgEeykIpSMiCkpjw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OXiBgKDgEeykIpSMiCkpjw" name="Recover">
+    <modelElement href="Pokemon.uml#_OEDr4KDgEeykIpSMiCkpjw"/>
+    <visualProperties xmi:id="_OXiBgaDgEeykIpSMiCkpjw" position="-1289.0,1060.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OXiBgqDgEeykIpSMiCkpjw" label="~"/>
+    <operations xmi:id="_OXiBg6DgEeykIpSMiCkpjw" name="actionPerformed">
+      <modelElement href="Pokemon.uml#_OMEYYKDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OXiBhKDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OMEYYqDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OXiBhaDgEeykIpSMiCkpjw" name="Annotations">
+        <modelElement href="Pokemon.uml#_OME_cKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OXiBhqDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OXiBh6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_OXiBiKDgEeykIpSMiCkpjw" name="e">
+        <modelElement href="Pokemon.uml#_OMEYYaDgEeykIpSMiCkpjw"/>
+        <cardinality xmi:id="_OXiBiaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+        <type xmi:id="_OXiBiqDgEeykIpSMiCkpjw" name="ActionEvent">
+          <modelElement href="Pokemon.uml#_OLV_oaDgEeykIpSMiCkpjw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OXkdwKDgEeykIpSMiCkpjw" name="ButtonInfoPage">
+    <modelElement href="Pokemon.uml#_OEGvMKDgEeykIpSMiCkpjw"/>
+    <visualProperties xmi:id="_OXkdwaDgEeykIpSMiCkpjw" position="2091.0,1060.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OXkdwqDgEeykIpSMiCkpjw" label="~"/>
+    <operations xmi:id="_OXkdw6DgEeykIpSMiCkpjw" name="actionPerformed">
+      <modelElement href="Pokemon.uml#_OMFmgKDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OXkdxKDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OMFmgqDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OXkdxaDgEeykIpSMiCkpjw" name="Annotations">
+        <modelElement href="Pokemon.uml#_OMGNkKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OXkdxqDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OXkdx6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_OXkdyKDgEeykIpSMiCkpjw" name="e">
+        <modelElement href="Pokemon.uml#_OMFmgaDgEeykIpSMiCkpjw"/>
+        <cardinality xmi:id="_OXkdyaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+        <type xmi:id="_OXkdyqDgEeykIpSMiCkpjw" name="ActionEvent">
+          <modelElement href="Pokemon.uml#_OLV_oaDgEeykIpSMiCkpjw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OXm6AKDgEeykIpSMiCkpjw" name="MyPokSkill">
+    <modelElement href="Pokemon.uml#_OEJLcKDgEeykIpSMiCkpjw"/>
+    <visualProperties xmi:id="_OXm6AaDgEeykIpSMiCkpjw" position="-1609.0,1060.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OXm6AqDgEeykIpSMiCkpjw" label="~"/>
+    <operations xmi:id="_OXm6A6DgEeykIpSMiCkpjw" name="actionPerformed">
+      <modelElement href="Pokemon.uml#_OMG0oKDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_OXm6BKDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_OMHbsKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OXm6BaDgEeykIpSMiCkpjw" name="Annotations">
+        <modelElement href="Pokemon.uml#_OMICwKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_OXm6BqDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_OXm6B6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_OXm6CKDgEeykIpSMiCkpjw" name="e">
+        <modelElement href="Pokemon.uml#_OMG0oaDgEeykIpSMiCkpjw"/>
+        <cardinality xmi:id="_OXm6CaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+        <type xmi:id="_OXm6CqDgEeykIpSMiCkpjw" name="ActionEvent">
+          <modelElement href="Pokemon.uml#_OLV_oaDgEeykIpSMiCkpjw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_XI6XkKDgEeykIpSMiCkpjw" name="Pokemon" associationsIn="_OUulIKDgEeykIpSMiCkpjw" associationsOut="_XI0Q8KDgEeykIpSMiCkpjw _XI4iYKDgEeykIpSMiCkpjw _XI5JcKDgEeykIpSMiCkpjw _XI5wgKDgEeykIpSMiCkpjw" subclassedBy="_XJAeMKDgEeykIpSMiCkpjw _XJJBEKDgEeykIpSMiCkpjw _XJLdUKDgEeykIpSMiCkpjw _YlSO8KDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_OMKfAKDgEeykIpSMiCkpjw"/>
+    <visualProperties xmi:id="_XI6XkaDgEeykIpSMiCkpjw" position="86.0,-151.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_XI6XkqDgEeykIpSMiCkpjw" label="~"/>
+    <attributes xmi:id="_XI6Xk6DgEeykIpSMiCkpjw" name="name">
+      <modelElement href="Pokemon.uml#_XGgj0KDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_XI6XlKDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_XGhK4KDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_XI6XlaDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_XI6XlqDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_XI6Xl6DgEeykIpSMiCkpjw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_XI6XmKDgEeykIpSMiCkpjw" defaultValue="5" name="level">
+      <modelElement href="Pokemon.uml#_XGhK4aDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_XI6XmaDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_XGhx8aDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_XI6XmqDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_XI6Xm6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_XI6XnKDgEeykIpSMiCkpjw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_XI6XnaDgEeykIpSMiCkpjw" defaultValue="50" name="hp">
+      <modelElement href="Pokemon.uml#_XGhx8qDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_XI6XnqDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_XGjAEKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_XI6Xn6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_XI6XoKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_XI6XoaDgEeykIpSMiCkpjw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_XI6XoqDgEeykIpSMiCkpjw" defaultValue="hp" name="maxhp">
+      <modelElement href="Pokemon.uml#_XGjAEaDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_XI6Xo6DgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_XGjnIKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_XI6XpKDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_XI6XpaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_XI6XpqDgEeykIpSMiCkpjw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_XI6Xp6DgEeykIpSMiCkpjw" defaultValue="16" name="att">
+      <modelElement href="Pokemon.uml#_XGjnIaDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_XI6XqKDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_XGkOMKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_XI6XqaDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_XI6XqqDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_XI6Xq6DgEeykIpSMiCkpjw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_XI6XrKDgEeykIpSMiCkpjw" defaultValue="5" name="def">
+      <modelElement href="Pokemon.uml#_XGkOMaDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_XI6XraDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_XGk1QKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_XI6XrqDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_XI6Xr6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_XI6XsKDgEeykIpSMiCkpjw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_XI6XsaDgEeykIpSMiCkpjw" name="image">
+      <modelElement href="Pokemon.uml#_XGk1QaDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_XI6XsqDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_XGk1QqDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_XI6Xs6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_XI6XtKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_XI6XtaDgEeykIpSMiCkpjw" name="ImageIcon">
+        <modelElement href="Pokemon.uml#_OLbfMaDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_XI6XtqDgEeykIpSMiCkpjw" name="SK1">
+      <modelElement href="Pokemon.uml#_XGmDYaDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_XI6Xt6DgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_XGmDYqDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_XI6XuKDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_XGmDY6DgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_XI6XuaDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_XI6XuqDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_XI6Xu6DgEeykIpSMiCkpjw" name="Skill">
+        <modelElement href="Pokemon.uml#_XGPeEKDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_XI6XvKDgEeykIpSMiCkpjw" name="SK2">
+      <modelElement href="Pokemon.uml#_XGofoKDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_XI6XvaDgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_XGofoaDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_XI6XvqDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_XGofoqDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_XI6Xv6DgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_XI6XwKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_XI6XwaDgEeykIpSMiCkpjw" name="Skill">
+        <modelElement href="Pokemon.uml#_XGPeEKDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_XI6XwqDgEeykIpSMiCkpjw" name="SK3">
+      <modelElement href="Pokemon.uml#_XGofo6DgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_XI6Xw6DgEeykIpSMiCkpjw" name="MultiDeclaration">
+        <modelElement href="Pokemon.uml#_XGpGsKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_XI6XxKDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_XGpGsaDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_XI6XxaDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_XI6XxqDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_XI6Xx6DgEeykIpSMiCkpjw" name="Skill">
+        <modelElement href="Pokemon.uml#_XGPeEKDgEeykIpSMiCkpjw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_XI6XyKDgEeykIpSMiCkpjw" name="levelup">
+      <modelElement href="Pokemon.uml#_XGQsMKDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_XI6XyaDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_XI6XyqDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_XI6Xy6DgEeykIpSMiCkpjw" name="set">
+      <modelElement href="Pokemon.uml#_XGQsMaDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_XI6XzKDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_XGRTQKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_XI6XzaDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_XI6XzqDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_XI6Xz6DgEeykIpSMiCkpjw" name="Pokemon">
+      <modelElement href="Pokemon.uml#_XGRTQaDgEeykIpSMiCkpjw"/>
+      <keywords xmi:id="_XI6X0KDgEeykIpSMiCkpjw" keyword="create"/>
+      <visibility xmi:id="_XI6X0aDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_XI6X0qDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_XI6X06DgEeykIpSMiCkpjw">
+        <modelElement href="Pokemon.uml#_XGRTRKDgEeykIpSMiCkpjw"/>
+        <type xmi:id="_XI6X1KDgEeykIpSMiCkpjw" name="Pokemon">
+          <modelElement href="Pokemon.uml#_OMKfAKDgEeykIpSMiCkpjw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_XJBFQKDgEeykIpSMiCkpjw" name="Pa" generalizations="_XJAeMKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_XGLzsKDgEeykIpSMiCkpjw"/>
+    <visualProperties xmi:id="_XJBFQaDgEeykIpSMiCkpjw" position="125.0,199.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_XJBFQqDgEeykIpSMiCkpjw" keyword="sameFile"/>
+    <visibility xmi:id="_XJBFQ6DgEeykIpSMiCkpjw" label="~"/>
+    <operations xmi:id="_XJBFRKDgEeykIpSMiCkpjw" name="set">
+      <modelElement href="Pokemon.uml#_XGLzs6DgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_XJBFRaDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_XGMawKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_XJBFRqDgEeykIpSMiCkpjw" name="Annotations">
+        <modelElement href="Pokemon.uml#_XGNB0KDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_XJBFR6DgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_XJBFSKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_XJKPMKDgEeykIpSMiCkpjw" name="Ggobu" generalizations="_XJJBEKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_XGNB0qDgEeykIpSMiCkpjw"/>
+    <visualProperties xmi:id="_XJKPMaDgEeykIpSMiCkpjw" position="101.0,327.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_XJKPMqDgEeykIpSMiCkpjw" keyword="sameFile"/>
+    <visibility xmi:id="_XJKPM6DgEeykIpSMiCkpjw" label="~"/>
+    <operations xmi:id="_XJKPNKDgEeykIpSMiCkpjw" name="set">
+      <modelElement href="Pokemon.uml#_XGNo4KDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_XJKPNaDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_XGNo4aDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_XJKPNqDgEeykIpSMiCkpjw" name="Annotations">
+        <modelElement href="Pokemon.uml#_XGNo4qDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_XJKPN6DgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_XJKPOKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_XJMrcKDgEeykIpSMiCkpjw" name="Lee" generalizations="_XJLdUKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_XGOP8KDgEeykIpSMiCkpjw"/>
+    <visualProperties xmi:id="_XJMrcaDgEeykIpSMiCkpjw" position="-53.0,199.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_XJMrcqDgEeykIpSMiCkpjw" keyword="sameFile"/>
+    <visibility xmi:id="_XJMrc6DgEeykIpSMiCkpjw" label="~"/>
+    <operations xmi:id="_XJMrdKDgEeykIpSMiCkpjw" name="set">
+      <modelElement href="Pokemon.uml#_XGOP86DgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_XJMrdaDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_XGOP9KDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_XJMrdqDgEeykIpSMiCkpjw" name="Annotations">
+        <modelElement href="Pokemon.uml#_XGO3AKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_XJMrd6DgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_XJMreKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_XJPHsKDgEeykIpSMiCkpjw" name="Skill" associationsIn="_XI4iYKDgEeykIpSMiCkpjw _XI5JcKDgEeykIpSMiCkpjw _XI5wgKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_XGPeEKDgEeykIpSMiCkpjw"/>
+    <visualProperties xmi:id="_XJPHsaDgEeykIpSMiCkpjw" position="47.0,-305.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_XJPHsqDgEeykIpSMiCkpjw" label="~"/>
+    <attributes xmi:id="_XJPHs6DgEeykIpSMiCkpjw" name="Sname">
+      <modelElement href="Pokemon.uml#_XGlcUKDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_XJPHtKDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_XGlcUaDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_XJPHtaDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_XJPHtqDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_XJPHt6DgEeykIpSMiCkpjw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_XJPHuKDgEeykIpSMiCkpjw" defaultValue="10" name="dmg">
+      <modelElement href="Pokemon.uml#_XGlcUqDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_XJPHuaDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_XGmDYKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_XJPHuqDgEeykIpSMiCkpjw" label="~"/>
+      <cardinality xmi:id="_XJPHu6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <type xmi:id="_XJPHvKDgEeykIpSMiCkpjw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_XJPHvaDgEeykIpSMiCkpjw" name="Skill">
+      <modelElement href="Pokemon.uml#_XGQFIKDgEeykIpSMiCkpjw"/>
+      <keywords xmi:id="_XJPHvqDgEeykIpSMiCkpjw" keyword="create"/>
+      <visibility xmi:id="_XJPHv6DgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_XJPHwKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_XJPHwaDgEeykIpSMiCkpjw">
+        <modelElement href="Pokemon.uml#_XGQFJaDgEeykIpSMiCkpjw"/>
+        <type xmi:id="_XJPHwqDgEeykIpSMiCkpjw" name="Skill">
+          <modelElement href="Pokemon.uml#_XGPeEKDgEeykIpSMiCkpjw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_XJPHw6DgEeykIpSMiCkpjw" name="sname">
+        <modelElement href="Pokemon.uml#_XGQFIaDgEeykIpSMiCkpjw"/>
+        <cardinality xmi:id="_XJPHxKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+        <type xmi:id="_XJPHxaDgEeykIpSMiCkpjw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_XJPHxqDgEeykIpSMiCkpjw" name="dmg">
+        <modelElement href="Pokemon.uml#_XGQFIqDgEeykIpSMiCkpjw"/>
+        <cardinality xmi:id="_XJPHx6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+        <type xmi:id="_XJPHyKDgEeykIpSMiCkpjw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YlUEIKDgEeykIpSMiCkpjw" name="WildPokemon" associationsIn="_OUulKaDgEeykIpSMiCkpjw" generalizations="_YlSO8KDgEeykIpSMiCkpjw" subclassedBy="_YlWgYKDgEeykIpSMiCkpjw _YlZjsKDgEeykIpSMiCkpjw _YlbY4KDgEeykIpSMiCkpjw _Yld1IKDgEeykIpSMiCkpjw _YlgRYKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_OMLGEaDgEeykIpSMiCkpjw"/>
+    <visualProperties xmi:id="_YlUEIaDgEeykIpSMiCkpjw" position="-193.0,334.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YlUEIqDgEeykIpSMiCkpjw" label="~"/>
+    <operations xmi:id="_YlUEI6DgEeykIpSMiCkpjw" name="WildPokemon">
+      <modelElement href="Pokemon.uml#_YiHmMKDgEeykIpSMiCkpjw"/>
+      <keywords xmi:id="_YlUEJKDgEeykIpSMiCkpjw" keyword="create"/>
+      <visibility xmi:id="_YlUEJaDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_YlUEJqDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YlUEJ6DgEeykIpSMiCkpjw">
+        <modelElement href="Pokemon.uml#_YiI0UKDgEeykIpSMiCkpjw"/>
+        <type xmi:id="_YlUEKKDgEeykIpSMiCkpjw" name="WildPokemon">
+          <modelElement href="Pokemon.uml#_OMLGEaDgEeykIpSMiCkpjw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YlUEKaDgEeykIpSMiCkpjw" name="setW">
+      <modelElement href="Pokemon.uml#_YiI0UaDgEeykIpSMiCkpjw"/>
+      <visibility xmi:id="_YlUEKqDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_YlUEK6DgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YlXHcKDgEeykIpSMiCkpjw" name="GGorat" generalizations="_YlWgYKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_Yh3HgKDgEeykIpSMiCkpjw"/>
+    <visualProperties xmi:id="_YlXHcaDgEeykIpSMiCkpjw" position="116.0,464.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_YlXHcqDgEeykIpSMiCkpjw" keyword="sameFile"/>
+    <visibility xmi:id="_YlXHc6DgEeykIpSMiCkpjw" label="~"/>
+    <operations xmi:id="_YlXHdKDgEeykIpSMiCkpjw" name="set">
+      <modelElement href="Pokemon.uml#_Yh4VoKDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_YlXHdaDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_Yh7Y8KDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YlXHdqDgEeykIpSMiCkpjw" name="Annotations">
+        <modelElement href="Pokemon.uml#_Yh8nEKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_YlXHd6DgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_YlXugKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YlaKwKDgEeykIpSMiCkpjw" name="Catupi" generalizations="_YlZjsKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_Yh9OIKDgEeykIpSMiCkpjw"/>
+    <visualProperties xmi:id="_YlaKwaDgEeykIpSMiCkpjw" position="126.0,608.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_YlaKwqDgEeykIpSMiCkpjw" keyword="sameFile"/>
+    <visibility xmi:id="_YlaKw6DgEeykIpSMiCkpjw" label="~"/>
+    <operations xmi:id="_YlaKxKDgEeykIpSMiCkpjw" name="set">
+      <modelElement href="Pokemon.uml#_Yh91MqDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_YlaKxaDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_Yh-cQKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YlaKxqDgEeykIpSMiCkpjw" name="Annotations">
+        <modelElement href="Pokemon.uml#_Yh-cQaDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_YlaKx6DgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_YlaKyKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YlcnAKDgEeykIpSMiCkpjw" name="Gugu" generalizations="_YlbY4KDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_Yh_DUKDgEeykIpSMiCkpjw"/>
+    <visualProperties xmi:id="_YlcnAaDgEeykIpSMiCkpjw" position="-57.0,464.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_YlcnAqDgEeykIpSMiCkpjw" keyword="sameFile"/>
+    <visibility xmi:id="_YlcnA6DgEeykIpSMiCkpjw" label="~"/>
+    <operations xmi:id="_YlcnBKDgEeykIpSMiCkpjw" name="set">
+      <modelElement href="Pokemon.uml#_Yh_DU6DgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_YlcnBaDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_Yh_qYKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YlcnBqDgEeykIpSMiCkpjw" name="Annotations">
+        <modelElement href="Pokemon.uml#_Yh_qYaDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_YlcnB6DgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_YlcnCKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YlfDQKDgEeykIpSMiCkpjw" name="Eve" generalizations="_Yld1IKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_YiARcKDgEeykIpSMiCkpjw"/>
+    <visualProperties xmi:id="_YlfDQaDgEeykIpSMiCkpjw" position="-76.0,608.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_YlfDQqDgEeykIpSMiCkpjw" keyword="sameFile"/>
+    <visibility xmi:id="_YlfDQ6DgEeykIpSMiCkpjw" label="~"/>
+    <operations xmi:id="_YlfDRKDgEeykIpSMiCkpjw" name="set">
+      <modelElement href="Pokemon.uml#_YiA4gKDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_YlfDRaDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_YiCtsKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YlfDRqDgEeykIpSMiCkpjw" name="Annotations">
+        <modelElement href="Pokemon.uml#_YiD70KDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_YlfDR6DgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_YlfDSKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YlhfgKDgEeykIpSMiCkpjw" name="BossPok" generalizations="_YlgRYKDgEeykIpSMiCkpjw">
+    <modelElement href="Pokemon.uml#_YiEi4KDgEeykIpSMiCkpjw"/>
+    <visualProperties xmi:id="_YlhfgaDgEeykIpSMiCkpjw" position="87.0,737.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_YlhfgqDgEeykIpSMiCkpjw" keyword="sameFile"/>
+    <visibility xmi:id="_Ylhfg6DgEeykIpSMiCkpjw" label="~"/>
+    <operations xmi:id="_YlhfhKDgEeykIpSMiCkpjw" name="setW">
+      <modelElement href="Pokemon.uml#_YiFJ8aDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_YlhfhaDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_YiFJ8qDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YlhfhqDgEeykIpSMiCkpjw" name="Annotations">
+        <modelElement href="Pokemon.uml#_YiGYEKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_Ylhfh6DgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_YlhfiKDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_YlhfiaDgEeykIpSMiCkpjw" name="set">
+      <modelElement href="Pokemon.uml#_YiGYEqDgEeykIpSMiCkpjw"/>
+      <stereotypes xmi:id="_YlhfiqDgEeykIpSMiCkpjw" name="LegacyStyledElement">
+        <modelElement href="Pokemon.uml#_YiG_IKDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Ylhfi6DgEeykIpSMiCkpjw" name="Annotations">
+        <modelElement href="Pokemon.uml#_YiG_IaDgEeykIpSMiCkpjw"/>
+      </stereotypes>
+      <visibility xmi:id="_YlhfjKDgEeykIpSMiCkpjw" label="+"/>
+      <cardinality xmi:id="_YlhfjaDgEeykIpSMiCkpjw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
